@@ -23,6 +23,20 @@ const PILLAR_PRIORITY = [
   "review-tg-casino",
   "review-ignition-casino",
   "review-thunderpick",
+  "review-betus",
+  "review-fanduel-casino",
+  "review-jackbit",
+  "review-shuffle",
+];
+
+const CHECKLIST_PRIORITY = [
+  "avoid-7bit-casino",
+  "avoid-casino-extreme",
+  "avoid-fairspin",
+  "avoid-megapari",
+  "avoid-mystake",
+  "avoid-nitrobetting",
+  "avoid-rabona",
 ];
 
 const CRYPTO_PRIORITY = [
@@ -141,8 +155,14 @@ function hasVisibleFaq(html) {
   return /faq|frequently asked/i.test(html) && /<h[23][^>]*>.*\?/i.test(html);
 }
 
+const CHECKLIST_MIN_WORDS = 900;
+
 function extractPillarSlugsFromSource() {
-  const files = ["src/data/pillar-reviews.ts", "src/data/pillar-reviews-p4-profiles.ts"];
+  const files = [
+    "src/data/pillar-reviews.ts",
+    "src/data/pillar-reviews-p4-profiles.ts",
+    "src/data/pillar-reviews-p6-profiles.ts",
+  ];
   const slugs = new Set();
   for (const file of files) {
     const src = readFile(file);
@@ -206,6 +226,16 @@ function linkChecks(links, type) {
       responsibleGamblingLink: { found: rgLinks, min: 1, pass: rgLinks >= 1 },
     };
   }
+  if (type === "checklist") {
+    return {
+      reviewLinks: { found: reviewLinks, min: 3, pass: reviewLinks >= 3 },
+      paymentCryptoLinks: { found: paymentCryptoLinks, min: 2, pass: paymentCryptoLinks >= 2 },
+      countryHubLinks: { found: countryHubLinks, min: 2, pass: countryHubLinks >= 2 },
+      compareLink: { found: compareLinks, min: 1, pass: compareLinks >= 1 },
+      methodologyLink: { found: methodologyLinks, min: 1, pass: methodologyLinks >= 1 },
+      responsibleGamblingLink: { found: rgLinks, min: 1, pass: rgLinks >= 1 },
+    };
+  }
   return {
     paymentCryptoLinks: { found: paymentCryptoLinks, min: 2, pass: paymentCryptoLinks >= 2 },
     reviewLinks: { found: reviewLinks, min: 3, pass: reviewLinks >= 3 },
@@ -237,6 +267,7 @@ async function auditEntry(pagePath, type, minWords, slug) {
   if (inSitemap === false) failures.push("missing from sitemap");
   if (!breadcrumb) failures.push("missing BreadcrumbList schema");
   if (type === "pillar" && !reviewSchema) failures.push("missing Review schema");
+  if (type === "checklist" && reviewSchema) failures.push("unexpected Review schema on checklist page");
   if (type === "pillar" && reviewSchema && !extractPillarSlugsFromSource().includes(slug))
     failures.push("unexpected Review schema slug");
   if (faqVisible && !faqSchema) failures.push("visible FAQ without FAQPage schema");
@@ -250,6 +281,7 @@ async function auditEntry(pagePath, type, minWords, slug) {
   if (failures.length === 0) {
     if (type === "pillar") verdict = "PILLAR_REVIEW_PASS";
     else if (type === "crypto") verdict = "CRYPTO_GUIDE_PASS";
+    else if (type === "checklist") verdict = "CHECKLIST_PAGE_PASS";
     else verdict = "COUNTRY_HUB_PASS";
   }
 
@@ -263,7 +295,7 @@ async function auditEntry(pagePath, type, minWords, slug) {
     h1Count,
     inSitemap,
     breadcrumbSchema: breadcrumb,
-    reviewSchema: type === "pillar" ? reviewSchema : undefined,
+    reviewSchema: type === "pillar" || type === "checklist" ? reviewSchema : undefined,
     faqSchemaAllowed: faqVisible ? faqSchema : !faqSchema,
     checks,
     failures,
@@ -283,6 +315,9 @@ async function main() {
   for (const slug of HUB_PRIORITY) {
     results.push(await auditEntry(`/${slug}`, "hub", HUB_MIN_WORDS, slug));
   }
+  for (const slug of CHECKLIST_PRIORITY) {
+    results.push(await auditEntry(`/blogs/${slug}`, "checklist", CHECKLIST_MIN_WORDS, slug));
+  }
 
   const summary = {
     baseUrl: BASE,
@@ -290,6 +325,7 @@ async function main() {
     pillarPass: results.filter((r) => r.verdict === "PILLAR_REVIEW_PASS").length,
     cryptoPass: results.filter((r) => r.verdict === "CRYPTO_GUIDE_PASS").length,
     hubPass: results.filter((r) => r.verdict === "COUNTRY_HUB_PASS").length,
+    checklistPass: results.filter((r) => r.verdict === "CHECKLIST_PAGE_PASS").length,
     failCount: results.filter((r) => r.verdict === "FAIL").length,
     results,
   };

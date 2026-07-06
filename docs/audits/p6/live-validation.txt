@@ -1,0 +1,4 @@
+=== P6 Live Validation 2026-07-06T22:16:57Z ===
+/blogs/review-betus -> HTTP 200
+/blogs/review-fanduel-casino -> HTTP 200
+/blogs/review-jackbit -> HTTP 200

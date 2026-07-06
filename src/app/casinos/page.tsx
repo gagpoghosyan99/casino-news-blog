@@ -15,7 +15,7 @@ interface PageProps {
 
 const PAGE_TITLE = "Top 40 Casino Reviews for India";
 const PAGE_DESCRIPTION =
-  "Compare the top 40 online casinos for Indian and South Asian players. Expert reviews, payment context, editorial trust scores, and casinos to research carefully — updated for 2026.";
+  "Top 40 casino reviews for Indian and South Asian players — expert scores, payment context, and editorial trust signals for 2026.";
 
 export const metadata: Metadata = {
   title: `${PAGE_TITLE} | ${siteConfig.name}`,

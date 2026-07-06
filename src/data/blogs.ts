@@ -1,6 +1,7 @@
 import { BlogPost } from "@/types";
 import { allCasinos } from "./casinos";
 import { pillarReviewOverrides } from "./pillar-reviews";
+import { checklistReviewOverrides } from "./checklist-reviews-p6";
 
 function generateCasinoBlog(
   casino: typeof allCasinos[number],
@@ -269,16 +270,25 @@ export const blogPosts: BlogPost[] = [
   ),
   ...dailyBlogs,
 ].map((post) => {
-  const override = pillarReviewOverrides[post.slug];
-  if (!override) {
-    return post;
+  const pillarOverride = pillarReviewOverrides[post.slug];
+  if (pillarOverride) {
+    return {
+      ...post,
+      content: pillarOverride.content,
+      excerpt: pillarOverride.excerpt,
+      readTime: pillarOverride.readTime,
+    };
   }
-  return {
-    ...post,
-    content: override.content,
-    excerpt: override.excerpt,
-    readTime: override.readTime,
-  };
+  const checklistOverride = checklistReviewOverrides[post.slug];
+  if (checklistOverride) {
+    return {
+      ...post,
+      content: checklistOverride.content,
+      excerpt: checklistOverride.excerpt,
+      readTime: checklistOverride.readTime,
+    };
+  }
+  return post;
 });
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

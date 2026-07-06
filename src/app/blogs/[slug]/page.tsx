@@ -10,6 +10,7 @@ import {
   getPillarReviewFaqs,
   isPillarReviewSlug,
 } from "@/data/pillar-reviews";
+import { getChecklistReviewFaqs } from "@/data/checklist-reviews-p6";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { breadcrumbSchema, faqPageSchema, reviewSchema } from "@/lib/seo/schema";
 import { siteConfig } from "@/config/site";
@@ -69,7 +70,9 @@ export default async function BlogDetailPage({ params }: PageProps) {
       : null;
 
   const pillarFaqs = getPillarReviewFaqs(slug);
-  const faqJsonLd = pillarFaqs.length > 0 ? faqPageSchema(pillarFaqs) : null;
+  const checklistFaqs = pillarFaqs.length === 0 ? getChecklistReviewFaqs(slug) : [];
+  const faqsForSchema = pillarFaqs.length > 0 ? pillarFaqs : checklistFaqs;
+  const faqJsonLd = faqsForSchema.length > 0 ? faqPageSchema(faqsForSchema) : null;
 
   const breadcrumbJsonLd = breadcrumbSchema([
     { name: "Home", url: siteConfig.url },

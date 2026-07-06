@@ -11,7 +11,7 @@ export const p4HubPages: ProgrammaticPage[] = [
     slug: "sri-lanka-casino-payments",
     title: "Sri Lanka Casino Payments Guide 2026",
     metaDescription:
-      "Casino payment guide for Sri Lankan players — bank cards, e-wallets, crypto fallback, diaspora notes, security, legal cautions, and responsible gambling resources.",
+      "Casino payments for Sri Lankan players — bank cards, e-wallets, crypto, security, legal cautions, and responsible gambling resources.",
     h1: "Casino Payment Methods for Sri Lankan Players",
     intro:
       "Sri Lankan players exploring international online casinos typically weigh familiar banking rails — debit and credit cards, local bank transfers, and international e-wallets — against cryptocurrency when merchants block gambling categories. Payment availability varies sharply by operator, card issuer, and whether you play from Sri Lanka or abroad as part of the diaspora. This hub explains how each method may work, what to verify in the cashier before sending money, why withdrawal paths often differ from deposits, and how to reduce fraud and wrong-network crypto mistakes. Sri Lankan rupee budgeting, foreign-exchange card charges, and time-zone gaps with support teams can all affect how smooth payments feel in practice — plan accordingly. CasinoPulse does not process payments, provide legal advice, or guarantee that any method will work for your bank or operator. Confirm support after login and check local rules independently.",

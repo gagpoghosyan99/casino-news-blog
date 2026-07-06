@@ -21,7 +21,7 @@ export const cryptoPages: ProgrammaticPage[] = [
     slug: "bitcoin-casino",
     title: "Bitcoin Casino Guide for India",
     metaDescription:
-      "How Bitcoin casino deposits and withdrawals work for Indian players: confirmations, network fees, volatility, Lightning overview, security, and operator comparison tips.",
+      "Bitcoin casino deposits for Indian players — confirmations, network fees, volatility, wallet security, and operator comparison tips.",
     h1: "Bitcoin Casino Payment Guide",
     intro:
       "Bitcoin (BTC) remains the most recognised cryptocurrency for offshore casino deposits when Indian UPI or wallet rails fail. This guide explains how BTC casino payments work, how many confirmations operators may require, why withdrawals are usually irreversible, and how to manage volatility without treating crypto as a guaranteed payment rail.",

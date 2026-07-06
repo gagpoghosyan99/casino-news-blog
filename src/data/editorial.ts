@@ -15,7 +15,7 @@ export const editorialAuthor = {
   path: AUTHOR_PATH,
   url: `${siteConfig.url}${AUTHOR_PATH}`,
   description:
-    "The CasinoPulse Editorial Team produces independent casino reviews, payment guides, and crypto gambling resources for South Asian players. Content follows our published review methodology — no individual credentials are claimed beyond documented editorial process.",
+    "CasinoPulse Editorial Team — independent casino reviews, payment guides, and crypto resources for South Asian players. Documented methodology only.",
   jobTitle: "Editorial Research Team",
   knowsAbout: [
     "Online casino reviews",
@@ -168,6 +168,26 @@ export const pillarReviewFreshness: Record<string, ContentFreshness> = {
     lastReviewed: "2026-07-07",
   },
   "review-thunderpick": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-betus": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-fanduel-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-jackbit": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-shuffle": {
     datePublished: "2026-07-07",
     dateModified: "2026-07-07",
     lastReviewed: "2026-07-07",

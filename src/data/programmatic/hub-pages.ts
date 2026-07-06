@@ -6,7 +6,7 @@ export const hubPages: ProgrammaticPage[] = [
     slug: "india-casino-payments",
     title: "India Casino Payments Guide 2026",
     metaDescription:
-      "Complete guide to casino payment methods for Indian players — UPI, Paytm, PhonePe, IMPS, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "Casino payment methods for Indian players — UPI, Paytm, PhonePe, IMPS, cards, and crypto. Speed, limits, blocks, and verification tips.",
     h1: "Casino Payment Methods for Indian Players",
     intro:
       "Choosing the right deposit and withdrawal method is critical for Indian casino players. This authority hub compares UPI, Paytm, PhonePe, IMPS, cards, and cryptocurrency — with honest notes on speed, limits, blocks, and what to verify before sending money. Payment availability can change; always confirm in the operator cashier after login.",
@@ -111,7 +111,7 @@ export const hubPages: ProgrammaticPage[] = [
     slug: "bangladesh-casino-payments",
     title: "Bangladesh Casino Payments Guide 2026",
     metaDescription:
-      "Complete guide to casino payment methods for Bangladeshi players — bKash, Nagad, bank transfer, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "Casino payments for Bangladeshi players — bKash, Nagad, bank transfer, and crypto. Speed, limits, security, and safe deposit tips.",
     h1: "Casino Payment Methods for Bangladeshi Players",
     intro:
       "Bangladeshi players often balance mobile wallet convenience (bKash, Nagad), bank transfer friction, and crypto when local rails block gambling merchants. This hub explains how each method may work at international casinos, what to verify before depositing, and why withdrawal paths may differ from deposits. Availability can change — confirm in the operator cashier after login.",
@@ -221,7 +221,7 @@ export const hubPages: ProgrammaticPage[] = [
     slug: "pakistan-casino-payments",
     title: "Pakistan Casino Payments Guide 2026",
     metaDescription:
-      "Complete guide to casino payment methods for Pakistani players — JazzCash, Easypaisa, bank transfer, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "Casino payments for Pakistani players — JazzCash, Easypaisa, bank transfer, and crypto. Speed, limits, security, and deposit tips.",
     h1: "Casino Payment Methods for Pakistani Players",
     intro:
       "Pakistani players often balance mobile wallet convenience (JazzCash, Easypaisa), bank transfer friction, and crypto when local rails block gambling merchants. This hub explains how each method may work at international casinos, what to verify before depositing, and why withdrawal paths may differ from deposits. Availability can change — confirm in the operator cashier after login. Local law should be checked independently before depositing.",

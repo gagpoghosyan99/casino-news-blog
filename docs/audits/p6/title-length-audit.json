@@ -1,0 +1,209 @@
+title / -> 49
+title /casinos -> 45
+title /blogs -> 48
+title /news -> 38
+title /compare -> 41
+title /how-we-review -> 42
+title /about -> 17
+title /blacklist -> 48
+title /contact -> 24
+title /author/casinopulse-editorial-team -> 26
+title /india-casino-payments -> 46
+title /bangladesh-casino-payments -> 51
+title /pakistan-casino-payments -> 49
+title /compare -> 41
+title /payment/upi -> 49
+title /payment/phonepe -> 43
+title /payment/imps -> 50
+title /payment/paytm -> 41
+title /payment/bkash -> 41
+title /payment/nagad -> 41
+title /payment/jazzcash -> 44
+title /payment/easypaisa -> 45
+title /crypto/bitcoin-casino -> 44
+title /crypto/ethereum-casino -> 60
+title /crypto/usdt-casino -> 54
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T22:14:47.601Z",
+  "hardMax": 65,
+  "targetRange": "45-60",
+  "tooLong": 0,
+  "results": [
+    {
+      "url": "https://casinopuls.site",
+      "path": "/",
+      "title": "Casino Reviews &amp; Payment Guides | CasinoPulse",
+      "titleLength": 49,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/casinos",
+      "path": "/casinos",
+      "title": "Top 40 Casino Reviews for India | CasinoPulse",
+      "titleLength": 45,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs",
+      "path": "/blogs",
+      "title": "Casino Reviews &amp; Expert Guides | CasinoPulse",
+      "titleLength": 48,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/news",
+      "path": "/news",
+      "title": "Online Casino News India | CasinoPulse",
+      "titleLength": 38,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/compare",
+      "path": "/compare",
+      "title": "Compare Online Casinos 2026 | CasinoPulse",
+      "titleLength": 41,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/how-we-review",
+      "path": "/how-we-review",
+      "title": "How We Review Online Casinos | CasinoPulse",
+      "titleLength": 42,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/about",
+      "path": "/about",
+      "title": "About CasinoPulse",
+      "titleLength": 17,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blacklist",
+      "path": "/blacklist",
+      "title": "Casino Blacklist: Risk Assessments | CasinoPulse",
+      "titleLength": 48,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/contact",
+      "path": "/contact",
+      "title": "Contact Us | CasinoPulse",
+      "titleLength": 24,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/author/casinopulse-editorial-team",
+      "path": "/author/casinopulse-editorial-team",
+      "title": "CasinoPulse Editorial Team",
+      "titleLength": 26,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/india-casino-payments",
+      "path": "/india-casino-payments",
+      "title": "India Casino Payments Guide 2026 | CasinoPulse",
+      "titleLength": 46,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/bangladesh-casino-payments",
+      "path": "/bangladesh-casino-payments",
+      "title": "Bangladesh Casino Payments Guide 2026 | CasinoPulse",
+      "titleLength": 51,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/pakistan-casino-payments",
+      "path": "/pakistan-casino-payments",
+      "title": "Pakistan Casino Payments Guide 2026 | CasinoPulse",
+      "titleLength": 49,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/compare",
+      "path": "/compare",
+      "title": "Compare Online Casinos 2026 | CasinoPulse",
+      "titleLength": 41,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/upi",
+      "path": "/payment/upi",
+      "title": "UPI Casino Deposits Guide for India | CasinoPulse",
+      "titleLength": 49,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/phonepe",
+      "path": "/payment/phonepe",
+      "title": "PhonePe Casino Deposits Guide | CasinoPulse",
+      "titleLength": 43,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/imps",
+      "path": "/payment/imps",
+      "title": "IMPS Casino Deposits Guide for India | CasinoPulse",
+      "titleLength": 50,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/paytm",
+      "path": "/payment/paytm",
+      "title": "Paytm Casino Deposits Guide | CasinoPulse",
+      "titleLength": 41,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/bkash",
+      "path": "/payment/bkash",
+      "title": "bKash Casino Deposits Guide | CasinoPulse",
+      "titleLength": 41,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/nagad",
+      "path": "/payment/nagad",
+      "title": "Nagad Casino Deposits Guide | CasinoPulse",
+      "titleLength": 41,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/jazzcash",
+      "path": "/payment/jazzcash",
+      "title": "JazzCash Casino Deposits Guide | CasinoPulse",
+      "titleLength": 44,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/easypaisa",
+      "path": "/payment/easypaisa",
+      "title": "Easypaisa Casino Deposits Guide | CasinoPulse",
+      "titleLength": 45,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/bitcoin-casino",
+      "path": "/crypto/bitcoin-casino",
+      "title": "Bitcoin Casino Guide for India | CasinoPulse",
+      "titleLength": 44,
+      "verdict": "TITLE_SHORT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/ethereum-casino",
+      "path": "/crypto/ethereum-casino",
+      "title": "Ethereum Casino Guide: Gas &amp; Wallet Safety | CasinoPulse",
+      "titleLength": 60,
+      "verdict": "TITLE_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/usdt-casino",
+      "path": "/crypto/usdt-casino",
+      "title": "USDT Casino Guide: Networks &amp; Safety | CasinoPulse",
+      "titleLength": 54,
+      "verdict": "TITLE_OK"
+    }
+  ]
+}

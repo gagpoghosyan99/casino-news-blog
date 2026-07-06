@@ -242,7 +242,7 @@ export const paymentPages: ProgrammaticPage[] = [
     slug: "paytm",
     title: "Paytm Casino Deposits Guide",
     metaDescription:
-      "Guide to Paytm-friendly online casinos for Indian players. Learn deposit limits, alternatives when Paytm blocks gambling, UPI workarounds, and safe payment tips.",
+      "Paytm casino deposits for Indian players — limits, blocks, UPI alternatives, security tips, and options when Paytm declines gambling.",
     h1: "Paytm Online Casino Payments",
     intro:
       "Paytm remains one of India's most popular wallets, but gambling merchants are often restricted. This page explains how Indian players use Paytm-linked flows, what to expect from operators, and safer alternatives when direct Paytm casino deposits are unavailable.",
@@ -305,7 +305,7 @@ export const paymentPages: ProgrammaticPage[] = [
     slug: "bkash",
     title: "bKash Casino Deposits Guide",
     metaDescription:
-      "How bKash casino deposits may work for Bangladeshi players: deposit flow, speed, security, withdrawal expectations, and honest alternatives when bKash is blocked.",
+      "bKash casino deposits for Bangladeshi players — flow, speed, security, withdrawal notes, and alternatives when bKash is blocked.",
     h1: "bKash Casino Payment Guide",
     intro:
       "bKash is Bangladesh's most widely used mobile financial service, but international casinos rarely accept it directly. This guide explains how bKash casino deposits may work through payment partners, what security checks matter, and when crypto or Nagad may be better fallbacks. Availability can change — verify in the logged-in cashier before sending money.",

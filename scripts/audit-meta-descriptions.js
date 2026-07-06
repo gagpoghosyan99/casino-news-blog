@@ -11,8 +11,8 @@ const ROOT = path.join(__dirname, "..");
 const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
 const IDEAL_MIN = 120;
 const IDEAL_MAX = 160;
-const HARD_MAX = 165;
-const OUT_DIR = path.join(ROOT, "docs/audits/p5-authority-entity-geo-performance");
+const HARD_MAX = 160;
+const OUT_DIR = path.join(ROOT, "docs/audits/p6");
 
 function readFile(rel) {
   return fs.readFileSync(path.join(ROOT, rel), "utf8");

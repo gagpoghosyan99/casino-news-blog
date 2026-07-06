@@ -1,4 +1,5 @@
 import { p4ExpansionProfiles } from "./pillar-reviews-p4-profiles";
+import { p6ExpansionProfiles } from "./pillar-reviews-p6-profiles";
 import { PILLAR_AUTHORITY_SNIPPETS } from "./pillar-review-snippets";
 
 export { PILLAR_AUTHORITY_SNIPPETS } from "./pillar-review-snippets";
@@ -1594,6 +1595,7 @@ const profiles: PillarProfile[] = [
       "Pin-Up Casino संपादकीय समीक्षा — भुगतान और स्पोर्ट्स नोट्स।",
   },
   ...p4ExpansionProfiles,
+  ...p6ExpansionProfiles,
 ];
 
 function buildPillarReviewEn(profile: PillarProfile): string {

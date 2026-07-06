@@ -1,0 +1,50 @@
+{
+  "auditedAt": "2026-07-07",
+  "pillarReviewsAdded": 4,
+  "pillarSlugs": [
+    "review-betus",
+    "review-fanduel-casino",
+    "review-jackbit",
+    "review-shuffle"
+  ],
+  "checklistPagesUpgraded": 7,
+  "checklistSlugs": [
+    "avoid-7bit-casino",
+    "avoid-casino-extreme",
+    "avoid-fairspin",
+    "avoid-megapari",
+    "avoid-mystake",
+    "avoid-nitrobetting",
+    "avoid-rabona"
+  ],
+  "totalPillarReviewsWithSchema": 33,
+  "metaDescriptionFixes": [
+    "siteConfig.description (P5 carryover)",
+    "editorialAuthor.description",
+    "blacklistMeta.description",
+    "casinos PAGE_DESCRIPTION",
+    "india/bangladesh/pakistan hub metaDescription",
+    "bitcoin-casino metaDescription",
+    "paytm payment guide",
+    "bkash payment guide",
+    "sri-lanka-casino-payments hub"
+  ],
+  "performanceChanges": [
+    "next/dynamic lazy load JackpotWinnersFeed",
+    "next/dynamic lazy load BonusTracker",
+    "loading placeholder sections for below-fold widgets"
+  ],
+  "authorityInternalLinks": {
+    "pillarPass": 14,
+    "checklistPass": 7,
+    "cryptoPass": 7,
+    "hubPass": 4,
+    "failCount": 0
+  },
+  "reviewSchemaGating": {
+    "pillarWithReview": 33,
+    "unexpectedReview": 0,
+    "missingOnPillar": 0,
+    "checklistPagesWithoutReviewSchema": 7
+  }
+}

@@ -15,7 +15,7 @@ function readFile(relativePath) {
 }
 
 function extractPillarSlugs() {
-  const files = ["src/data/pillar-reviews.ts", "src/data/pillar-reviews-p4-profiles.ts"];
+  const files = ["src/data/pillar-reviews.ts", "src/data/pillar-reviews-p4-profiles.ts", "src/data/pillar-reviews-p6-profiles.ts"];
   const slugs = [];
   for (const file of files) {
     const src = readFile(file);

@@ -24,7 +24,11 @@ export function validateProgrammaticRoutes(): ValidationIssue[] {
 
   for (const path of sitemapPaths) {
     const registryMatch = getRegistryRouteByPath(path);
-    if (path.startsWith("/crypto/") || path.startsWith("/payment/") || path === "/compare" || path === "/india-casino-payments" || path === "/bangladesh-casino-payments" || path === "/pakistan-casino-payments") {
+    const isProgrammaticRoute =
+      path.startsWith("/crypto/") ||
+      path.startsWith("/payment/") ||
+      (registryMatch?.kind === "hub" && path !== "/");
+    if (isProgrammaticRoute) {
       if (!registryMatch) {
         issues.push({
           code: "SITEMAP_REGISTRY_MISMATCH",

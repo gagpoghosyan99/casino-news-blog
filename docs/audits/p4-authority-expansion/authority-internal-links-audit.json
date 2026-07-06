@@ -1,0 +1,821 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T21:47:56.033Z",
+  "pillarPass": 10,
+  "cryptoPass": 7,
+  "hubPass": 4,
+  "failCount": 0,
+  "results": [
+    {
+      "slug": "review-draftkings-casino",
+      "path": "/blogs/review-draftkings-casino",
+      "url": "https://casinopuls.site/blogs/review-draftkings-casino",
+      "status": 200,
+      "words": 1998,
+      "titleLength": 43,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 10,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 11,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-pokerstars-casino",
+      "path": "/blogs/review-pokerstars-casino",
+      "url": "https://casinopuls.site/blogs/review-pokerstars-casino",
+      "status": 200,
+      "words": 1757,
+      "titleLength": 43,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 6,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 11,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-sportsbet-io",
+      "path": "/blogs/review-sportsbet-io",
+      "url": "https://casinopuls.site/blogs/review-sportsbet-io",
+      "status": 200,
+      "words": 1784,
+      "titleLength": 38,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 7,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-fortunejack",
+      "path": "/blogs/review-fortunejack",
+      "url": "https://casinopuls.site/blogs/review-fortunejack",
+      "status": 200,
+      "words": 1754,
+      "titleLength": 37,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 8,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-bitcasino",
+      "path": "/blogs/review-bitcasino",
+      "url": "https://casinopuls.site/blogs/review-bitcasino",
+      "status": 200,
+      "words": 1699,
+      "titleLength": 35,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 9,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-duelbits",
+      "path": "/blogs/review-duelbits",
+      "url": "https://casinopuls.site/blogs/review-duelbits",
+      "status": 200,
+      "words": 1636,
+      "titleLength": 34,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 8,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-gamdom",
+      "path": "/blogs/review-gamdom",
+      "url": "https://casinopuls.site/blogs/review-gamdom",
+      "status": 200,
+      "words": 1646,
+      "titleLength": 32,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 8,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-tg-casino",
+      "path": "/blogs/review-tg-casino",
+      "url": "https://casinopuls.site/blogs/review-tg-casino",
+      "status": 200,
+      "words": 1734,
+      "titleLength": 35,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 9,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-ignition-casino",
+      "path": "/blogs/review-ignition-casino",
+      "url": "https://casinopuls.site/blogs/review-ignition-casino",
+      "status": 200,
+      "words": 1743,
+      "titleLength": 41,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 11,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 11,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "review-thunderpick",
+      "path": "/blogs/review-thunderpick",
+      "url": "https://casinopuls.site/blogs/review-thunderpick",
+      "status": 200,
+      "words": 1664,
+      "titleLength": 37,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "reviewSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 8,
+          "min": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "found": 12,
+          "min": 3,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "found": 3,
+          "min": 2,
+          "pass": true
+        },
+        "compareLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "PILLAR_REVIEW_PASS"
+    },
+    {
+      "slug": "tron-casino",
+      "path": "/crypto/tron-casino",
+      "url": "https://casinopuls.site/crypto/tron-casino",
+      "status": 200,
+      "words": 1477,
+      "titleLength": 57,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 6,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "solana-casino",
+      "path": "/crypto/solana-casino",
+      "url": "https://casinopuls.site/crypto/solana-casino",
+      "status": 200,
+      "words": 1380,
+      "titleLength": 57,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 6,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "litecoin-casino",
+      "path": "/crypto/litecoin-casino",
+      "url": "https://casinopuls.site/crypto/litecoin-casino",
+      "status": 200,
+      "words": 1331,
+      "titleLength": 49,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 7,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "dogecoin-casino",
+      "path": "/crypto/dogecoin-casino",
+      "url": "https://casinopuls.site/crypto/dogecoin-casino",
+      "status": 200,
+      "words": 1337,
+      "titleLength": 50,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 6,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "polygon-casino",
+      "path": "/crypto/polygon-casino",
+      "url": "https://casinopuls.site/crypto/polygon-casino",
+      "status": 200,
+      "words": 1334,
+      "titleLength": 52,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 7,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "usdt-trc20-casino",
+      "path": "/crypto/usdt-trc20-casino",
+      "url": "https://casinopuls.site/crypto/usdt-trc20-casino",
+      "status": 200,
+      "words": 1346,
+      "titleLength": 52,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 6,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "usdt-erc20-casino",
+      "path": "/crypto/usdt-erc20-casino",
+      "url": "https://casinopuls.site/crypto/usdt-erc20-casino",
+      "status": 200,
+      "words": 1338,
+      "titleLength": 53,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "reviewLinks": {
+          "found": 5,
+          "min": 5,
+          "pass": true
+        },
+        "hubLinks": {
+          "found": 8,
+          "min": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "CRYPTO_GUIDE_PASS"
+    },
+    {
+      "slug": "sri-lanka-casino-payments",
+      "path": "/sri-lanka-casino-payments",
+      "url": "https://casinopuls.site/sri-lanka-casino-payments",
+      "status": 200,
+      "words": 1498,
+      "titleLength": 50,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "paymentCryptoLinks": {
+          "found": 14,
+          "min": 2,
+          "pass": true
+        },
+        "reviewLinks": {
+          "found": 5,
+          "min": 3,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "COUNTRY_HUB_PASS"
+    },
+    {
+      "slug": "nepal-casino-payments",
+      "path": "/nepal-casino-payments",
+      "url": "https://casinopuls.site/nepal-casino-payments",
+      "status": 200,
+      "words": 1448,
+      "titleLength": 46,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "paymentCryptoLinks": {
+          "found": 15,
+          "min": 2,
+          "pass": true
+        },
+        "reviewLinks": {
+          "found": 5,
+          "min": 3,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "COUNTRY_HUB_PASS"
+    },
+    {
+      "slug": "philippines-casino-payments",
+      "path": "/philippines-casino-payments",
+      "url": "https://casinopuls.site/philippines-casino-payments",
+      "status": 200,
+      "words": 1443,
+      "titleLength": 52,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "paymentCryptoLinks": {
+          "found": 17,
+          "min": 2,
+          "pass": true
+        },
+        "reviewLinks": {
+          "found": 5,
+          "min": 3,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "COUNTRY_HUB_PASS"
+    },
+    {
+      "slug": "nigeria-casino-payments",
+      "path": "/nigeria-casino-payments",
+      "url": "https://casinopuls.site/nigeria-casino-payments",
+      "status": 200,
+      "words": 1443,
+      "titleLength": 48,
+      "h1Count": 1,
+      "inSitemap": true,
+      "breadcrumbSchema": true,
+      "faqSchemaAllowed": true,
+      "checks": {
+        "paymentCryptoLinks": {
+          "found": 17,
+          "min": 2,
+          "pass": true
+        },
+        "reviewLinks": {
+          "found": 5,
+          "min": 3,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "found": 1,
+          "min": 1,
+          "pass": true
+        }
+      },
+      "failures": [],
+      "verdict": "COUNTRY_HUB_PASS"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+=== Live Validation 2026-07-06T21:48:04Z ===
+/blogs/review-draftkings-casino -> HTTP 200 | robots: index,follow (default)
+/blogs/review-pokerstars-casino -> HTTP 200 | robots: index,follow (default)
+/blogs/review-sportsbet-io -> HTTP 200 | robots: index,follow (default)
+/blogs/review-fortunejack -> HTTP 200 | robots: index,follow (default)
+/blogs/review-bitcasino -> HTTP 200 | robots: index,follow (default)
+/blogs/review-duelbits -> HTTP 200 | robots: index,follow (default)
+/blogs/review-gamdom -> HTTP 200 | robots: index,follow (default)
+/blogs/review-tg-casino -> HTTP 200 | robots: index,follow (default)
+/blogs/review-ignition-casino -> HTTP 200 | robots: index,follow (default)
+/blogs/review-thunderpick -> HTTP 200 | robots: index,follow (default)
+/crypto/tron-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/solana-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/litecoin-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/dogecoin-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/polygon-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/usdt-trc20-casino -> HTTP 200 | robots: index,follow (default)
+/crypto/usdt-erc20-casino -> HTTP 200 | robots: index,follow (default)
+/sri-lanka-casino-payments -> HTTP 200 | robots: index,follow (default)
+/nepal-casino-payments -> HTTP 200 | robots: index,follow (default)
+/philippines-casino-payments -> HTTP 200 | robots: index,follow (default)
+/nigeria-casino-payments -> HTTP 200 | robots: index,follow (default)
+--- baseline checks ---
+home: 200
+www: 301
+/go/stake: 307
+go robots: noindex, nofollow

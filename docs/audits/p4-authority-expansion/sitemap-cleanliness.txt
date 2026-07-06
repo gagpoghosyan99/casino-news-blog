@@ -1,0 +1,2 @@
+Sitemap URL count: 83
+No bad sitemap URLs (grep clean)

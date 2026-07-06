@@ -53,12 +53,15 @@ function readFile(rel) {
 }
 
 function extractPillarSlugs() {
-  const src = readFile("src/data/pillar-reviews.ts");
+  const files = ["src/data/pillar-reviews.ts", "src/data/pillar-reviews-p4-profiles.ts"];
   const slugs = [];
-  const re = /slug:\s*["']([^"']+)["']/g;
-  let m;
-  while ((m = re.exec(src))) slugs.push(m[1]);
-  return slugs;
+  for (const file of files) {
+    const src = readFile(file);
+    const re = /slug:\s*["']([^"']+)["']/g;
+    let m;
+    while ((m = re.exec(src))) slugs.push(m[1]);
+  }
+  return [...new Set(slugs)];
 }
 
 function extractLinks(html) {

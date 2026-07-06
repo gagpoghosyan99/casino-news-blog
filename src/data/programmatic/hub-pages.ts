@@ -1,4 +1,5 @@
 import type { ProgrammaticPage } from "@/types/programmatic";
+import { p4HubPages } from "@/data/programmatic/hub-pages-p4";
 
 export const hubPages: ProgrammaticPage[] = [
   {
@@ -332,6 +333,7 @@ export const hubPages: ProgrammaticPage[] = [
     contentQuality: "expanded",
     keywords: ["Pakistan casino payments", "JazzCash casino", "Easypaisa casino", "Pakistan gambling deposits"],
   },
+  ...p4HubPages,
   {
     slug: "compare",
     title: "Compare Online Casinos 2026",

@@ -1,14 +1,11 @@
+import { p4ExpansionProfiles } from "./pillar-reviews-p4-profiles";
+import { PILLAR_AUTHORITY_SNIPPETS } from "./pillar-review-snippets";
+
+export { PILLAR_AUTHORITY_SNIPPETS } from "./pillar-review-snippets";
+
 type ReviewFaq = { question: string; answer: string };
 
-/** Reusable authority link snippets for pillar profile fields — add new reviews via profiles[] only. */
-export const PILLAR_AUTHORITY_SNIPPETS = {
-  payments:
-    "Regional context: [India casino payments](/india-casino-payments), [Bangladesh casino payments](/bangladesh-casino-payments), [Pakistan casino payments](/pakistan-casino-payments), [UPI](/payment/upi), [PhonePe](/payment/phonepe), [bKash](/payment/bkash), [Nagad](/payment/nagad), [JazzCash](/payment/jazzcash), [Easypaisa](/payment/easypaisa).",
-  crypto:
-    "Crypto guides: [Bitcoin](/crypto/bitcoin-casino), [Ethereum](/crypto/ethereum-casino), [USDT](/crypto/usdt-casino).",
-  editorial:
-    "Methodology: [/how-we-review](/how-we-review) · Editorial team: [/author/casinopulse-editorial-team](/author/casinopulse-editorial-team).",
-} as const;
+/** Reusable authority link snippets — see pillar-review-snippets.ts */
 
 type PillarProfile = {
   slug: string;
@@ -1596,6 +1593,7 @@ const profiles: PillarProfile[] = [
     excerptHi:
       "Pin-Up Casino संपादकीय समीक्षा — भुगतान और स्पोर्ट्स नोट्स।",
   },
+  ...p4ExpansionProfiles,
 ];
 
 function buildPillarReviewEn(profile: PillarProfile): string {

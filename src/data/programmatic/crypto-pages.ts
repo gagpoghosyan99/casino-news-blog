@@ -1,5 +1,6 @@
 import type { ProgrammaticPage } from "@/types/programmatic";
 import { cryptoGuideFreshness } from "@/data/editorial";
+import { p4CryptoPages } from "@/data/programmatic/crypto-pages-p4";
 
 const cryptoClusterLinks = [
   { href: "/crypto/bitcoin-casino", label: "Bitcoin (BTC) guide" },
@@ -268,6 +269,7 @@ export const cryptoPages: ProgrammaticPage[] = [
     contentQuality: "expanded",
     keywords: ["USDT casino", "TRC-20 casino", "stablecoin gambling India", "USDT deposit"],
   },
+  ...p4CryptoPages,
 ];
 
 export function getCryptoPageBySlug(slug: string): ProgrammaticPage | undefined {

@@ -127,6 +127,51 @@ export const pillarReviewFreshness: Record<string, ContentFreshness> = {
     dateModified: "2026-07-06",
     lastReviewed: "2026-07-06",
   },
+  "review-draftkings-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-sportsbet-io": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-fortunejack": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-bitcasino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-duelbits": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-gamdom": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-tg-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-ignition-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "review-thunderpick": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
 };
 
 export const cryptoGuideFreshness: Record<string, ContentFreshness> = {
@@ -144,6 +189,41 @@ export const cryptoGuideFreshness: Record<string, ContentFreshness> = {
     datePublished: "2026-05-14",
     dateModified: "2026-07-06",
     lastReviewed: "2026-07-06",
+  },
+  "tron-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "solana-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "litecoin-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "dogecoin-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "polygon-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "usdt-trc20-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
+  },
+  "usdt-erc20-casino": {
+    datePublished: "2026-07-07",
+    dateModified: "2026-07-07",
+    lastReviewed: "2026-07-07",
   },
 };
 

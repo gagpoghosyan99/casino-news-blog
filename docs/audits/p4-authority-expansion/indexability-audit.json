@@ -1,0 +1,2530 @@
+audited / -> INDEXABLE_OK
+audited /_next/static/chunks/webpack-9fd9461f40a9c182.js -> INDEXABLE_OK
+audited /_next/static/css/f8e3fefdf4b76f45.css -> INDEXABLE_OK
+audited /_next/static/media/36966cca54120369-s.p.woff2 -> INDEXABLE_OK
+audited /_next/static/media/e4af272ccee01ff0-s.p.woff2 -> INDEXABLE_OK
+audited /about -> INDEXABLE_OK
+audited /author/casinopulse-editorial-team -> INDEXABLE_OK
+audited /bangladesh-casino-payments -> INDEXABLE_OK
+audited /bkash -> BROKEN_404
+audited /blacklist -> INDEXABLE_OK
+audited /blogs -> INDEXABLE_OK
+audited /blogs/avoid-1xbet -> INDEXABLE_OK
+audited /blogs/avoid-22bet -> INDEXABLE_OK
+audited /blogs/avoid-7bit-casino -> INDEXABLE_OK
+audited /blogs/avoid-betwinner -> INDEXABLE_OK
+audited /blogs/avoid-bovada -> INDEXABLE_OK
+audited /blogs/avoid-casino-extreme -> INDEXABLE_OK
+audited /blogs/avoid-fairspin -> INDEXABLE_OK
+audited /blogs/avoid-megapari -> INDEXABLE_OK
+audited /blogs/avoid-melbet -> INDEXABLE_OK
+audited /blogs/avoid-mostbet -> INDEXABLE_OK
+audited /blogs/avoid-mystake -> INDEXABLE_OK
+audited /blogs/avoid-nitrobetting -> INDEXABLE_OK
+audited /blogs/avoid-parimatch -> INDEXABLE_OK
+audited /blogs/avoid-rabona -> INDEXABLE_OK
+audited /blogs/avoid-vave -> INDEXABLE_OK
+audited /blogs/avoid-wild-casino -> INDEXABLE_OK
+audited /blogs/best-upi-casinos-indian-players -> NOINDEX_EXPECTED
+audited /blogs/cricket-betting-guide-ipl-2026 -> NOINDEX_EXPECTED
+audited /blogs/india-online-gambling-regulations-2026 -> NOINDEX_EXPECTED
+audited /blogs/review-888-casino -> INDEXABLE_OK
+audited /blogs/review-bc-game -> INDEXABLE_OK
+audited /blogs/review-bet365 -> INDEXABLE_OK
+audited /blogs/review-betus -> INDEXABLE_OK
+audited /blogs/review-betway -> INDEXABLE_OK
+audited /blogs/review-bitcasino -> INDEXABLE_OK
+audited /blogs/review-cloudbet -> INDEXABLE_OK
+audited /blogs/review-draftkings-casino -> INDEXABLE_OK
+audited /blogs/review-duelbits -> INDEXABLE_OK
+audited /blogs/review-fanduel-casino -> INDEXABLE_OK
+audited /blogs/review-fortunejack -> INDEXABLE_OK
+audited /blogs/review-gamdom -> INDEXABLE_OK
+audited /blogs/review-ignition-casino -> INDEXABLE_OK
+audited /blogs/review-jackbit -> INDEXABLE_OK
+audited /blogs/review-leovegas -> INDEXABLE_OK
+audited /blogs/review-mostbet -> CANONICAL_MISMATCH
+audited /blogs/review-pin-up-casino -> INDEXABLE_OK
+audited /blogs/review-pokerstars -> CANONICAL_MISMATCH
+audited /blogs/review-pokerstars-casino -> INDEXABLE_OK
+audited /blogs/review-rollbit -> INDEXABLE_OK
+audited /blogs/review-roobet -> INDEXABLE_OK
+audited /blogs/review-shuffle -> INDEXABLE_OK
+audited /blogs/review-sportsbet-io -> INDEXABLE_OK
+audited /blogs/review-stake -> INDEXABLE_OK
+audited /blogs/review-tg-casino -> INDEXABLE_OK
+audited /blogs/review-thunderpick -> INDEXABLE_OK
+audited /casinos -> INDEXABLE_OK
+audited /casinos/rank/1.png -> INDEXABLE_OK
+audited /casinos/rank/2.png -> INDEXABLE_OK
+audited /casinos/rank/3.png -> INDEXABLE_OK
+audited /casinos/rank/4.png -> INDEXABLE_OK
+audited /casinos/rank/5.png -> INDEXABLE_OK
+audited /casinos/rank/6.png -> INDEXABLE_OK
+audited /compare -> INDEXABLE_OK
+audited /contact -> INDEXABLE_OK
+audited /contact?casino=stake&referral=pending -> CANONICAL_MISMATCH
+audited /cookies -> INDEXABLE_OK
+audited /crypto/bitcoin-casino -> INDEXABLE_OK
+audited /crypto/dogecoin-casino -> INDEXABLE_OK
+audited /crypto/ethereum-casino -> INDEXABLE_OK
+audited /crypto/litecoin-casino -> INDEXABLE_OK
+audited /crypto/polygon-casino -> INDEXABLE_OK
+audited /crypto/solana-casino -> INDEXABLE_OK
+audited /crypto/tron-casino -> INDEXABLE_OK
+audited /crypto/usdt-casino -> INDEXABLE_OK
+audited /crypto/usdt-erc20-casino -> INDEXABLE_OK
+audited /crypto/usdt-trc20-casino -> INDEXABLE_OK
+audited /easypaisa -> BROKEN_404
+audited /editorial-policy -> INDEXABLE_OK
+audited /editorial-team -> INDEXABLE_OK
+audited /go/1xbet -> REDIRECT_EXPECTED
+audited /go/22bet -> REDIRECT_EXPECTED
+audited /go/7bit-casino -> REDIRECT_EXPECTED
+audited /go/888-casino -> REDIRECT_EXPECTED
+audited /go/bc-game -> REDIRECT_EXPECTED
+audited /go/bet365 -> REDIRECT_EXPECTED
+audited /go/betus -> REDIRECT_EXPECTED
+audited /go/betway -> REDIRECT_EXPECTED
+audited /go/betwinner -> REDIRECT_EXPECTED
+audited /go/bitcasino -> REDIRECT_EXPECTED
+audited /go/cloudbet -> REDIRECT_EXPECTED
+audited /go/draftkings-casino -> REDIRECT_EXPECTED
+audited /go/leovegas -> REDIRECT_EXPECTED
+audited /go/pokerstars-casino -> REDIRECT_EXPECTED
+audited /go/rollbit -> REDIRECT_EXPECTED
+audited /go/roobet -> REDIRECT_EXPECTED
+audited /go/stake -> REDIRECT_EXPECTED
+audited /how-we-review -> INDEXABLE_OK
+audited /imps -> BROKEN_404
+audited /india-casino-payments -> INDEXABLE_OK
+audited /jazzcash -> BROKEN_404
+audited /manifest.webmanifest -> INDEXABLE_OK
+audited /nagad -> BROKEN_404
+audited /nepal-casino-payments -> INDEXABLE_OK
+audited /news -> INDEXABLE_OK
+audited /news/news-1 -> INDEXABLE_OK
+audited /news/news-2 -> NOINDEX_EXPECTED
+audited /news/news-3 -> NOINDEX_EXPECTED
+audited /news/news-4 -> INDEXABLE_OK
+audited /news/news-5 -> NOINDEX_EXPECTED
+audited /news/news-6 -> NOINDEX_EXPECTED
+audited /news/news-7 -> NOINDEX_EXPECTED
+audited /news/news-8 -> NOINDEX_EXPECTED
+audited /news/news-9 -> NOINDEX_EXPECTED
+audited /nigeria-casino-payments -> INDEXABLE_OK
+audited /pakistan-casino-payments -> INDEXABLE_OK
+audited /payment/bkash -> INDEXABLE_OK
+audited /payment/easypaisa -> INDEXABLE_OK
+audited /payment/imps -> INDEXABLE_OK
+audited /payment/jazzcash -> INDEXABLE_OK
+audited /payment/nagad -> INDEXABLE_OK
+audited /payment/paytm -> INDEXABLE_OK
+audited /payment/phonepe -> INDEXABLE_OK
+audited /payment/upi -> INDEXABLE_OK
+audited /paytm -> BROKEN_404
+audited /philippines-casino-payments -> INDEXABLE_OK
+audited /phonepe -> BROKEN_404
+audited /privacy -> INDEXABLE_OK
+audited /responsible-gambling -> INDEXABLE_OK
+audited /sri-lanka-casino-payments -> INDEXABLE_OK
+audited /terms -> INDEXABLE_OK
+audited /upi -> BROKEN_404
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T21:47:53.120Z",
+  "totalUrls": 132,
+  "sitemapCount": 83,
+  "verdictCounts": {
+    "INDEXABLE_OK": 94,
+    "NOINDEX_EXPECTED": 10,
+    "REDIRECT_EXPECTED": 17,
+    "BROKEN_404": 8,
+    "CANONICAL_MISMATCH": 3,
+    "ORPHAN_INDEXABLE": 0,
+    "SITEMAP_MISSING": 0,
+    "ROBOTS_CONFLICT": 0,
+    "LOW_VALUE_INDEXABLE": 0
+  },
+  "results": [
+    {
+      "url": "/",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite"
+      ],
+      "wordCountEstimate": 2059,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/_next/static/chunks/webpack-9fd9461f40a9c182.js",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [],
+      "wordCountEstimate": 68,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/_next/static/css/f8e3fefdf4b76f45.css",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [],
+      "wordCountEstimate": 1443,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/_next/static/media/36966cca54120369-s.p.woff2",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 325,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 636,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/about",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/about",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 468,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/author/casinopulse-editorial-team",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/author/casinopulse-editorial-team",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Person",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 586,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/bangladesh-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/bangladesh-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1021,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/bkash",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/blacklist",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blacklist",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 590,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "wordCountEstimate": 2983,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-1xbet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-1xbet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1783,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-22bet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-22bet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1488,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-7bit-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-7bit-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 347,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-betwinner",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-betwinner",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1484,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-bovada",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-bovada",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1434,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-casino-extreme",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-casino-extreme",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 344,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-fairspin",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-fairspin",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 338,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-megapari",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-megapari",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 339,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-melbet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-melbet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1581,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-mostbet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-mostbet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1526,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-mystake",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-mystake",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 338,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-nitrobetting",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-nitrobetting",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 339,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-parimatch",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-parimatch",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1474,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-rabona",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-rabona",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 341,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-vave",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-vave",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1443,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/avoid-wild-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-wild-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1433,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/best-upi-casinos-indian-players",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/best-upi-casinos-indian-players",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 170,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/blogs/cricket-betting-guide-ipl-2026",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/cricket-betting-guide-ipl-2026",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 174,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/blogs/india-online-gambling-regulations-2026",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/india-online-gambling-regulations-2026",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 177,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/blogs/review-888-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-888-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1698,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-bc-game",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-bc-game",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1751,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-bet365",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-bet365",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1674,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-betus",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-betus",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 361,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-betway",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-betway",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1571,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-bitcasino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-bitcasino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1699,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-cloudbet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-cloudbet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1580,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-draftkings-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-draftkings-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1998,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-duelbits",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-duelbits",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1636,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-fanduel-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-fanduel-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 445,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-fortunejack",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-fortunejack",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1754,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-gamdom",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-gamdom",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1646,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-ignition-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-ignition-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1743,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-jackbit",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-jackbit",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 361,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-leovegas",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-leovegas",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1671,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-mostbet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/avoid-mostbet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1526,
+      "verdict": "CANONICAL_MISMATCH"
+    },
+    {
+      "url": "/blogs/review-pin-up-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-pin-up-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1426,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-pokerstars",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-pokerstars-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1757,
+      "verdict": "CANONICAL_MISMATCH"
+    },
+    {
+      "url": "/blogs/review-pokerstars-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-pokerstars-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1757,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-rollbit",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-rollbit",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1661,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-roobet",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-roobet",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1688,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-shuffle",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-shuffle",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 438,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-sportsbet-io",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-sportsbet-io",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1784,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-stake",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-stake",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1823,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-tg-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-tg-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1734,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/blogs/review-thunderpick",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/blogs/review-thunderpick",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 1664,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/casinos",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "wordCountEstimate": 2480,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/1.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 97,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/2.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 112,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/3.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 193,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/4.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 102,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/5.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 163,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/casinos/rank/6.png",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 97,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/compare",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/compare",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 861,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/contact",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/contact",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 228,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/contact?casino=stake&referral=pending",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/contact",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 228,
+      "verdict": "CANONICAL_MISMATCH"
+    },
+    {
+      "url": "/cookies",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/cookies",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 555,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/bitcoin-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/bitcoin-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 909,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/dogecoin-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/dogecoin-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1337,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/ethereum-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/ethereum-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 831,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/litecoin-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/litecoin-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1331,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/polygon-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/polygon-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1334,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/solana-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/solana-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1380,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/tron-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/tron-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1477,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/usdt-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/usdt-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 795,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/usdt-erc20-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/usdt-erc20-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1338,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/crypto/usdt-trc20-casino",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/crypto/usdt-trc20-casino",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1346,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/easypaisa",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/editorial-policy",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/editorial-policy",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 460,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/editorial-team",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/editorial-team",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 358,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/go/1xbet",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/22bet",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/7bit-casino",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/888-casino",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/bc-game",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/bet365",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/betus",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/betway",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/betwinner",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/bitcasino",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/cloudbet",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/draftkings-casino",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/leovegas",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/pokerstars-casino",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/rollbit",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/roobet",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/go/stake",
+      "httpStatus": 307,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": "noindex, nofollow",
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "REDIRECT_EXPECTED",
+      "finalPath": "/contact"
+    },
+    {
+      "url": "/how-we-review",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/how-we-review",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 728,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/imps",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/india-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/india-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1054,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/jazzcash",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/manifest.webmanifest",
+      "httpStatus": 200,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [],
+      "wordCountEstimate": 25,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/nagad",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/nepal-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/nepal-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1448,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/news",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 592,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/news/news-1",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-1",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "NewsArticle",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 713,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/news/news-2",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-2",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 190,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-3",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-3",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 188,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-4",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-4",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "NewsArticle",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 703,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/news/news-5",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-5",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 187,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-6",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-6",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 178,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-7",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-7",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 194,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-8",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-8",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 191,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/news/news-9",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/news/news-9",
+      "robotsMeta": "noindex, follow",
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 188,
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "/nigeria-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/nigeria-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1443,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/pakistan-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/pakistan-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1090,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/bkash",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/bkash",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 876,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/easypaisa",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/easypaisa",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 700,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/imps",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/imps",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 637,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/jazzcash",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/jazzcash",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 804,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/nagad",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/nagad",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 747,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/paytm",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/paytm",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 529,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/phonepe",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/phonepe",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 661,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/payment/upi",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/payment/upi",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 972,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/paytm",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/philippines-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/philippines-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1443,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/phonepe",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    },
+    {
+      "url": "/privacy",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/privacy",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 669,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/responsible-gambling",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/responsible-gambling",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 477,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/sri-lanka-casino-payments",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/sri-lanka-casino-payments",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "wordCountEstimate": 1498,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/terms",
+      "httpStatus": 200,
+      "canonical": "https://casinopuls.site/terms",
+      "robotsMeta": "index, follow",
+      "xRobotsTag": null,
+      "inSitemap": "yes",
+      "linkedFromHomepage": "yes",
+      "linkedFromBlogs": "yes",
+      "linkedFromCasinos": "yes",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "wordCountEstimate": 443,
+      "verdict": "INDEXABLE_OK"
+    },
+    {
+      "url": "/upi",
+      "httpStatus": 404,
+      "canonical": null,
+      "robotsMeta": null,
+      "xRobotsTag": null,
+      "inSitemap": "no",
+      "linkedFromHomepage": "no",
+      "linkedFromBlogs": "no",
+      "linkedFromCasinos": "no",
+      "schemaTypes": [],
+      "wordCountEstimate": 0,
+      "verdict": "BROKEN_404"
+    }
+  ]
+}

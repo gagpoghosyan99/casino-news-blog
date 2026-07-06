@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { motion } from "framer-motion";
 import { useLocale } from "@/context/LocaleContext";
 import { getLocalizedText } from "@/lib/i18n";
@@ -42,6 +43,7 @@ export default function CasinoCard({ casino, variant = "list" }: CasinoCardProps
 
         <Link
           href={`/go/${casino.slug}`}
+          rel={AFFILIATE_LINK_REL}
           className="relative flex-shrink-0 transition-transform group-hover:scale-[1.03]"
           title={t("playNow")}
         >
@@ -76,7 +78,11 @@ export default function CasinoCard({ casino, variant = "list" }: CasinoCardProps
         </div>
 
         <div className="relative mt-4 flex flex-col gap-2 sm:mt-0 sm:flex-shrink-0">
-          <Link href={`/go/${casino.slug}`} className="btn-premium-primary text-center sm:min-w-[10rem]">
+          <Link
+            href={`/go/${casino.slug}`}
+            rel={AFFILIATE_LINK_REL}
+            className="btn-premium-primary text-center sm:min-w-[10rem]"
+          >
             {t("playNow")}
           </Link>
           <Link
@@ -94,7 +100,12 @@ export default function CasinoCard({ casino, variant = "list" }: CasinoCardProps
     <article
       className={`group flex items-center gap-4 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition-all ${glowClass}`}
     >
-      <Link href={`/go/${casino.slug}`} className="flex-shrink-0" title={t("playNow")}>
+      <Link
+        href={`/go/${casino.slug}`}
+        rel={AFFILIATE_LINK_REL}
+        className="flex-shrink-0"
+        title={t("playNow")}
+      >
         <CasinoLogo
           name={casino.name}
           slug={casino.slug}
@@ -105,7 +116,7 @@ export default function CasinoCard({ casino, variant = "list" }: CasinoCardProps
       </Link>
 
       <div className="min-w-0 flex-1">
-        <Link href={`/go/${casino.slug}`} className="block">
+        <Link href={`/go/${casino.slug}`} rel={AFFILIATE_LINK_REL} className="block">
           <div className="flex items-center gap-2">
             <span className="text-sm font-medium text-slate-500">#{casino.rank}</span>
             <h3 className="truncate font-semibold text-white">{casino.name}</h3>

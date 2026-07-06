@@ -7,6 +7,22 @@ import type { BlogPost } from "@/types";
 
 export const BLOGS_HUB_PATH = "/blogs";
 
+export const LEGAL_BREADCRUMB_LABEL = "Legal";
+
+export const PRIORITY_INDEXATION_SLUGS = [
+  "avoid-mostbet",
+  "avoid-vave",
+  "review-fortunejack",
+  "review-sportsbet-io",
+  "review-stake",
+] as const;
+
+export function getPriorityIndexationPosts(): BlogPost[] {
+  return PRIORITY_INDEXATION_SLUGS.map((slug) => blogPosts.find((p) => p.slug === slug)).filter(
+    (p): p is BlogPost => Boolean(p),
+  );
+}
+
 export const FEATURED_REVIEW_SLUGS = [
   "review-stake",
   "review-bc-game",

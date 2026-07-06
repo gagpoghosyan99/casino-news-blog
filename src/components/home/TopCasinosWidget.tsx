@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { motion } from "framer-motion";
 import { goodCasinos } from "@/data/casinos";
 import CasinoLogo from "@/components/CasinoLogo";
@@ -38,6 +39,7 @@ export default function TopCasinosWidget() {
                   </span>
                   <Link
                     href={`/go/${casino.slug}`}
+                    rel={AFFILIATE_LINK_REL}
                     className="flex shrink-0 items-center gap-3"
                   >
                     <CasinoLogo

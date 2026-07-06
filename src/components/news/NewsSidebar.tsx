@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { useLocale } from "@/context/LocaleContext";
 import { getLocalizedText } from "@/lib/i18n";
 import { useTranslation } from "@/lib/useTranslation";
@@ -75,6 +76,7 @@ export default function NewsSidebar({ articles }: NewsSidebarProps) {
             <li key={casino.id}>
               <Link
                 href={`/go/${casino.slug}`}
+                rel={AFFILIATE_LINK_REL}
                 className="flex items-center gap-3 rounded-xl border border-white/10 p-3 transition hover:border-gold-500/40"
               >
                 <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-gold-500 to-gold-400 text-xs font-bold text-navy-950">

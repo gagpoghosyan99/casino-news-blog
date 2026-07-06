@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useLocale } from "@/context/LocaleContext";
 import { getLocalizedText } from "@/lib/i18n";
 import { useTranslation } from "@/lib/useTranslation";
+import { AFFILIATE_LINK_REL, isAffiliateGoHref } from "@/lib/seo/affiliate-link";
 import { Casino } from "@/types";
 import { BlogPost } from "@/types";
 
@@ -12,10 +13,12 @@ function renderInlineContent(text: string) {
   return parts.map((part, index) => {
     const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (linkMatch) {
+      const href = linkMatch[2];
       return (
         <Link
           key={index}
-          href={linkMatch[2]}
+          href={href}
+          rel={isAffiliateGoHref(href) ? AFFILIATE_LINK_REL : undefined}
           className="font-medium text-brand-600 hover:underline dark:text-gold-400"
         >
           {linkMatch[1]}
@@ -94,7 +97,11 @@ export default function BlogContent({ post, casino, showMethodologyLink = false 
             Ready to explore {casino.name}? Use our outbound link to visit the official operator site.
             Promotions vary by region — verify terms on the operator page before depositing.
           </p>
-          <Link href={`/go/${casino.slug}`} className="btn-primary mt-3 inline-flex text-sm">
+          <Link
+            href={`/go/${casino.slug}`}
+            rel={AFFILIATE_LINK_REL}
+            className="btn-primary mt-3 inline-flex text-sm"
+          >
             {t("playNow")} — {casino.name}
           </Link>
         </div>

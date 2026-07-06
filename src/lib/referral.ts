@@ -13,5 +13,5 @@ export function getReferralUrl(casino: Casino): string | null {
 export function buildReferralRedirectUrl(casino: Casino): string {
   const referral = getReferralUrl(casino);
   if (referral) return referral;
-  return `/contact?casino=${casino.slug}&referral=pending`;
+  return "/contact";
 }

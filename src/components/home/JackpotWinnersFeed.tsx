@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { motion } from "framer-motion";
 import { jackpotWins } from "@/data/jackpots";
 import { formatCurrency, formatRelativeTime } from "@/lib/format";
@@ -46,6 +47,7 @@ export default function JackpotWinnersFeed() {
                   {" · "}
                   <Link
                     href={`/go/${win.casinoSlug}`}
+                    rel={AFFILIATE_LINK_REL}
                     className="text-emerald-400 hover:text-emerald-300"
                   >
                     {win.casinoName}

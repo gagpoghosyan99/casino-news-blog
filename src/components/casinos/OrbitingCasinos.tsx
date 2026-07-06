@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { top40Casinos } from "@/data/casinos";
+import { getCasinoBySlug, top40Casinos } from "@/data/casinos";
 import CasinoLogo from "@/components/CasinoLogo";
 
 const VISIBLE_COUNT = 10;
@@ -48,7 +48,7 @@ function OrbitRing({ casinos }: { casinos: typeof top40Casinos }) {
               transition={{ duration: 50, repeat: Infinity, ease: "linear" }}
             >
               <Link
-                href={`/blogs/${casino.blogSlug}`}
+                href={`/blogs/${getCasinoBySlug(casino.slug)?.blogSlug ?? casino.blogSlug}`}
                 title={`${casino.name} — full review`}
                 className="group relative flex flex-col items-center"
               >

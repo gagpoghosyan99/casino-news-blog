@@ -6,21 +6,28 @@ interface RouteParams {
   params: Promise<{ slug: string }>;
 }
 
+const GO_ROBOTS_HEADER = "noindex, nofollow";
+
+function goRedirectResponse(url: URL | string, status = 307): NextResponse {
+  const response = NextResponse.redirect(url, status);
+  response.headers.set("X-Robots-Tag", GO_ROBOTS_HEADER);
+  return response;
+}
+
 export async function GET(_request: Request, { params }: RouteParams) {
   const { slug } = await params;
   const casino = getCasinoBySlug(slug);
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
   if (!casino) {
-    return NextResponse.redirect(new URL("/casinos", process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"));
+    return goRedirectResponse(new URL("/casinos", siteUrl));
   }
 
   const redirectUrl = buildReferralRedirectUrl(casino);
 
   if (redirectUrl.startsWith("http")) {
-    return NextResponse.redirect(redirectUrl);
+    return goRedirectResponse(redirectUrl);
   }
 
-  return NextResponse.redirect(
-    new URL(redirectUrl, process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000")
-  );
+  return goRedirectResponse(new URL(redirectUrl, siteUrl));
 }

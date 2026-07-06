@@ -13,6 +13,7 @@ import {
   getFeaturedReviewPosts,
   getLatestReviewPosts,
   getPaymentGuideLinks,
+  getPriorityIndexationPosts,
 } from "@/data/blogs-hub";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import {
@@ -50,6 +51,7 @@ export default function BlogsPage() {
   const paymentGuides = getPaymentGuideLinks();
   const cryptoGuides = getCryptoGuideLinks();
   const comparisonHubs = getComparisonHubLinks();
+  const priorityIndexation = getPriorityIndexationPosts();
 
   const collectionJsonLd = collectionPageSchema({
     name: "Casino Reviews & Expert Guides",
@@ -178,6 +180,29 @@ export default function BlogsPage() {
               />
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-navy-900/40 py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="font-display text-3xl font-bold text-white">Priority Reviews for Indexation</h2>
+          <p className="mt-3 max-w-2xl text-slate-400">
+            High-search operator reviews and caution editorials — pillar-depth pages linked for crawl
+            discovery from this hub.
+          </p>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {priorityIndexation.map((post) => (
+              <li key={post.slug}>
+                <Link
+                  href={`/blogs/${post.slug}`}
+                  className="block rounded-xl border border-gold-500/20 bg-gold-500/5 p-5 transition-colors hover:border-gold-500/40"
+                >
+                  <h3 className="font-semibold text-white">{post.title.en}</h3>
+                  <p className="mt-2 text-sm text-slate-400">{post.excerpt.en}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 

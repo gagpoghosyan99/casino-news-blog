@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { buildPageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbSchema } from "@/lib/seo/schema";
+import { JsonLdScripts } from "@/lib/seo/json-ld";
 import { fetchNewsArticles } from "@/lib/news-service";
+import { siteConfig } from "@/config/site";
 import NewsListingClient from "./NewsListingClient";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -13,9 +16,17 @@ export const metadata: Metadata = buildPageMetadata({
 export default async function NewsPage() {
   const articles = await fetchNewsArticles();
   const hasBriefUpdates = articles.some((article) => article.indexable === false);
+  const pageUrl = `${siteConfig.url}/news`;
+  const jsonLd = [
+    breadcrumbSchema([
+      { name: "Home", url: siteConfig.url },
+      { name: "News", url: pageUrl },
+    ]),
+  ];
 
   return (
     <>
+      <JsonLdScripts schemas={jsonLd} />
       {hasBriefUpdates && (
         <p className="mx-auto max-w-7xl px-4 pt-6 text-sm text-slate-500 sm:px-6 lg:px-8">
           Expanded reports appear first. Items in <strong className="text-slate-400">Brief updates</strong>{" "}

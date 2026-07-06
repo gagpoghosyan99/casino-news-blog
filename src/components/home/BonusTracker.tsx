@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { motion } from "framer-motion";
 import { homepageBonusExamples } from "@/data/bonuses";
 import type { BonusType, BonusVerificationStatus } from "@/types/domain";
@@ -99,6 +100,7 @@ export default function BonusTracker() {
                 <div className="flex items-center justify-between">
                   <Link
                     href={`/go/${bonus.casinoSlug}`}
+                    rel={AFFILIATE_LINK_REL}
                     className="font-semibold text-white hover:text-gold-300"
                   >
                     {bonus.casinoName}

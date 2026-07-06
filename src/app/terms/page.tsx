@@ -21,6 +21,7 @@ export default function TermsPage() {
     }),
     breadcrumbSchema([
       { name: "Home", url: siteConfig.url },
+      { name: "Legal", url: `${siteConfig.url}/terms` },
       { name: termsMeta.title, url: pageUrl },
     ]),
   ];

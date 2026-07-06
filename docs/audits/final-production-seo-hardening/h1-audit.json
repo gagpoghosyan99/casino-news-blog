@@ -1,0 +1,372 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T21:15:23.148Z",
+  "totalUrls": 33,
+  "missing": 0,
+  "multiple": 0,
+  "results": [
+    {
+      "url": "https://casinopuls.site",
+      "path": "/",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "South Asia&#x27;s Premium Casino Intelligence",
+      "allH1": [
+        "South Asia&#x27;s Premium Casino Intelligence"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/about",
+      "path": "/about",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "About CasinoPulse",
+      "allH1": [
+        "About CasinoPulse"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/author/casinopulse-editorial-team",
+      "path": "/author/casinopulse-editorial-team",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "CasinoPulse Editorial Team",
+      "allH1": [
+        "CasinoPulse Editorial Team"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/bangladesh-casino-payments",
+      "path": "/bangladesh-casino-payments",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Casino Payment Methods for Bangladeshi Players",
+      "allH1": [
+        "Casino Payment Methods for Bangladeshi Players"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blacklist",
+      "path": "/blacklist",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Casino Blacklist — Editorial Risk Assessments",
+      "allH1": [
+        "Casino Blacklist — Editorial Risk Assessments"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs",
+      "path": "/blogs",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Casino Reviews &amp; Expert Guides",
+      "allH1": [
+        "Casino Reviews &amp; Expert Guides"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/best-upi-casinos-indian-players",
+      "path": "/blogs/best-upi-casinos-indian-players",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Best UPI Casinos for Indian Players in 2026",
+      "allH1": [
+        "Best UPI Casinos for Indian Players in 2026"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/cricket-betting-guide-ipl-2026",
+      "path": "/blogs/cricket-betting-guide-ipl-2026",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Cricket Betting Guide — IPL 2026 Edition",
+      "allH1": [
+        "Cricket Betting Guide — IPL 2026 Edition"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/india-online-gambling-regulations-2026",
+      "path": "/blogs/india-online-gambling-regulations-2026",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "India Online Gambling Regulations 2026 — What Players Need to Know",
+      "allH1": [
+        "India Online Gambling Regulations 2026 — What Players Need to Know"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/casinos",
+      "path": "/casinos",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Top Online Casino Reviews for South Asian Players",
+      "allH1": [
+        "Top Online Casino Reviews for South Asian Players"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/compare",
+      "path": "/compare",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Compare Online Casinos",
+      "allH1": [
+        "Compare Online Casinos"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/contact",
+      "path": "/contact",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Get In Touch",
+      "allH1": [
+        "Get In Touch"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/cookies",
+      "path": "/cookies",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Cookie Policy",
+      "allH1": [
+        "Cookie Policy"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/bitcoin-casino",
+      "path": "/crypto/bitcoin-casino",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Bitcoin Casino Payment Guide",
+      "allH1": [
+        "Bitcoin Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/ethereum-casino",
+      "path": "/crypto/ethereum-casino",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Ethereum Casino Payment Guide",
+      "allH1": [
+        "Ethereum Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/usdt-casino",
+      "path": "/crypto/usdt-casino",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "USDT Stablecoin Casino Guide",
+      "allH1": [
+        "USDT Stablecoin Casino Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/editorial-policy",
+      "path": "/editorial-policy",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Editorial Policy",
+      "allH1": [
+        "Editorial Policy"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/editorial-team",
+      "path": "/editorial-team",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Editorial Team",
+      "allH1": [
+        "Editorial Team"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/how-we-review",
+      "path": "/how-we-review",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "How We Review Online Casinos",
+      "allH1": [
+        "How We Review Online Casinos"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/india-casino-payments",
+      "path": "/india-casino-payments",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Casino Payment Methods for Indian Players",
+      "allH1": [
+        "Casino Payment Methods for Indian Players"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/news",
+      "path": "/news",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Online Casino News India",
+      "allH1": [
+        "Online Casino News India"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/pakistan-casino-payments",
+      "path": "/pakistan-casino-payments",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Casino Payment Methods for Pakistani Players",
+      "allH1": [
+        "Casino Payment Methods for Pakistani Players"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/bkash",
+      "path": "/payment/bkash",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "bKash Casino Payment Guide",
+      "allH1": [
+        "bKash Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/easypaisa",
+      "path": "/payment/easypaisa",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Easypaisa Casino Payment Guide",
+      "allH1": [
+        "Easypaisa Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/imps",
+      "path": "/payment/imps",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "IMPS Casino Payment Guide",
+      "allH1": [
+        "IMPS Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/jazzcash",
+      "path": "/payment/jazzcash",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "JazzCash Casino Payment Guide",
+      "allH1": [
+        "JazzCash Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/nagad",
+      "path": "/payment/nagad",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Nagad Casino Payment Guide",
+      "allH1": [
+        "Nagad Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/paytm",
+      "path": "/payment/paytm",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Paytm Online Casino Payments",
+      "allH1": [
+        "Paytm Online Casino Payments"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/phonepe",
+      "path": "/payment/phonepe",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "PhonePe Casino Payment Guide",
+      "allH1": [
+        "PhonePe Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/upi",
+      "path": "/payment/upi",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "UPI Casino Payment Guide",
+      "allH1": [
+        "UPI Casino Payment Guide"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/privacy",
+      "path": "/privacy",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Privacy Policy",
+      "allH1": [
+        "Privacy Policy"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/responsible-gambling",
+      "path": "/responsible-gambling",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Responsible Gambling",
+      "allH1": [
+        "Responsible Gambling"
+      ],
+      "verdict": "H1_OK"
+    },
+    {
+      "url": "https://casinopuls.site/terms",
+      "path": "/terms",
+      "httpStatus": 200,
+      "h1Count": 1,
+      "h1Text": "Terms of Use",
+      "allH1": [
+        "Terms of Use"
+      ],
+      "verdict": "H1_OK"
+    }
+  ]
+}

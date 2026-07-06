@@ -1696,6 +1696,9 @@ ${profile.extraContext}
 ## Frequently Asked Questions
 ${profile.faqs.map((faq) => `### ${faq.question}\n${faq.answer}`).join("\n\n")}
 
+## Regional Payment & Comparison Resources
+Compare ${profile.name} against alternatives using our [comparison hub](/compare). India players: [India casino payments](/india-casino-payments), [UPI](/payment/upi), [PhonePe](/payment/phonepe). Bangladesh: [Bangladesh casino payments](/bangladesh-casino-payments), [bKash](/payment/bkash), [Nagad](/payment/nagad). Pakistan: [Pakistan casino payments](/pakistan-casino-payments), [JazzCash](/payment/jazzcash), [Easypaisa](/payment/easypaisa). Crypto guides: [Bitcoin](/crypto/bitcoin-casino), [Ethereum](/crypto/ethereum-casino), [USDT](/crypto/usdt-casino). Related reviews: [Stake](/blogs/review-stake), [BC.Game](/blogs/review-bc-game), [Bet365](/blogs/review-bet365), [Roobet](/blogs/review-roobet), [LeoVegas](/blogs/review-leovegas).
+
 ## Editorial Standards & Responsible Play
 Ratings follow our published [review methodology](/how-we-review). CasinoPulse may earn affiliate commissions when you use outbound links; commercial relationships do not buy higher scores. Gambling involves risk of loss — never borrow to play. If gambling harms finances or relationships, stop and seek help via [responsible gambling resources](/responsible-gambling). Check local laws — online casino access is restricted or grey in many South Asian jurisdictions. 18+ only.`;
 }

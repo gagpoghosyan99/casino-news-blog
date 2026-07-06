@@ -54,6 +54,10 @@ export const hubPages: ProgrammaticPage[] = [
         heading: "Recommended Internal Resources",
         body: "Deep dives: [UPI](/payment/upi), [Paytm](/payment/paytm), [PhonePe](/payment/phonepe), [IMPS](/payment/imps), [USDT](/crypto/usdt-casino), [Bitcoin](/crypto/bitcoin-casino). Reviews with payment notes: [Stake](/blogs/review-stake), [BC.Game](/blogs/review-bc-game), [LeoVegas](/blogs/review-leovegas). Use [compare](/compare) to shortlist brands before depositing.",
       },
+      {
+        heading: "Payment Availability Verification Checklist",
+        body: "Marketing pages are not proof of support. After login, screenshot the cashier showing UPI, wallet, or crypto options; note minimum deposits and fees. If a method fails, try an alternate rail before contacting support — Indian banks and wallet apps often block gambling merchants without warning. Keep UTR references for every UPI transfer. Compare operators on our [comparison hub](/compare) only after verifying both deposit and withdrawal paths. Read [how we review](/how-we-review) payment weighting and [responsible gambling](/responsible-gambling) limits before funding.",
+      },
     ],
     faqs: [
       {
@@ -158,6 +162,10 @@ export const hubPages: ProgrammaticPage[] = [
       {
         heading: "Recommended Resources",
         body: "Guides: [bKash](/payment/bkash), [Nagad](/payment/nagad), [USDT](/crypto/usdt-casino), [Bitcoin](/crypto/bitcoin-casino). India context: [India payments hub](/india-casino-payments). Reviews: [PokerStars](/blogs/review-pokerstars-casino), [888 Casino](/blogs/review-888-casino), [Stake](/blogs/review-stake).",
+      },
+      {
+        heading: "bKash and Nagad Verification Notes",
+        body: "Wallet merchant blocks are common when gambling descriptors appear on statements. After login, screenshot bKash or Nagad options in the cashier — not on marketing landing pages. Never pay agents on Telegram claiming to represent a casino. If MFS fails, read our [USDT guide](/crypto/usdt-casino) before switching to crypto. Compare brands on the [comparison hub](/compare) only after confirming withdrawal paths. Follow [responsible gambling](/responsible-gambling) limits. 18+ only.",
       },
     ],
     faqs: [
@@ -269,6 +277,10 @@ export const hubPages: ProgrammaticPage[] = [
         heading: "Recommended Resources",
         body: "Guides: [JazzCash](/payment/jazzcash), [Easypaisa](/payment/easypaisa), [USDT](/crypto/usdt-casino), [Bitcoin](/crypto/bitcoin-casino), [Ethereum](/crypto/ethereum-casino). Regional hubs: [India payments](/india-casino-payments), [Bangladesh payments](/bangladesh-casino-payments). Reviews: [Stake](/blogs/review-stake), [BC.Game](/blogs/review-bc-game), [Betwinner](/blogs/avoid-betwinner), [Pin-Up](/blogs/review-pin-up-casino).",
       },
+      {
+        heading: "JazzCash and Easypaisa Verification Notes",
+        body: "Pakistani wallet apps frequently block gambling merchant categories. Verify JazzCash and Easypaisa inside the logged-in cashier — not via social media QR codes. Keep transaction references and avoid paying unofficial agents. If both wallets fail, review our [USDT](/crypto/usdt-casino) and [Bitcoin](/crypto/bitcoin-casino) guides before on-chain deposits. Shortlist operators on the [comparison hub](/compare) and read [how we review](/how-we-review) payment weighting. Follow [responsible gambling](/responsible-gambling) guidance. 18+ only.",
+      },
     ],
     faqs: [
       {
@@ -364,6 +376,10 @@ export const hubPages: ProgrammaticPage[] = [
       {
         heading: "Red Flags Before Choosing a Casino",
         body: "Skip operators with pressure to deposit via unofficial agents, unclear licence footers, or unreadable withdrawal steps. Cross-check [blacklist](/blacklist) editorial risk assessments — not legal rulings. Read [responsible gambling](/responsible-gambling) resources before funding.",
+      },
+      {
+        heading: "Comparison Methodology: Payments & Safety Criteria",
+        body: "When comparing brands for South Asia, weight payment verification first: confirm deposit method, likely withdrawal path, KYC triggers, and complaint themes before bonus percentages. Safety signals include readable licence footers, transparent terms, and absence of agent-deposit pressure. Payment criteria: UPI/wallet availability for India, bKash/Nagad for Bangladesh, JazzCash/Easypaisa for Pakistan, plus crypto network clarity. Use pillar reviews for depth and the [comparison hub](/compare) to narrow choices — then re-check the cashier after login. Methodology details: [how we review](/how-we-review).",
       },
     ],
     faqs: [

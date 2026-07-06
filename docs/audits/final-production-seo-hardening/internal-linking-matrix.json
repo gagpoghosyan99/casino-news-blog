@@ -1,0 +1,815 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T21:16:04.724Z",
+  "pillarCount": 20,
+  "passCount": 20,
+  "failCount": 0,
+  "requirements": {
+    "reviewLinks": {
+      "min": 5,
+      "label": "related review links"
+    },
+    "paymentCryptoLinks": {
+      "min": 3,
+      "label": "payment/crypto guide links"
+    },
+    "countryHubLinks": {
+      "min": 2,
+      "label": "country hub links"
+    },
+    "compareLink": {
+      "min": 1,
+      "label": "compare link"
+    },
+    "methodologyLink": {
+      "min": 1,
+      "label": "methodology link"
+    },
+    "responsibleGamblingLink": {
+      "min": 1,
+      "label": "responsible gambling link"
+    }
+  },
+  "results": [
+    {
+      "slug": "review-stake",
+      "path": "/blogs/review-stake",
+      "url": "https://casinopuls.site/blogs/review-stake",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-bc-game",
+      "path": "/blogs/review-bc-game",
+      "url": "https://casinopuls.site/blogs/review-bc-game",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-roobet",
+      "path": "/blogs/review-roobet",
+      "url": "https://casinopuls.site/blogs/review-roobet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-bet365",
+      "path": "/blogs/review-bet365",
+      "url": "https://casinopuls.site/blogs/review-bet365",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-leovegas",
+      "path": "/blogs/review-leovegas",
+      "url": "https://casinopuls.site/blogs/review-leovegas",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 5,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-rollbit",
+      "path": "/blogs/review-rollbit",
+      "url": "https://casinopuls.site/blogs/review-rollbit",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 6,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-cloudbet",
+      "path": "/blogs/review-cloudbet",
+      "url": "https://casinopuls.site/blogs/review-cloudbet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 6,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-betway",
+      "path": "/blogs/review-betway",
+      "url": "https://casinopuls.site/blogs/review-betway",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 6,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-pokerstars-casino",
+      "path": "/blogs/review-pokerstars-casino",
+      "url": "https://casinopuls.site/blogs/review-pokerstars-casino",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 6,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-888-casino",
+      "path": "/blogs/review-888-casino",
+      "url": "https://casinopuls.site/blogs/review-888-casino",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 8,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-1xbet",
+      "path": "/blogs/avoid-1xbet",
+      "url": "https://casinopuls.site/blogs/avoid-1xbet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 7,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-melbet",
+      "path": "/blogs/avoid-melbet",
+      "url": "https://casinopuls.site/blogs/avoid-melbet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 10,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-mostbet",
+      "path": "/blogs/avoid-mostbet",
+      "url": "https://casinopuls.site/blogs/avoid-mostbet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 9,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-parimatch",
+      "path": "/blogs/avoid-parimatch",
+      "url": "https://casinopuls.site/blogs/avoid-parimatch",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 11,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-22bet",
+      "path": "/blogs/avoid-22bet",
+      "url": "https://casinopuls.site/blogs/avoid-22bet",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 10,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-betwinner",
+      "path": "/blogs/avoid-betwinner",
+      "url": "https://casinopuls.site/blogs/avoid-betwinner",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 9,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-vave",
+      "path": "/blogs/avoid-vave",
+      "url": "https://casinopuls.site/blogs/avoid-vave",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 7,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-wild-casino",
+      "path": "/blogs/avoid-wild-casino",
+      "url": "https://casinopuls.site/blogs/avoid-wild-casino",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 7,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "avoid-bovada",
+      "path": "/blogs/avoid-bovada",
+      "url": "https://casinopuls.site/blogs/avoid-bovada",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 7,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    },
+    {
+      "slug": "review-pin-up-casino",
+      "path": "/blogs/review-pin-up-casino",
+      "url": "https://casinopuls.site/blogs/review-pin-up-casino",
+      "pass": true,
+      "checks": {
+        "reviewLinks": {
+          "required": 5,
+          "found": 7,
+          "pass": true
+        },
+        "paymentCryptoLinks": {
+          "required": 3,
+          "found": 11,
+          "pass": true
+        },
+        "countryHubLinks": {
+          "required": 2,
+          "found": 3,
+          "pass": true
+        },
+        "compareLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "methodologyLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        },
+        "responsibleGamblingLink": {
+          "required": 1,
+          "found": 1,
+          "pass": true
+        }
+      },
+      "failures": []
+    }
+  ]
+}

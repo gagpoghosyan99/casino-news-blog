@@ -89,6 +89,74 @@ export default function CasinoDirectory({
           ))}
         </nav>
 
+        <section className="mt-10" aria-labelledby="directory-how-to-heading">
+          <h2 id="directory-how-to-heading" className="font-display text-2xl font-bold text-white">
+            How to use this casino directory
+          </h2>
+          <GlassCard className="mt-4 p-6">
+            <p className="text-sm leading-relaxed text-slate-300">
+              Start with your primary question — payments, crypto, sports crossover, or complaint
+              themes — then open the linked review before depositing. Use the{" "}
+              <strong className="text-white">Top rated</strong> filter for editor-favoured brands,
+              the full ranking for discovery, and the <strong className="text-white">Caution list</strong>{" "}
+              for operators with repeated reported concerns. Every score is an editorial estimate
+              from our published weights, not a guarantee of payouts or legal permission to play
+              in your jurisdiction.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-slate-300">
+              We recommend verifying cashier methods after login, reading bonus terms before opting
+              in, and testing a small withdrawal where policy allows. Cross-check payment context on
+              our{" "}
+              <Link href="/india-casino-payments" className="text-gold-400 hover:text-gold-300">
+                India
+              </Link>
+              ,{" "}
+              <Link href="/bangladesh-casino-payments" className="text-gold-400 hover:text-gold-300">
+                Bangladesh
+              </Link>
+              , and{" "}
+              <Link href="/pakistan-casino-payments" className="text-gold-400 hover:text-gold-300">
+                Pakistan payment hubs
+              </Link>{" "}
+              before sending money. Use the{" "}
+              <Link href="/compare" className="text-gold-400 hover:text-gold-300">
+                comparison hub
+              </Link>{" "}
+              to shortlist two or three brands side by side.
+            </p>
+          </GlassCard>
+        </section>
+
+        <section className="mt-10" aria-labelledby="directory-scoring-heading">
+          <h2 id="directory-scoring-heading" className="font-display text-2xl font-bold text-white">
+            How CasinoPulse scores casinos
+          </h2>
+          <GlassCard className="mt-4 p-6">
+            <p className="text-sm leading-relaxed text-slate-300">
+              Ratings combine safety and licensing signals, payment and withdrawal clarity, bonus
+              fairness, game variety, mobile usability, support quality, and recurring complaint
+              themes. Pillar reviews — marked in the featured section — meet depth thresholds for
+              FAQ coverage, trust metadata, and internal authority links. Checklist reviews help
+              discovery but intentionally omit Review structured data until expanded.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-slate-300">
+              Commercial affiliate relationships do not purchase higher scores. Read the full{" "}
+              <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
+                review methodology
+              </Link>
+              , browse the{" "}
+              <Link href="/blacklist" className="text-gold-400 hover:text-gold-300">
+                editorial blacklist
+              </Link>{" "}
+              for contrast with flagged brands, and follow{" "}
+              <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
+                responsible gambling guidance
+              </Link>{" "}
+              before playing. 18+ only.
+            </p>
+          </GlassCard>
+        </section>
+
         {showBadDisclaimer && (
           <GlassCard glow="danger" className="mt-6 p-5">
             <p className="font-semibold text-danger-300">Editorial caution list</p>

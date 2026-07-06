@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T21:15:21.502Z",
+  "expectedPillarCount": 20,
+  "pillarPagesWithReviewSchema": [
+    "review-stake",
+    "review-bc-game",
+    "review-roobet",
+    "review-bet365",
+    "review-leovegas",
+    "review-rollbit",
+    "review-cloudbet",
+    "review-betway",
+    "review-pokerstars-casino",
+    "review-888-casino",
+    "avoid-1xbet",
+    "avoid-melbet",
+    "avoid-mostbet",
+    "avoid-parimatch",
+    "avoid-22bet",
+    "avoid-betwinner",
+    "avoid-vave",
+    "avoid-wild-casino",
+    "avoid-bovada",
+    "review-pin-up-casino"
+  ],
+  "thinPagesWithoutReviewSchema": [
+    "india-online-gambling-regulations-2026"
+  ],
+  "unexpectedReviewSchema": [],
+  "missingReviewSchemaOnPillar": [],
+  "summary": {
+    "pillarWithReview": 20,
+    "thinWithoutReview": 1,
+    "unexpectedReview": 0,
+    "missingOnPillar": 0
+  }
+}

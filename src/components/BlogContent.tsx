@@ -8,6 +8,33 @@ import { AFFILIATE_LINK_REL, isAffiliateGoHref } from "@/lib/seo/affiliate-link"
 import { Casino } from "@/types";
 import { BlogPost } from "@/types";
 
+function renderHeadingBlock(
+  paragraph: string,
+  level: "h2" | "h3",
+  key: number,
+) {
+  const prefix = level === "h2" ? "# " : "## ";
+  const nl = paragraph.indexOf("\n");
+  const headingText = nl === -1 ? paragraph.slice(prefix.length) : paragraph.slice(prefix.length, nl);
+  const body = nl === -1 ? "" : paragraph.slice(nl + 1).trim();
+  const HeadingTag = level === "h2" ? "h2" : "h3";
+  const headingClass =
+    level === "h2"
+      ? "mt-8 text-2xl font-bold text-gray-900 dark:text-white"
+      : "mt-6 text-xl font-semibold text-gray-900 dark:text-white";
+
+  return (
+    <div key={key}>
+      <HeadingTag className={headingClass}>{headingText}</HeadingTag>
+      {body ? (
+        <p className="mt-4 leading-relaxed text-gray-700 dark:text-gray-300">
+          {renderInlineContent(body)}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
 function renderInlineContent(text: string) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, index) => {
@@ -110,24 +137,16 @@ export default function BlogContent({ post, casino, showMethodologyLink = false 
       <div className="prose prose-gray mt-8 max-w-none dark:prose-invert">
         {content.split("\n\n").map((paragraph, i) => {
           if (paragraph.startsWith("# ")) {
-            return (
-              <h2 key={i} className="mt-8 text-2xl font-bold text-gray-900 dark:text-white">
-                {paragraph.replace("# ", "")}
-              </h2>
-            );
+            return renderHeadingBlock(paragraph, "h2", i);
           }
           if (paragraph.startsWith("## ")) {
-            return (
-              <h3 key={i} className="mt-6 text-xl font-semibold text-gray-900 dark:text-white">
-                {paragraph.replace("## ", "")}
-              </h3>
-            );
+            return renderHeadingBlock(paragraph, "h3", i);
           }
           if (paragraph.startsWith("- ")) {
             return (
               <ul key={i} className="mt-4 list-disc space-y-1 pl-6 text-gray-700 dark:text-gray-300">
                 {paragraph.split("\n").map((line, j) => (
-                  <li key={j}>{line.replace("- ", "")}</li>
+                  <li key={j}>{renderInlineContent(line.replace("- ", ""))}</li>
                 ))}
               </ul>
             );

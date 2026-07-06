@@ -1,15 +1,11 @@
-"use client";
-
 import Link from "next/link";
-import { useLocale } from "@/context/LocaleContext";
-import { useTranslation } from "@/lib/useTranslation";
+import { translations } from "@/lib/translations";
 import { RESPONSIBLE_GAMBLING_PATH, responsibleGamblingQuickLinks } from "@/data/legal";
 import SectionHeader from "@/components/ui/SectionHeader";
 import GlassCard from "@/components/ui/GlassCard";
 
 export default function ResponsibleGamblingSection() {
-  const { locale } = useLocale();
-  const { t } = useTranslation(locale);
+  const t = translations.en;
 
   return (
     <section className="border-t border-white/5 bg-navy-950 py-20">
@@ -17,7 +13,7 @@ export default function ResponsibleGamblingSection() {
         <SectionHeader
           eyebrow="Player Safety"
           title="Responsible Gambling"
-          subtitle={t("responsibleGamblingSubtitle")}
+          subtitle={t.responsibleGamblingSubtitle}
           href={RESPONSIBLE_GAMBLING_PATH}
           linkLabel="Full guide"
         />

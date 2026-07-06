@@ -1,0 +1,199 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T20:54:21.146Z",
+  "priorityPages": 19,
+  "acceptedModernNext": 5,
+  "improved": 14,
+  "results": [
+    {
+      "url": "https://casinopuls.site",
+      "path": "/",
+      "htmlBytes": 129268,
+      "visibleTextBytes": 13994,
+      "textHtmlRatio": 0.1083,
+      "wordCount": 2059,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs",
+      "path": "/blogs",
+      "htmlBytes": 159795,
+      "visibleTextBytes": 19422,
+      "textHtmlRatio": 0.1215,
+      "wordCount": 2721,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/casinos",
+      "path": "/casinos",
+      "htmlBytes": 235100,
+      "visibleTextBytes": 14655,
+      "textHtmlRatio": 0.0623,
+      "wordCount": 2266,
+      "semrushLikelyWarning": true,
+      "verdict": "TEXT_HTML_WARNING_ACCEPTED_MODERN_NEXT"
+    },
+    {
+      "url": "https://casinopuls.site/compare",
+      "path": "/compare",
+      "htmlBytes": 76379,
+      "visibleTextBytes": 5376,
+      "textHtmlRatio": 0.0704,
+      "wordCount": 777,
+      "semrushLikelyWarning": true,
+      "verdict": "TEXT_HTML_WARNING_ACCEPTED_MODERN_NEXT"
+    },
+    {
+      "url": "https://casinopuls.site/india-casino-payments",
+      "path": "/india-casino-payments",
+      "htmlBytes": 71623,
+      "visibleTextBytes": 6569,
+      "textHtmlRatio": 0.0917,
+      "wordCount": 971,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/bangladesh-casino-payments",
+      "path": "/bangladesh-casino-payments",
+      "htmlBytes": 69315,
+      "visibleTextBytes": 6680,
+      "textHtmlRatio": 0.0964,
+      "wordCount": 951,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/pakistan-casino-payments",
+      "path": "/pakistan-casino-payments",
+      "htmlBytes": 74051,
+      "visibleTextBytes": 7220,
+      "textHtmlRatio": 0.0975,
+      "wordCount": 1022,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/payment/upi",
+      "path": "/payment/upi",
+      "htmlBytes": 61735,
+      "visibleTextBytes": 6341,
+      "textHtmlRatio": 0.1027,
+      "wordCount": 972,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/payment/bkash",
+      "path": "/payment/bkash",
+      "htmlBytes": 60906,
+      "visibleTextBytes": 5996,
+      "textHtmlRatio": 0.0984,
+      "wordCount": 876,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/payment/jazzcash",
+      "path": "/payment/jazzcash",
+      "htmlBytes": 61493,
+      "visibleTextBytes": 5690,
+      "textHtmlRatio": 0.0925,
+      "wordCount": 804,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/bitcoin-casino",
+      "path": "/crypto/bitcoin-casino",
+      "htmlBytes": 62240,
+      "visibleTextBytes": 6314,
+      "textHtmlRatio": 0.1014,
+      "wordCount": 909,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/usdt-casino",
+      "path": "/crypto/usdt-casino",
+      "htmlBytes": 60554,
+      "visibleTextBytes": 5489,
+      "textHtmlRatio": 0.0906,
+      "wordCount": 795,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_WARNING_ACCEPTED_MODERN_NEXT"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/review-stake",
+      "path": "/blogs/review-stake",
+      "htmlBytes": 62075,
+      "visibleTextBytes": 12079,
+      "textHtmlRatio": 0.1946,
+      "wordCount": 1758,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/review-bet365",
+      "path": "/blogs/review-bet365",
+      "htmlBytes": 60070,
+      "visibleTextBytes": 11182,
+      "textHtmlRatio": 0.1861,
+      "wordCount": 1604,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/review-bc-game",
+      "path": "/blogs/review-bc-game",
+      "htmlBytes": 61626,
+      "visibleTextBytes": 11772,
+      "textHtmlRatio": 0.191,
+      "wordCount": 1682,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/review-pokerstars-casino",
+      "path": "/blogs/review-pokerstars-casino",
+      "htmlBytes": 61932,
+      "visibleTextBytes": 12100,
+      "textHtmlRatio": 0.1954,
+      "wordCount": 1683,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/review-888-casino",
+      "path": "/blogs/review-888-casino",
+      "htmlBytes": 60391,
+      "visibleTextBytes": 11521,
+      "textHtmlRatio": 0.1908,
+      "wordCount": 1620,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_IMPROVED"
+    },
+    {
+      "url": "https://casinopuls.site/blacklist",
+      "path": "/blacklist",
+      "htmlBytes": 44993,
+      "visibleTextBytes": 4350,
+      "textHtmlRatio": 0.0967,
+      "wordCount": 590,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_WARNING_ACCEPTED_MODERN_NEXT"
+    },
+    {
+      "url": "https://casinopuls.site/how-we-review",
+      "path": "/how-we-review",
+      "htmlBytes": 63675,
+      "visibleTextBytes": 5237,
+      "textHtmlRatio": 0.0822,
+      "wordCount": 728,
+      "semrushLikelyWarning": false,
+      "verdict": "TEXT_HTML_WARNING_ACCEPTED_MODERN_NEXT"
+    }
+  ]
+}

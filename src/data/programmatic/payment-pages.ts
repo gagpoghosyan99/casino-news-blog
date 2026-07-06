@@ -9,7 +9,7 @@ const paymentRelatedDefaults = [
 export const paymentPages: ProgrammaticPage[] = [
   {
     slug: "upi",
-    title: "UPI Casino Deposits for Indian Players — Complete Guide",
+    title: "UPI Casino Deposits Guide for India",
     metaDescription:
       "How UPI casino deposits work for Indian players: speed, limits, security, withdrawal expectations, and honest alternatives when UPI is blocked.",
     h1: "UPI Casino Payment Guide",
@@ -95,7 +95,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "phonepe",
-    title: "PhonePe Casino Deposits — Availability, Speed & Safety",
+    title: "PhonePe Casino Deposits Guide",
     metaDescription:
       "PhonePe casino payment guide for Indian players. Learn how deposits may work, PhonePe vs UPI, withdrawal limits, security tips, and alternatives.",
     h1: "PhonePe Casino Payment Guide",
@@ -167,7 +167,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "imps",
-    title: "IMPS Casino Deposits & Bank Transfers for Indian Players",
+    title: "IMPS Casino Deposits Guide for India",
     metaDescription:
       "IMPS casino deposit guide: how bank transfers work, timing vs UPI, withdrawal expectations, safety checks, and alternatives for Indian players.",
     h1: "IMPS Casino Payment Guide",
@@ -240,7 +240,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "paytm",
-    title: "Paytm Casino Deposits for Indian Players",
+    title: "Paytm Casino Deposits Guide",
     metaDescription:
       "Guide to Paytm-friendly online casinos for Indian players. Learn deposit limits, alternatives when Paytm blocks gambling, UPI workarounds, and safe payment tips.",
     h1: "Paytm Online Casino Payments",
@@ -303,7 +303,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "bkash",
-    title: "bKash Casino Deposits for Bangladeshi Players — Complete Guide",
+    title: "bKash Casino Deposits Guide",
     metaDescription:
       "How bKash casino deposits may work for Bangladeshi players: deposit flow, speed, security, withdrawal expectations, and honest alternatives when bKash is blocked.",
     h1: "bKash Casino Payment Guide",
@@ -389,7 +389,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "nagad",
-    title: "Nagad Casino Deposits for Bangladeshi Players — Complete Guide",
+    title: "Nagad Casino Deposits Guide",
     metaDescription:
       "How Nagad casino deposits may work for Bangladeshi players: wallet flow, speed, security, withdrawal notes, and alternatives when Nagad is unavailable.",
     h1: "Nagad Casino Payment Guide",
@@ -471,7 +471,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "jazzcash",
-    title: "JazzCash Casino Deposits for Pakistani Players — Complete Guide",
+    title: "JazzCash Casino Deposits Guide",
     metaDescription:
       "How JazzCash casino deposits may work for Pakistani players: deposit flow, speed, fees, KYC, agent scam warnings, and alternatives when JazzCash is blocked.",
     h1: "JazzCash Casino Payment Guide",
@@ -568,7 +568,7 @@ export const paymentPages: ProgrammaticPage[] = [
   },
   {
     slug: "easypaisa",
-    title: "Easypaisa Casino Deposits for Pakistani Players — Complete Guide",
+    title: "Easypaisa Casino Deposits Guide",
     metaDescription:
       "How Easypaisa casino deposits may work for Pakistani players: wallet flow, speed, fees, KYC matching, scam warnings, and alternatives.",
     h1: "Easypaisa Casino Payment Guide",

@@ -13,7 +13,7 @@ interface PageProps {
   searchParams: Promise<{ tab?: string }>;
 }
 
-const PAGE_TITLE = "Top 40 Online Casino Reviews for Indian Players";
+const PAGE_TITLE = "Top 40 Casino Reviews for India";
 const PAGE_DESCRIPTION =
   "Compare the top 40 online casinos for Indian and South Asian players. Expert reviews, payment context, editorial trust scores, and casinos to research carefully — updated for 2026.";
 

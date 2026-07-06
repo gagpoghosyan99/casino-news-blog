@@ -9,6 +9,14 @@ type PageMetaInput = {
   noIndex?: boolean;
 };
 
+function formatDocumentTitle(title: string): string {
+  const brand = siteConfig.name;
+  if (title.includes(brand)) {
+    return title;
+  }
+  return `${title} | ${brand}`;
+}
+
 export function buildPageMetadata({
   title,
   description,
@@ -18,9 +26,10 @@ export function buildPageMetadata({
 }: PageMetaInput): Metadata {
   const url = `${siteConfig.url}${path}`;
   const ogImage = image ?? `${siteConfig.url}/og-default.png`;
+  const documentTitle = formatDocumentTitle(title);
 
   return {
-    title: `${title} | ${siteConfig.name}`,
+    title: documentTitle,
     description,
     alternates: { canonical: url },
     robots: noIndex ? { index: false, follow: true } : { index: true, follow: true },

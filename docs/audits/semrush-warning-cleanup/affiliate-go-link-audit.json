@@ -1,0 +1,81 @@
+{
+  "auditedAt": "2026-07-06T20:54:18.263Z",
+  "totalLinks": 9,
+  "verdictCounts": {
+    "AFFILIATE_CTA_OK": 9
+  },
+  "results": [
+    {
+      "sourcePage": "src/components/BlogContent.tsx",
+      "line": 101,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/CasinoCard.tsx",
+      "line": 45,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/CasinoCard.tsx",
+      "line": 82,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/CasinoCard.tsx",
+      "line": 104,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/CasinoCard.tsx",
+      "line": 119,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/home/BonusTracker.tsx",
+      "line": 102,
+      "goLink": "/go/${bonus.casinoSlug}",
+      "rel": "nofollow sponsored",
+      "contextType": "widget",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/home/JackpotWinnersFeed.tsx",
+      "line": 49,
+      "goLink": "/go/${win.casinoSlug}",
+      "rel": "nofollow sponsored",
+      "contextType": "widget",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/home/TopCasinosWidget.tsx",
+      "line": 41,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "widget",
+      "verdict": "AFFILIATE_CTA_OK"
+    },
+    {
+      "sourcePage": "src/components/news/NewsSidebar.tsx",
+      "line": 78,
+      "goLink": "/go/${casino.slug}",
+      "rel": "nofollow sponsored",
+      "contextType": "CTA",
+      "verdict": "AFFILIATE_CTA_OK"
+    }
+  ]
+}

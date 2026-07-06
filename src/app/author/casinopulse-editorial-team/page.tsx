@@ -15,7 +15,7 @@ import {
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: `${editorialAuthor.name} — CasinoPulse`,
+  title: "CasinoPulse Editorial Team",
   description: editorialAuthor.description,
   path: editorialAuthor.path,
 });

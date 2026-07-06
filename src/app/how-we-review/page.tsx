@@ -69,6 +69,7 @@ export default function HowWeReviewPage() {
             eyebrow="Editorial Standards"
             title={howWeReviewHero.title}
             subtitle={howWeReviewHero.subtitle}
+            headingLevel="h1"
           />
 
           <section className="mt-12">

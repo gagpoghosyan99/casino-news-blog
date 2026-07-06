@@ -40,7 +40,7 @@ const REVIEW_CATEGORIES = new Set<BlogPost["category"]>([
 ]);
 
 export const blogsHubMeta = {
-  title: "Casino Reviews & Expert Guides — CasinoPulse",
+  title: "Casino Reviews & Expert Guides",
   description:
     "Server-indexed casino reviews, payment guides, and crypto gambling resources for South Asian players. Pillar reviews for Stake, Bet365, 1xBet, and more.",
 };

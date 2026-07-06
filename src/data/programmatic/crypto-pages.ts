@@ -18,7 +18,7 @@ const cryptoClusterLinks = [
 export const cryptoPages: ProgrammaticPage[] = [
   {
     slug: "bitcoin-casino",
-    title: "Bitcoin (BTC) Casino Guide for Indian Players — Deposits, Withdrawals & Safety",
+    title: "Bitcoin Casino Guide for India",
     metaDescription:
       "How Bitcoin casino deposits and withdrawals work for Indian players: confirmations, network fees, volatility, Lightning overview, security, and operator comparison tips.",
     h1: "Bitcoin Casino Payment Guide",
@@ -102,7 +102,7 @@ export const cryptoPages: ProgrammaticPage[] = [
   },
   {
     slug: "ethereum-casino",
-    title: "Ethereum (ETH) Casino Guide — Gas Fees, ERC-20 & Wallet Safety",
+    title: "Ethereum Casino Guide: Gas & Wallet Safety",
     metaDescription:
       "Ethereum casino payments for Indian players: native ETH deposits, ERC-20 tokens, gas fees, congestion, wallet compatibility, and security checklist.",
     h1: "Ethereum Casino Payment Guide",
@@ -186,7 +186,7 @@ export const cryptoPages: ProgrammaticPage[] = [
   },
   {
     slug: "usdt-casino",
-    title: "USDT Casino Guide — TRC-20 vs ERC-20, Speed & Stablecoin Safety",
+    title: "USDT Casino Guide: Networks & Safety",
     metaDescription:
       "USDT casino guide for Indian players: TRC-20 vs ERC-20, deposit speed, withdrawal costs, peg risk, compliance notes, and operator comparison.",
     h1: "USDT Stablecoin Casino Guide",

@@ -372,7 +372,7 @@ export const responsibleGamblingMeta = {
 };
 
 export const blacklistMeta = {
-  title: "Casino Blacklist — Editorial Risk Assessments",
+  title: "Casino Blacklist: Risk Assessments",
   description:
     "CasinoPulse editorial blacklist of online casinos with reported concerns and risk indicators for South Asian players. Not legal findings — review carefully before playing.",
 };

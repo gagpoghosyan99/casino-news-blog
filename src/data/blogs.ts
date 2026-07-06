@@ -13,10 +13,10 @@ function generateCasinoBlog(
     slug: casino.blogSlug,
     title: {
       en: isGood
-        ? `${casino.name} Review 2026 — Is It Safe for Indian Players?`
+        ? `${casino.name} Review 2026`
         : isBad
-          ? `${casino.name} — Mixed Reviews & Common Player Complaints`
-          : `${casino.name} Review 2026 — Games, Bonuses, Payments & Safety Notes`,
+          ? `${casino.name}: Complaints & Risks`
+          : `${casino.name} Review 2026`,
       hi: isGood
         ? `${casino.name} समीक्षा 2026 — क्या यह भारतीय खिलाड़ियों के लिए सुरक्षित है?`
         : isBad

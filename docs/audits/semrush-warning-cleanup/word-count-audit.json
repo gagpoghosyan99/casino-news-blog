@@ -1,0 +1,240 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T20:54:20.466Z",
+  "newsMinWords": 500,
+  "indexableMinWords": 200,
+  "lowCount": 0,
+  "results": [
+    {
+      "url": "https://casinopuls.site",
+      "path": "/",
+      "wordCount": 2059,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/about",
+      "path": "/about",
+      "wordCount": 468,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/author/casinopulse-editorial-team",
+      "path": "/author/casinopulse-editorial-team",
+      "wordCount": 586,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/bangladesh-casino-payments",
+      "path": "/bangladesh-casino-payments",
+      "wordCount": 951,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blacklist",
+      "path": "/blacklist",
+      "wordCount": 590,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs",
+      "path": "/blogs",
+      "wordCount": 2721,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/best-upi-casinos-indian-players",
+      "path": "/blogs/best-upi-casinos-indian-players",
+      "wordCount": 170,
+      "robots": "noindex, follow ",
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/cricket-betting-guide-ipl-2026",
+      "path": "/blogs/cricket-betting-guide-ipl-2026",
+      "wordCount": 174,
+      "robots": "noindex, follow ",
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "https://casinopuls.site/blogs/india-online-gambling-regulations-2026",
+      "path": "/blogs/india-online-gambling-regulations-2026",
+      "wordCount": 177,
+      "robots": "noindex, follow ",
+      "verdict": "NOINDEX_EXPECTED"
+    },
+    {
+      "url": "https://casinopuls.site/casinos",
+      "path": "/casinos",
+      "wordCount": 2266,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/compare",
+      "path": "/compare",
+      "wordCount": 777,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/contact",
+      "path": "/contact",
+      "wordCount": 228,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/cookies",
+      "path": "/cookies",
+      "wordCount": 555,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/bitcoin-casino",
+      "path": "/crypto/bitcoin-casino",
+      "wordCount": 909,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/ethereum-casino",
+      "path": "/crypto/ethereum-casino",
+      "wordCount": 831,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/crypto/usdt-casino",
+      "path": "/crypto/usdt-casino",
+      "wordCount": 795,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/editorial-policy",
+      "path": "/editorial-policy",
+      "wordCount": 460,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/editorial-team",
+      "path": "/editorial-team",
+      "wordCount": 358,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/how-we-review",
+      "path": "/how-we-review",
+      "wordCount": 728,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/india-casino-payments",
+      "path": "/india-casino-payments",
+      "wordCount": 971,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/news",
+      "path": "/news",
+      "wordCount": 592,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/pakistan-casino-payments",
+      "path": "/pakistan-casino-payments",
+      "wordCount": 1022,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/bkash",
+      "path": "/payment/bkash",
+      "wordCount": 876,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/easypaisa",
+      "path": "/payment/easypaisa",
+      "wordCount": 700,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/imps",
+      "path": "/payment/imps",
+      "wordCount": 637,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/jazzcash",
+      "path": "/payment/jazzcash",
+      "wordCount": 804,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/nagad",
+      "path": "/payment/nagad",
+      "wordCount": 747,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/paytm",
+      "path": "/payment/paytm",
+      "wordCount": 529,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/phonepe",
+      "path": "/payment/phonepe",
+      "wordCount": 661,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/payment/upi",
+      "path": "/payment/upi",
+      "wordCount": 972,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/privacy",
+      "path": "/privacy",
+      "wordCount": 669,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/responsible-gambling",
+      "path": "/responsible-gambling",
+      "wordCount": 477,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    },
+    {
+      "url": "https://casinopuls.site/terms",
+      "path": "/terms",
+      "wordCount": 443,
+      "robots": "index, follow ",
+      "verdict": "WORD_COUNT_OK"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ export const sampleNews: NewsArticle[] = [
   {
     id: "news-1",
     title: {
-      en: "India's UPI Payment Integration Expands Across Global Casino Platforms",
+      en: "UPI Integration Expands at Global Casinos",
       hi: "भारत का UPI भुगतान एकीकरण वैश्विक कैसीनो प्लेटफॉर्म पर विस्तार",
     },
     excerpt: {
@@ -101,7 +101,7 @@ UPI integration headlines are useful signals, not guarantees. Verify cashier det
   {
     id: "news-4",
     title: {
-      en: "Cryptocurrency Deposits Surge Among Indian Casino Players",
+      en: "Crypto Deposits Surge Among Indian Players",
       hi: "भारतीय कैसीनो खिलाड़ियों में क्रिप्टोकरेंसी जमा में उछाल",
     },
     excerpt: {

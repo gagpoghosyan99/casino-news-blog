@@ -3,7 +3,7 @@ import type { ProgrammaticPage } from "@/types/programmatic";
 export const hubPages: ProgrammaticPage[] = [
   {
     slug: "india-casino-payments",
-    title: "India Casino Payment Methods Guide 2026",
+    title: "India Casino Payments Guide 2026",
     metaDescription:
       "Complete guide to casino payment methods for Indian players — UPI, Paytm, PhonePe, IMPS, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
     h1: "Casino Payment Methods for Indian Players",
@@ -104,7 +104,7 @@ export const hubPages: ProgrammaticPage[] = [
   },
   {
     slug: "bangladesh-casino-payments",
-    title: "Bangladesh Casino Payment Methods Guide 2026",
+    title: "Bangladesh Casino Payments Guide 2026",
     metaDescription:
       "Complete guide to casino payment methods for Bangladeshi players — bKash, Nagad, bank transfer, and crypto. Compare speeds, limits, security, and safe deposit options.",
     h1: "Casino Payment Methods for Bangladeshi Players",
@@ -210,7 +210,7 @@ export const hubPages: ProgrammaticPage[] = [
   },
   {
     slug: "pakistan-casino-payments",
-    title: "Pakistan Casino Payment Methods Guide 2026",
+    title: "Pakistan Casino Payments Guide 2026",
     metaDescription:
       "Complete guide to casino payment methods for Pakistani players — JazzCash, Easypaisa, bank transfer, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
     h1: "Casino Payment Methods for Pakistani Players",
@@ -322,7 +322,7 @@ export const hubPages: ProgrammaticPage[] = [
   },
   {
     slug: "compare",
-    title: "Compare Online Casinos for South Asian Players 2026",
+    title: "Compare Online Casinos 2026",
     metaDescription:
       "Compare top online casinos for India, Bangladesh, and Pakistan — crypto, UPI, JazzCash, bKash, bonuses, withdrawal speed, and editorial trust scores.",
     h1: "Compare Online Casinos",

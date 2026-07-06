@@ -1,0 +1,452 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T22:02:10.675Z",
+  "idealRange": "120-160",
+  "hardMax": 165,
+  "total": 44,
+  "missing": 0,
+  "tooLong": 7,
+  "short": 6,
+  "long": 3,
+  "ok": 28,
+  "duplicateDescriptions": [],
+  "homepage": {
+    "path": "/",
+    "url": "https://casinopuls.site/",
+    "status": 200,
+    "description": "Independent casino reviews, crypto casino guides, payment methods, blacklist reports, and responsible gambling resources for South Asian players.",
+    "length": 145,
+    "verdict": "META_OK",
+    "issues": []
+  },
+  "results": [
+    {
+      "path": "/",
+      "url": "https://casinopuls.site/",
+      "status": 200,
+      "description": "Independent casino reviews, crypto casino guides, payment methods, blacklist reports, and responsible gambling resources for South Asian players.",
+      "length": 145,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/about",
+      "url": "https://casinopuls.site/about",
+      "status": 200,
+      "description": "Learn about CasinoPulse — independent casino reviews, South Asia and crypto casino coverage, editorial standards, and affiliate disclosure.",
+      "length": 139,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/author/casinopulse-editorial-team",
+      "url": "https://casinopuls.site/author/casinopulse-editorial-team",
+      "status": 200,
+      "description": "The CasinoPulse Editorial Team produces independent casino reviews, payment guides, and crypto gambling resources for South Asian players. Content follows our published review methodology — no individual credentials are claimed beyond documented editorial process.",
+      "length": 264,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 264 > 165"
+      ]
+    },
+    {
+      "path": "/bangladesh-casino-payments",
+      "url": "https://casinopuls.site/bangladesh-casino-payments",
+      "status": 200,
+      "description": "Complete guide to casino payment methods for Bangladeshi players — bKash, Nagad, bank transfer, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "length": 167,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 167 > 165"
+      ]
+    },
+    {
+      "path": "/blacklist",
+      "url": "https://casinopuls.site/blacklist",
+      "status": 200,
+      "description": "CasinoPulse editorial blacklist of online casinos with reported concerns and risk indicators for South Asian players. Not legal findings — review carefully before playing.",
+      "length": 171,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 171 > 165"
+      ]
+    },
+    {
+      "path": "/blogs",
+      "url": "https://casinopuls.site/blogs",
+      "status": 200,
+      "description": "Server-indexed casino reviews, payment guides, and crypto gambling resources for South Asian players. Pillar reviews for Stake, Bet365, 1xBet, and more.",
+      "length": 152,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/blogs/best-upi-casinos-indian-players",
+      "url": "https://casinopuls.site/blogs/best-upi-casinos-indian-players",
+      "status": 200,
+      "description": "Our top picks for casinos accepting UPI deposits with instant processing.",
+      "length": 73,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 73 < ideal 120"
+      ]
+    },
+    {
+      "path": "/blogs/cricket-betting-guide-ipl-2026",
+      "url": "https://casinopuls.site/blogs/cricket-betting-guide-ipl-2026",
+      "status": 200,
+      "description": "Everything you need to know about betting on IPL 2026 at trusted casinos.",
+      "length": 73,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 73 < ideal 120"
+      ]
+    },
+    {
+      "path": "/blogs/india-online-gambling-regulations-2026",
+      "url": "https://casinopuls.site/blogs/india-online-gambling-regulations-2026",
+      "status": 200,
+      "description": "Latest updates on India's online gambling landscape and what it means for players abroad.",
+      "length": 89,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 89 < ideal 120"
+      ]
+    },
+    {
+      "path": "/casinos",
+      "url": "https://casinopuls.site/casinos",
+      "status": 200,
+      "description": "Compare the top 40 online casinos for Indian and South Asian players. Expert reviews, payment context, editorial trust scores, and casinos to research carefully — updated for 2026.",
+      "length": 180,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 180 > 165"
+      ]
+    },
+    {
+      "path": "/compare",
+      "url": "https://casinopuls.site/compare",
+      "status": 200,
+      "description": "Compare top online casinos for India, Bangladesh, and Pakistan — crypto, UPI, JazzCash, bKash, bonuses, withdrawal speed, and editorial trust scores.",
+      "length": 149,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/contact",
+      "url": "https://casinopuls.site/contact",
+      "status": 200,
+      "description": "Contact CasinoPulse for editorial corrections, partnership inquiries, or general questions about our casino reviews and South Asia guides.",
+      "length": 138,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/cookies",
+      "url": "https://casinopuls.site/cookies",
+      "status": 200,
+      "description": "Cookie Policy for CasinoPulse — how we use cookies and similar technologies.",
+      "length": 76,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 76 < ideal 120"
+      ]
+    },
+    {
+      "path": "/crypto/bitcoin-casino",
+      "url": "https://casinopuls.site/crypto/bitcoin-casino",
+      "status": 200,
+      "description": "How Bitcoin casino deposits and withdrawals work for Indian players: confirmations, network fees, volatility, Lightning overview, security, and operator comparison tips.",
+      "length": 169,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 169 > 165"
+      ]
+    },
+    {
+      "path": "/crypto/dogecoin-casino",
+      "url": "https://casinopuls.site/crypto/dogecoin-casino",
+      "status": 200,
+      "description": "Dogecoin casino guide: DOGE deposits, confirmation times, fees, wallet safety, withdrawal risks, volatility notes, and network verification checklist.",
+      "length": 150,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/ethereum-casino",
+      "url": "https://casinopuls.site/crypto/ethereum-casino",
+      "status": 200,
+      "description": "Ethereum casino payments for Indian players: native ETH deposits, ERC-20 tokens, gas fees, congestion, wallet compatibility, and security checklist.",
+      "length": 148,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/litecoin-casino",
+      "url": "https://casinopuls.site/crypto/litecoin-casino",
+      "status": 200,
+      "description": "Litecoin casino guide: LTC deposits and withdrawals, confirmation times, network fees, wallet safety, volatility notes, and wrong-network prevention.",
+      "length": 149,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/polygon-casino",
+      "url": "https://casinopuls.site/crypto/polygon-casino",
+      "status": 200,
+      "description": "Polygon casino guide: MATIC and Polygon USDC deposits, bridge risks, wallet safety, network fees, confirmations, withdrawal risks, and cashier verification.",
+      "length": 156,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/solana-casino",
+      "url": "https://casinopuls.site/crypto/solana-casino",
+      "status": 200,
+      "description": "Solana casino guide: SOL and SPL token deposits, fast confirmations, wallet safety, network fees, withdrawal risks, and how to avoid wrong-network mistakes.",
+      "length": 156,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/tron-casino",
+      "url": "https://casinopuls.site/crypto/tron-casino",
+      "status": 200,
+      "description": "Tron casino payment guide: TRX and TRC-20 USDT deposits, low network fees, confirmation times, wallet safety, withdrawal risks, and operator comparison tips.",
+      "length": 157,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/usdt-casino",
+      "url": "https://casinopuls.site/crypto/usdt-casino",
+      "status": 200,
+      "description": "USDT casino guide for Indian players: TRC-20 vs ERC-20, deposit speed, withdrawal costs, peg risk, compliance notes, and operator comparison.",
+      "length": 141,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/usdt-erc20-casino",
+      "url": "https://casinopuls.site/crypto/usdt-erc20-casino",
+      "status": 200,
+      "description": "USDT ERC-20 casino guide: Ethereum mainnet deposits, gas fees, wallet safety, confirmations, withdrawal risks, and TRC-20 comparison notes.",
+      "length": 139,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/crypto/usdt-trc20-casino",
+      "url": "https://casinopuls.site/crypto/usdt-trc20-casino",
+      "status": 200,
+      "description": "USDT TRC-20 casino guide: Tron network deposits, low fees, wallet safety, confirmations, withdrawal risks, peg notes, and wrong-network prevention.",
+      "length": 147,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/editorial-policy",
+      "url": "https://casinopuls.site/editorial-policy",
+      "status": 200,
+      "description": "CasinoPulse editorial policy — independence standards, fact-checking, corrections, affiliate disclosure, and how we assess casino reviews and risk lists.",
+      "length": 153,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/editorial-team",
+      "url": "https://casinopuls.site/editorial-team",
+      "status": 200,
+      "description": "Meet the CasinoPulse editorial team — how we assign reviews, maintain methodology standards, and handle corrections for South Asia casino coverage.",
+      "length": 147,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/how-we-review",
+      "url": "https://casinopuls.site/how-we-review",
+      "status": 200,
+      "description": "Learn how CasinoPulse evaluates online casinos using transparent criteria covering safety, payments, bonuses, reputation, and player experience.",
+      "length": 144,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/india-casino-payments",
+      "url": "https://casinopuls.site/india-casino-payments",
+      "status": 200,
+      "description": "Complete guide to casino payment methods for Indian players — UPI, Paytm, PhonePe, IMPS, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "length": 167,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 167 > 165"
+      ]
+    },
+    {
+      "path": "/nepal-casino-payments",
+      "url": "https://casinopuls.site/nepal-casino-payments",
+      "status": 200,
+      "description": "Casino payment guide for Nepali players — mobile wallets, bank transfer, remittance context, crypto caution, security, legal notes, and responsible gambling.",
+      "length": 157,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/news",
+      "url": "https://casinopuls.site/news",
+      "status": 200,
+      "description": "Latest online casino news for Indian players — payments, regulation, sports betting, crypto, and live casino updates.",
+      "length": 117,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 117 < ideal 120"
+      ]
+    },
+    {
+      "path": "/nigeria-casino-payments",
+      "url": "https://casinopuls.site/nigeria-casino-payments",
+      "status": 200,
+      "description": "Casino payment guide for Nigerian players — bank transfer, cards, mobile money context, crypto fallback, security, legal cautions, and responsible gambling.",
+      "length": 156,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/pakistan-casino-payments",
+      "url": "https://casinopuls.site/pakistan-casino-payments",
+      "status": 200,
+      "description": "Complete guide to casino payment methods for Pakistani players — JazzCash, Easypaisa, bank transfer, cards, and crypto. Compare speeds, limits, security, and safe deposit options.",
+      "length": 179,
+      "verdict": "META_TOO_LONG",
+      "issues": [
+        "length 179 > 165"
+      ]
+    },
+    {
+      "path": "/payment/bkash",
+      "url": "https://casinopuls.site/payment/bkash",
+      "status": 200,
+      "description": "How bKash casino deposits may work for Bangladeshi players: deposit flow, speed, security, withdrawal expectations, and honest alternatives when bKash is blocked.",
+      "length": 162,
+      "verdict": "META_LONG",
+      "issues": [
+        "length 162 > ideal 160"
+      ]
+    },
+    {
+      "path": "/payment/easypaisa",
+      "url": "https://casinopuls.site/payment/easypaisa",
+      "status": 200,
+      "description": "How Easypaisa casino deposits may work for Pakistani players: wallet flow, speed, fees, KYC matching, scam warnings, and alternatives.",
+      "length": 134,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/payment/imps",
+      "url": "https://casinopuls.site/payment/imps",
+      "status": 200,
+      "description": "IMPS casino deposit guide: how bank transfers work, timing vs UPI, withdrawal expectations, safety checks, and alternatives for Indian players.",
+      "length": 143,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/payment/jazzcash",
+      "url": "https://casinopuls.site/payment/jazzcash",
+      "status": 200,
+      "description": "How JazzCash casino deposits may work for Pakistani players: deposit flow, speed, fees, KYC, agent scam warnings, and alternatives when JazzCash is blocked.",
+      "length": 156,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/payment/nagad",
+      "url": "https://casinopuls.site/payment/nagad",
+      "status": 200,
+      "description": "How Nagad casino deposits may work for Bangladeshi players: wallet flow, speed, security, withdrawal notes, and alternatives when Nagad is unavailable.",
+      "length": 151,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/payment/paytm",
+      "url": "https://casinopuls.site/payment/paytm",
+      "status": 200,
+      "description": "Guide to Paytm-friendly online casinos for Indian players. Learn deposit limits, alternatives when Paytm blocks gambling, UPI workarounds, and safe payment tips.",
+      "length": 161,
+      "verdict": "META_LONG",
+      "issues": [
+        "length 161 > ideal 160"
+      ]
+    },
+    {
+      "path": "/payment/phonepe",
+      "url": "https://casinopuls.site/payment/phonepe",
+      "status": 200,
+      "description": "PhonePe casino payment guide for Indian players. Learn how deposits may work, PhonePe vs UPI, withdrawal limits, security tips, and alternatives.",
+      "length": 145,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/payment/upi",
+      "url": "https://casinopuls.site/payment/upi",
+      "status": 200,
+      "description": "How UPI casino deposits work for Indian players: speed, limits, security, withdrawal expectations, and honest alternatives when UPI is blocked.",
+      "length": 143,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/philippines-casino-payments",
+      "url": "https://casinopuls.site/philippines-casino-payments",
+      "status": 200,
+      "description": "Casino payment guide for Filipino players — e-wallets, bank transfer, cards, crypto fallback, security, legal cautions, and responsible gambling resources.",
+      "length": 155,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/privacy",
+      "url": "https://casinopuls.site/privacy",
+      "status": 200,
+      "description": "Privacy Policy for CasinoPulse — how we collect, use, and protect your data.",
+      "length": 76,
+      "verdict": "META_SHORT",
+      "issues": [
+        "length 76 < ideal 120"
+      ]
+    },
+    {
+      "path": "/responsible-gambling",
+      "url": "https://casinopuls.site/responsible-gambling",
+      "status": 200,
+      "description": "Responsible gambling guidance from CasinoPulse — 18+ only, risk awareness, limits, self-exclusion, and help resources for players in South Asia.",
+      "length": 144,
+      "verdict": "META_OK",
+      "issues": []
+    },
+    {
+      "path": "/sri-lanka-casino-payments",
+      "url": "https://casinopuls.site/sri-lanka-casino-payments",
+      "status": 200,
+      "description": "Casino payment guide for Sri Lankan players — bank cards, e-wallets, crypto fallback, diaspora notes, security, legal cautions, and responsible gambling resources.",
+      "length": 163,
+      "verdict": "META_LONG",
+      "issues": [
+        "length 163 > ideal 160"
+      ]
+    },
+    {
+      "path": "/terms",
+      "url": "https://casinopuls.site/terms",
+      "status": 200,
+      "description": "Terms of Use for CasinoPulse — site usage rules, disclaimers, affiliate links, age restrictions, and limitation of liability.",
+      "length": 125,
+      "verdict": "META_OK",
+      "issues": []
+    }
+  ]
+}

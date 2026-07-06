@@ -3,7 +3,7 @@ export const siteConfig = {
   codename: "CasinoPulse",
   tagline: "Casino Reviews, Crypto Guides & Safety Resources for South Asia",
   description:
-    "CasinoPulse publishes independent casino reviews, crypto casino guides, payment guides, an editorial casino blacklist, review methodology, and responsible gambling resources for Bangladesh and South Asia.",
+    "Independent casino reviews, crypto casino guides, payment methods, blacklist reports, and responsible gambling resources for South Asian players.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://casinopuls.site",
   locale: "en",
   regions: ["BD", "IN", "PK", "LK", "GLOBAL"] as const,

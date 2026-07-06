@@ -206,6 +206,24 @@ export default function HowWeReviewPage() {
                 Compare Casinos
               </Link>
               <Link
+                href="/about"
+                className="rounded-lg border border-white/10 px-4 py-2 text-sm font-semibold text-gold-400 hover:border-gold-500/40"
+              >
+                About CasinoPulse
+              </Link>
+              <Link
+                href="/editorial-team"
+                className="rounded-lg border border-white/10 px-4 py-2 text-sm font-semibold text-gold-400 hover:border-gold-500/40"
+              >
+                Editorial Team
+              </Link>
+              <Link
+                href="/contact"
+                className="rounded-lg border border-white/10 px-4 py-2 text-sm font-semibold text-gold-400 hover:border-gold-500/40"
+              >
+                Contact
+              </Link>
+              <Link
                 href="/crypto/bitcoin-casino"
                 className="rounded-lg border border-white/10 px-4 py-2 text-sm font-semibold text-gold-400 hover:border-gold-500/40"
               >

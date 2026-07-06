@@ -112,6 +112,56 @@ export default function BlacklistPage() {
               .
             </p>
           </section>
+
+          <section className="mt-8 rounded-xl border border-white/10 bg-white/5 p-6">
+            <h2 className="font-display text-xl font-semibold text-white">Editorial resources</h2>
+            <p className="mt-3 text-sm leading-relaxed text-slate-400">
+              CasinoPulse is an editorial review site — not a regulator or operator. Use these pages
+              for methodology, transparency, and player safety context before choosing where to play.
+            </p>
+            <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+              <li>
+                <Link href="/about" className="text-gold-400 hover:text-gold-300">
+                  About CasinoPulse
+                </Link>
+              </li>
+              <li>
+                <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
+                  How We Review
+                </Link>
+              </li>
+              <li>
+                <Link href="/editorial-team" className="text-gold-400 hover:text-gold-300">
+                  Editorial Team
+                </Link>
+              </li>
+              <li>
+                <Link href="/editorial-policy" className="text-gold-400 hover:text-gold-300">
+                  Editorial Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
+                  Responsible Gambling
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare" className="text-gold-400 hover:text-gold-300">
+                  Compare Casinos
+                </Link>
+              </li>
+              <li>
+                <Link href="/india-casino-payments" className="text-gold-400 hover:text-gold-300">
+                  India Payments Hub
+                </Link>
+              </li>
+              <li>
+                <Link href="/crypto/bitcoin-casino" className="text-gold-400 hover:text-gold-300">
+                  Bitcoin Guide
+                </Link>
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
     </>

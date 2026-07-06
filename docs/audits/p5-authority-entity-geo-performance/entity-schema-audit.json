@@ -1,0 +1,33 @@
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T22:02:09.418Z",
+  "canonicalUrl": "https://casinopuls.site",
+  "pass": true,
+  "verdict": "ENTITY_SCHEMA_PASS",
+  "issueCount": 0,
+  "result": {
+    "path": "/",
+    "status": 200,
+    "checks": {
+      "hasOrgSchema": true,
+      "orgType": "NewsMediaOrganization",
+      "orgName": "CasinoPulse",
+      "orgUrl": "https://casinopuls.site",
+      "sameAs": [],
+      "logoUrl": "https://casinopuls.site/icon.png",
+      "logoStatus": 200,
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "url": "https://casinopuls.site/contact",
+        "availableLanguage": [
+          "English"
+        ]
+      },
+      "hasLocalBusiness": false
+    },
+    "issues": [],
+    "pass": true,
+    "verdict": "ENTITY_SCHEMA_PASS"
+  }
+}

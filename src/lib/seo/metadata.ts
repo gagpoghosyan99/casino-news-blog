@@ -33,6 +33,13 @@ export function buildPageMetadata({
     description,
     alternates: { canonical: url },
     robots: noIndex ? { index: false, follow: true } : { index: true, follow: true },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon.png", type: "image/png", sizes: "32x32" },
+      ],
+      apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    },
     openGraph: {
       type: "website",
       locale: siteConfig.locale,

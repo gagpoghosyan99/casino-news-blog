@@ -1,0 +1,1228 @@
+/: Breadcrumb=no Review=no
+/about: Breadcrumb=yes Review=no
+/author/casinopulse-editorial-team: Breadcrumb=yes Review=no
+/bangladesh-casino-payments: Breadcrumb=yes Review=no
+/blacklist: Breadcrumb=yes Review=no
+/blogs: Breadcrumb=yes Review=no
+/blogs/avoid-1xbet: Breadcrumb=yes Review=yes
+/blogs/avoid-22bet: Breadcrumb=yes Review=yes
+/blogs/avoid-7bit-casino: Breadcrumb=yes Review=no
+/blogs/avoid-betwinner: Breadcrumb=yes Review=yes
+/blogs/avoid-bovada: Breadcrumb=yes Review=yes
+/blogs/avoid-casino-extreme: Breadcrumb=yes Review=no
+/blogs/avoid-fairspin: Breadcrumb=yes Review=no
+/blogs/avoid-megapari: Breadcrumb=yes Review=no
+/blogs/avoid-melbet: Breadcrumb=yes Review=yes
+/blogs/avoid-mostbet: Breadcrumb=yes Review=yes
+/blogs/avoid-mystake: Breadcrumb=yes Review=no
+/blogs/avoid-nitrobetting: Breadcrumb=yes Review=no
+/blogs/avoid-parimatch: Breadcrumb=yes Review=yes
+/blogs/avoid-rabona: Breadcrumb=yes Review=no
+/blogs/avoid-vave: Breadcrumb=yes Review=yes
+/blogs/avoid-wild-casino: Breadcrumb=yes Review=yes
+/blogs/review-888-casino: Breadcrumb=yes Review=yes
+/blogs/review-bc-game: Breadcrumb=yes Review=yes
+/blogs/review-bet365: Breadcrumb=yes Review=yes
+/blogs/review-betus: Breadcrumb=yes Review=no
+/blogs/review-betway: Breadcrumb=yes Review=yes
+/blogs/review-bitcasino: Breadcrumb=yes Review=yes
+/blogs/review-cloudbet: Breadcrumb=yes Review=yes
+/blogs/review-draftkings-casino: Breadcrumb=yes Review=yes
+/blogs/review-duelbits: Breadcrumb=yes Review=yes
+/blogs/review-fanduel-casino: Breadcrumb=yes Review=no
+/blogs/review-fortunejack: Breadcrumb=yes Review=yes
+/blogs/review-gamdom: Breadcrumb=yes Review=yes
+/blogs/review-ignition-casino: Breadcrumb=yes Review=yes
+/blogs/review-jackbit: Breadcrumb=yes Review=no
+/blogs/review-leovegas: Breadcrumb=yes Review=yes
+/blogs/review-pin-up-casino: Breadcrumb=yes Review=yes
+/blogs/review-pokerstars-casino: Breadcrumb=yes Review=yes
+/blogs/review-rollbit: Breadcrumb=yes Review=yes
+/blogs/review-roobet: Breadcrumb=yes Review=yes
+/blogs/review-shuffle: Breadcrumb=yes Review=no
+/blogs/review-sportsbet-io: Breadcrumb=yes Review=yes
+/blogs/review-stake: Breadcrumb=yes Review=yes
+/blogs/review-tg-casino: Breadcrumb=yes Review=yes
+/blogs/review-thunderpick: Breadcrumb=yes Review=yes
+/casinos: Breadcrumb=yes Review=no
+/compare: Breadcrumb=yes Review=no
+/contact: Breadcrumb=yes Review=no
+/cookies: Breadcrumb=yes Review=no
+/crypto/bitcoin-casino: Breadcrumb=yes Review=no
+/crypto/dogecoin-casino: Breadcrumb=yes Review=no
+/crypto/ethereum-casino: Breadcrumb=yes Review=no
+/crypto/litecoin-casino: Breadcrumb=yes Review=no
+/crypto/polygon-casino: Breadcrumb=yes Review=no
+/crypto/solana-casino: Breadcrumb=yes Review=no
+/crypto/tron-casino: Breadcrumb=yes Review=no
+/crypto/usdt-casino: Breadcrumb=yes Review=no
+/crypto/usdt-erc20-casino: Breadcrumb=yes Review=no
+/crypto/usdt-trc20-casino: Breadcrumb=yes Review=no
+/editorial-policy: Breadcrumb=yes Review=no
+/editorial-team: Breadcrumb=yes Review=no
+/go/22bet: Breadcrumb=yes Review=no
+/how-we-review: Breadcrumb=yes Review=no
+/india-casino-payments: Breadcrumb=yes Review=no
+/nepal-casino-payments: Breadcrumb=yes Review=no
+/news: Breadcrumb=yes Review=no
+/news/news-1: Breadcrumb=yes Review=no
+/news/news-4: Breadcrumb=yes Review=no
+/nigeria-casino-payments: Breadcrumb=yes Review=no
+/pakistan-casino-payments: Breadcrumb=yes Review=no
+/payment/bkash: Breadcrumb=yes Review=no
+/payment/easypaisa: Breadcrumb=yes Review=no
+/payment/imps: Breadcrumb=yes Review=no
+/payment/jazzcash: Breadcrumb=yes Review=no
+/payment/nagad: Breadcrumb=yes Review=no
+/payment/paytm: Breadcrumb=yes Review=no
+/payment/phonepe: Breadcrumb=yes Review=no
+/payment/upi: Breadcrumb=yes Review=no
+/philippines-casino-payments: Breadcrumb=yes Review=no
+/privacy: Breadcrumb=yes Review=no
+/responsible-gambling: Breadcrumb=yes Review=no
+/sri-lanka-casino-payments: Breadcrumb=yes Review=no
+/terms: Breadcrumb=yes Review=no
+{
+  "baseUrl": "https://casinopuls.site",
+  "auditedAt": "2026-07-06T22:02:04.510Z",
+  "totalUrls": 84,
+  "breadcrumbCoverage": "83/84",
+  "results": [
+    {
+      "url": "/",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite"
+      ],
+      "hasBreadcrumbList": "no",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/about",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/author/casinopulse-editorial-team",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Person",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/bangladesh-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blacklist",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-1xbet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-22bet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-7bit-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-betwinner",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-bovada",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-casino-extreme",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-fairspin",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-megapari",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-melbet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-mostbet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-mystake",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-nitrobetting",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-parimatch",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-rabona",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-vave",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/avoid-wild-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-888-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-bc-game",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-bet365",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-betus",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-betway",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-bitcasino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-cloudbet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-draftkings-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-duelbits",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-fanduel-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-fortunejack",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-gamdom",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-ignition-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-jackbit",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-leovegas",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-pin-up-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-pokerstars-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-rollbit",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-roobet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-shuffle",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-sportsbet-io",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-stake",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-tg-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/blogs/review-thunderpick",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Review",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "yes",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/casinos",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/compare",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/contact",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/cookies",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/crypto/bitcoin-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/dogecoin-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/ethereum-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/litecoin-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/polygon-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/solana-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/tron-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/usdt-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/usdt-erc20-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/crypto/usdt-trc20-casino",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/editorial-policy",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/editorial-team",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "Person",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/go/22bet",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/how-we-review",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/india-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/nepal-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/news",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/news/news-1",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "NewsArticle",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/news/news-4",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "NewsArticle",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/nigeria-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/pakistan-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/bkash",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/easypaisa",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/imps",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/jazzcash",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/nagad",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/paytm",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/phonepe",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/payment/upi",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/philippines-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/privacy",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/responsible-gambling",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    },
+    {
+      "url": "/sri-lanka-casino-payments",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage",
+        "FAQPage"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "yes",
+      "errors": []
+    },
+    {
+      "url": "/terms",
+      "schemaTypes": [
+        "NewsMediaOrganization",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "hasBreadcrumbList": "yes",
+      "hasReview": "no",
+      "hasFAQPage": "no",
+      "errors": []
+    }
+  ]
+}

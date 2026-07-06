@@ -1,0 +1,24 @@
+=== Live Validation 2026-07-06T22:02:21Z ===
+/ -> HTTP 200 | text/html; charset=utf-8
+/llms.txt -> HTTP 200 | text/plain; charset=UTF-8
+/favicon.ico -> HTTP 200 | image/x-icon
+/apple-touch-icon.png -> HTTP 200 | image/png
+/manifest.webmanifest -> HTTP 200 | application/manifest+json
+/about -> HTTP 200 | text/html; charset=utf-8
+/editorial-team -> HTTP 200 | text/html; charset=utf-8
+/how-we-review -> HTTP 200 | text/html; charset=utf-8
+/responsible-gambling -> HTTP 200 | text/html; charset=utf-8
+/contact -> HTTP 200 | text/html; charset=utf-8
+/go/stake -> HTTP 307 | x-robots-tag: noindex, nofollow
+www: 301
+sitemap count: 83
+sitemap bad URLs:
+(none)
+llms.txt head:
+# CasinoPulse — LLM Crawler Summary
+# Canonical: https://casinopuls.site
+# Last updated: 2026-07-07
+
+> CasinoPulse is an editorial review and resource site — not a licensed gambling operator, casino, or payment processor.
+homepage meta:
+name="description" content="Independent casino reviews, crypto casino guides, payment methods, blacklist reports, and responsible gambling resources for South Asian players."

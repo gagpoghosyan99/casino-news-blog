@@ -7,6 +7,18 @@ export function organizationSchema() {
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.description,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.url}/icon.png`,
+      width: 32,
+      height: 32,
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      url: `${siteConfig.url}/contact`,
+      availableLanguage: ["English"],
+    },
   };
 }
 

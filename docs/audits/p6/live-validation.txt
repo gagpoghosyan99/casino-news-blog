@@ -2,3 +2,13 @@
 /blogs/review-betus -> HTTP 200
 /blogs/review-fanduel-casino -> HTTP 200
 /blogs/review-jackbit -> HTTP 200
+/blogs/review-shuffle -> HTTP 200
+/blogs/avoid-7bit-casino -> HTTP 200
+/blogs/avoid-casino-extreme -> HTTP 200
+/blogs/avoid-fairspin -> HTTP 200
+/blogs/avoid-megapari -> HTTP 200
+/blogs/avoid-mystake -> HTTP 200
+/blogs/avoid-nitrobetting -> HTTP 200
+/blogs/avoid-rabona -> HTTP 200
+/llms.txt -> HTTP 200
+/go/stake -> HTTP 307 | x-robots-tag: noindex, nofollow

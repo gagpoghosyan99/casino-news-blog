@@ -1,0 +1,123 @@
+=== P7 Live Validation 2026-07-06T23:08:37Z ===
+--- https://casinopuls.site/
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:37 GMT
+content-type: text/html; charset=utf-8
+content-length: 133714
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- https://www.casinopuls.site/
+HTTP/2 301 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html
+content-length: 178
+location: https://casinopuls.site/
+
+--- https://casinopuls.site/sitemap.xml
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: application/xml
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+x-nextjs-cache: HIT
+cache-control: public, max-age=0, must-revalidate
+
+--- https://casinopuls.site/llms.txt
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 4462
+accept-ranges: bytes
+cache-control: public, max-age=0
+last-modified: Mon, 06 Jul 2026 23:06:54 GMT
+etag: W/"116e-19f39af3fd3"
+vary: Accept-Encoding
+
+--- https://casinopuls.site/go/stake
+HTTP/2 307 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+location: https://casinopuls.site/contact
+x-robots-tag: noindex, nofollow
+
+--- https://casinopuls.site/crypto/usdt-trc20-casino
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html; charset=utf-8
+content-length: 78846
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- https://casinopuls.site/bangladesh-casino-payments
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html; charset=utf-8
+content-length: 79220
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- https://casinopuls.site/blacklist
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html; charset=utf-8
+content-length: 52940
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- https://casinopuls.site/how-we-review
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html; charset=utf-8
+content-length: 65706
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- https://casinopuls.site/compare
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Mon, 06 Jul 2026 23:08:38 GMT
+content-type: text/html; charset=utf-8
+content-length: 80238
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+x-powered-by: Next.js
+cache-control: s-maxage=31536000
+--- sitemap grep
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+GREP_MATCH_FOUND
+
+--- sitemap loc grep (canonical URLs only)
+LOC_GREP_CLEAN

@@ -114,6 +114,50 @@ export default function BlacklistPage() {
           </section>
 
           <section className="mt-8 rounded-xl border border-white/10 bg-white/5 p-6">
+            <h2 className="font-display text-xl font-semibold text-white">
+              How CasinoPulse Blacklist Entries Are Chosen
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-slate-400">
+              Listings reflect recurring editorial risk indicators — not court rulings or regulator
+              orders. We weigh publicly visible complaint themes, bonus transparency, withdrawal
+              process clarity, licensing footer readability, and alignment with our{" "}
+              <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
+                review methodology
+              </Link>
+              . Operators can request corrections via{" "}
+              <Link href="/contact" className="text-gold-400 hover:text-gold-300">
+                Contact
+              </Link>{" "}
+              with verifiable evidence. Blacklist placement does not buy removal — commercial
+              relationships do not override editorial risk notes.
+            </p>
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-slate-400">
+              <li>High-search brands with elevated complaint velocity may receive caution reviews or blacklist notes.</li>
+              <li>We do not state unverified fraud accusations as established facts.</li>
+              <li>Players should exercise caution and compare alternatives on{" "}
+                <Link href="/compare" className="text-gold-400 hover:text-gold-300">
+                  Compare Casinos
+                </Link>
+                .
+              </li>
+              <li>For payment context see{" "}
+                <Link href="/bangladesh-casino-payments" className="text-gold-400 hover:text-gold-300">
+                  Bangladesh payments
+                </Link>
+                ,{" "}
+                <Link href="/india-casino-payments" className="text-gold-400 hover:text-gold-300">
+                  India payments
+                </Link>
+                , and{" "}
+                <Link href="/crypto/usdt-trc20-casino" className="text-gold-400 hover:text-gold-300">
+                  USDT TRC-20 guide
+                </Link>
+                .
+              </li>
+            </ul>
+          </section>
+
+          <section className="mt-8 rounded-xl border border-white/10 bg-white/5 p-6">
             <h2 className="font-display text-xl font-semibold text-white">Editorial resources</h2>
             <p className="mt-3 text-sm leading-relaxed text-slate-400">
               CasinoPulse is an editorial review site — not a regulator or operator. Use these pages

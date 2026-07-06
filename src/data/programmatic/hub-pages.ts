@@ -165,6 +165,14 @@ export const hubPages: ProgrammaticPage[] = [
         body: "Guides: [bKash](/payment/bkash), [Nagad](/payment/nagad), [USDT](/crypto/usdt-casino), [Bitcoin](/crypto/bitcoin-casino). India context: [India payments hub](/india-casino-payments). Reviews: [PokerStars](/blogs/review-pokerstars-casino), [888 Casino](/blogs/review-888-casino), [Stake](/blogs/review-stake).",
       },
       {
+        heading: "Payment Method Comparison Table (Bangladesh)",
+        body: "Editorial summary only — not operator SLAs. Verify both deposit and withdrawal paths after login.\n\n| Method | Typical speed | Common friction | Withdrawal note |\n|--------|---------------|-----------------|----------------|\n| bKash | Minutes when supported | Merchant blocks, agent scams | May not mirror deposit rail |\n| Nagad | Similar to bKash | Separate wallet risk rules | Confirm in cashier |\n| Bank transfer | Hours to 1 business day | Beneficiary verification | Not guaranteed for BD accounts |\n| USDT TRC-20 | Network-dependent | Wrong-chain irreversible | KYC often required first |\n| Bitcoin | Network-dependent | Volatility vs BDT/USD | Confirm network in cashier |\n\nDeep dives: [bKash](/payment/bkash), [Nagad](/payment/nagad), [USDT TRC-20](/crypto/usdt-trc20-casino). Compare operators on [/compare](/compare).",
+      },
+      {
+        heading: "Agent Scam Prevention Checklist",
+        body: "Bangladeshi players frequently encounter Telegram or Facebook agents offering 'guaranteed' casino deposits via personal bKash or Nagad numbers. CasinoPulse editorial guidance: never pay individuals claiming to represent an operator; deposit only through the logged-in official cashier; keep wallet OTPs private; screenshot official payment instructions with timestamps; if MFS fails, read [USDT TRC-20](/crypto/usdt-trc20-casino) before on-chain transfers — confirm network labels. Report suspected fraud to your wallet provider — CasinoPulse does not investigate criminal cases.",
+      },
+      {
         heading: "bKash and Nagad Verification Notes",
         body: "Wallet merchant blocks are common when gambling descriptors appear on statements. After login, screenshot bKash or Nagad options in the cashier — not on marketing landing pages. Never pay agents on Telegram claiming to represent a casino. If MFS fails, read our [USDT guide](/crypto/usdt-casino) before switching to crypto. Compare brands on the [comparison hub](/compare) only after confirming withdrawal paths. Follow [responsible gambling](/responsible-gambling) limits. 18+ only.",
       },

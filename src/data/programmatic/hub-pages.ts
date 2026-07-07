@@ -29,7 +29,7 @@ export const hubPages: ProgrammaticPage[] = [
       },
       {
         heading: "UPI Overview for Casino Players",
-        body: "Unified Payments Interface (UPI) is India's default rail for peer-to-peer and merchant transfers. For casino deposits, UPI may appear inside an operator cashier via a payment aggregator — not every brand supports it, and NPCI or bank policies can block gambling merchants without warning. Before sending funds: confirm the UPI ID or QR is displayed inside the logged-in cashier; save the UTR (Unique Transaction Reference) for every transfer; never pay QR codes shared on Telegram or WhatsApp claiming to be casino agents. Deep dive: [UPI casino guide](/payment/upi).",
+        body: "Unified Payments Interface (UPI) is India's default rail for peer-to-peer and merchant transfers. For casino deposits, UPI may appear inside an operator cashier via a payment aggregator — not every brand supports it, and NPCI or bank policies can block gambling merchants without warning. Before sending funds: confirm the UPI ID or QR is displayed inside the logged-in cashier; save the UTR (Unique Transaction Reference) for every transfer; never pay QR codes shared on Telegram or WhatsApp claiming to be casino agents. Deep dive: [UPI casino guide](/payment/upi). Regional context: [South Asia payment report 2026](/reports/south-asia-casino-payments-2026).",
       },
       {
         heading: "Payment Method Comparison Table (India)",
@@ -168,7 +168,7 @@ export const hubPages: ProgrammaticPage[] = [
     sections: [
       {
         heading: "Overview of Casino Payments in Bangladesh",
-        body: "Most Bangladeshi players encounter three realities: familiar MFS wallets (bKash, Nagad), inconsistent direct support at offshore casinos, and crypto as a fallback when wallets fail. CasinoPulse does not process payments. We document how players should verify cashier instructions, avoid agent scams, and test small deposits before larger transfers.",
+        body: "Most Bangladeshi players encounter three realities: familiar MFS wallets (bKash, Nagad), inconsistent direct support at offshore casinos, and crypto as a fallback when wallets fail. CasinoPulse does not process payments. We document how players should verify cashier instructions, avoid agent scams, and test small deposits before larger transfers. Regional comparison: [South Asia casino payment report 2026](/reports/south-asia-casino-payments-2026).",
       },
       {
         heading: "Casino Payment Methods Bangladesh Players Use",
@@ -403,7 +403,7 @@ export const hubPages: ProgrammaticPage[] = [
     sections: [
       {
         heading: "How CasinoPulse Compares Casinos",
-        body: "Our weighted model covers safety and licensing (25%), payments and withdrawals (20%), bonuses (15%), games (15%), UX (10%), support (10%), and reputation/complaints (5%). Full methodology: [How We Review](/how-we-review). Pillar reviews carry Review schema; checklist pages do not. Commercial relationships do not buy higher scores.",
+        body: "Our weighted model covers safety and licensing (25%), payments and withdrawals (20%), bonuses (15%), games (15%), UX (10%), support (10%), and reputation/complaints (5%). Full methodology: [How We Review](/how-we-review). For regional payment context see the [South Asia casino payment methods report](/reports/south-asia-casino-payments-2026). Pillar reviews carry Review schema; checklist pages do not. Commercial relationships do not buy higher scores.",
       },
       {
         heading: "Best for Crypto Users",

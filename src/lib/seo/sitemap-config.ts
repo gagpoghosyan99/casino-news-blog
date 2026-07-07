@@ -36,7 +36,7 @@ export function buildProgrammaticSitemapRoutes(): MetadataRoute.Sitemap {
       url: `${base}${route.path}`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
-      priority: route.kind === "hub" ? 0.85 : 0.8,
+      priority: route.kind === "hub" ? 0.85 : route.kind === "report" ? 0.88 : 0.8,
     }));
 }
 

@@ -2,6 +2,7 @@ import Link from "next/link";
 import GlassCard from "@/components/ui/GlassCard";
 
 const authorityLinks = [
+  { href: "/reports/south-asia-casino-payments-2026", label: "2026 payment report" },
   { href: "/blogs", label: "Casino reviews" },
   { href: "/casinos", label: "Casino directory" },
   { href: "/compare", label: "Compare casinos" },
@@ -32,6 +33,13 @@ export default function HomeAuthoritySection() {
             Start with our methodology, compare brands by trust and payments, then read pillar reviews
             before any deposit. Availability of bonuses and payment rails varies by region and can
             change without notice — always verify inside the official cashier after login.
+          </p>
+          <p className="mt-4 leading-relaxed text-slate-400">
+            Read our{" "}
+            <Link href="/reports/south-asia-casino-payments-2026" className="text-gold-400 hover:text-gold-300">
+              South Asia casino payment methods report
+            </Link>{" "}
+            for a regional comparison of UPI, MFS wallets, bank rails, and crypto — updated for 2026.
           </p>
           <ul className="mt-8 flex flex-wrap gap-3">
             {authorityLinks.map((link) => (

@@ -165,6 +165,11 @@ export default function BlacklistPage() {
             </p>
             <ul className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
               <li>
+                <Link href="/reports/south-asia-casino-payments-2026" className="text-gold-400 hover:text-gold-300">
+                  South Asia payment report 2026
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="text-gold-400 hover:text-gold-300">
                   About CasinoPulse
                 </Link>

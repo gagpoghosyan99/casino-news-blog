@@ -6,6 +6,7 @@ import {
   getIndexablePaymentPages,
   getPaymentPageBySlug,
 } from "@/data/programmatic";
+import { REPORT_PATH, southAsiaCasinoPaymentsReport2026 } from "@/data/reports/south-asia-casino-payments-2026";
 import type { RouteRegistryEntry } from "@/types/programmatic";
 
 function cryptoRoutes(): RouteRegistryEntry[] {
@@ -35,8 +36,19 @@ function hubRoutes(): RouteRegistryEntry[] {
   }));
 }
 
+function reportRoutes(): RouteRegistryEntry[] {
+  return [
+    {
+      path: REPORT_PATH,
+      kind: "report",
+      slug: southAsiaCasinoPaymentsReport2026.slug,
+      indexable: southAsiaCasinoPaymentsReport2026.indexable,
+    },
+  ];
+}
+
 export function getAllRegistryRoutes(): RouteRegistryEntry[] {
-  return [...cryptoRoutes(), ...paymentRoutes(), ...hubRoutes()];
+  return [...cryptoRoutes(), ...paymentRoutes(), ...hubRoutes(), ...reportRoutes()];
 }
 
 export function getRegistryRouteByPath(path: string): RouteRegistryEntry | undefined {
@@ -53,6 +65,9 @@ export function hasBackingData(entry: RouteRegistryEntry): boolean {
   }
   if (entry.kind === "hub" && entry.slug) {
     return Boolean(getHubPageBySlug(entry.slug));
+  }
+  if (entry.kind === "report" && entry.slug) {
+    return entry.slug === southAsiaCasinoPaymentsReport2026.slug;
   }
   return false;
 }

@@ -1,5 +1,14 @@
 export const internalSeoLinks = [
   {
+    href: "/reports/south-asia-casino-payments-2026",
+    title: "South Asia Casino Payment Report 2026",
+    description:
+      "Regional comparison of UPI, bKash, JazzCash, bank transfer, and crypto for casino payments across South Asia.",
+    category: "Payment Guides",
+    footerLabel: "Payment Report 2026",
+    cta: "Read report",
+  },
+  {
     href: "/crypto/usdt-casino",
     title: "Best USDT Casinos",
     description:

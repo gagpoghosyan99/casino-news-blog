@@ -2,7 +2,7 @@
 
 Updated: 2026-07-07  
 Asset type: **Linkable authority report** (planned publication)  
-Target URL (proposed): `/reports/south-asia-casino-payments-2026` or PDF + landing page
+Target URL (proposed): `/reports/south-asia-casino-payments-2026` — **PUBLISHED 2026-07-07**
 
 ## Executive summary (planned)
 

@@ -33,7 +33,7 @@ export interface ProgrammaticPage {
   keywords: string[];
 }
 
-export type ProgrammaticRouteKind = "crypto" | "payment" | "hub";
+export type ProgrammaticRouteKind = "crypto" | "payment" | "hub" | "report";
 
 export interface RouteRegistryEntry {
   path: string;

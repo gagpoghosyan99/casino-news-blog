@@ -15,7 +15,7 @@ P10 delivered a **live, citation-worthy authority report** at `/reports/south-as
 
 | Item | Result |
 |------|--------|
-| **Commit** | (pending commit) |
+| **Commit** | `e05f554` |
 | **Build** | PASS |
 | **PM2** | `casino-news-blog` online |
 | **Push** | Expected fail — SSH publickey denied |

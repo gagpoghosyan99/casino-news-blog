@@ -1,0 +1,62 @@
+=== P11 Live Validation 2026-07-07T11:14:23Z ===
+--- https://casinopuls.site/
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:23 GMT
+content-type: text/html; charset=utf-8
+content-length: 89782
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+--- https://www.casinopuls.site/
+HTTP/2 301 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+content-type: text/html
+content-length: 178
+location: https://casinopuls.site/
+
+--- https://casinopuls.site/reports/south-asia-casino-payments-2026
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+content-type: text/html; charset=utf-8
+content-length: 93657
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+--- https://casinopuls.site/compare
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+content-type: text/html; charset=utf-8
+content-length: 92475
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+--- https://casinopuls.site/india-casino-payments
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+content-type: text/html; charset=utf-8
+content-length: 110066
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+--- https://casinopuls.site/go/stake
+HTTP/2 307 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+location: https://casinopuls.site/contact
+x-robots-tag: noindex, nofollow
+
+--- https://casinopuls.site/llms.txt
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 11:14:24 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 4462
+accept-ranges: bytes
+cache-control: public, max-age=0
+last-modified: Tue, 07 Jul 2026 11:14:17 GMT

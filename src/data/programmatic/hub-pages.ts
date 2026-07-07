@@ -12,6 +12,22 @@ export const hubPages: ProgrammaticPage[] = [
       "Choosing the right deposit and withdrawal method is critical for Indian casino players. This authority hub compares UPI, Paytm, PhonePe, IMPS, cards, and cryptocurrency — with honest notes on speed, limits, blocks, and what to verify before sending money. Payment availability can change; always confirm in the operator cashier after login.",
     sections: [
       {
+        heading: "UPI Limits and Transaction Caps (Editorial Reference)",
+        body: "NPCI and participating banks set UPI limits that affect how much you can send per transaction and per day. These limits change over time and vary by bank — always check your banking app for current caps.\n\n| Limit type | Typical range (indicative) | Casino relevance |\n|------------|---------------------------|------------------|\n| Per-transaction | Often ₹1 lakh for many retail users | May cap single deposit size |\n| Per-day | Bank-dependent cumulative cap | Multiple deposits may hit ceiling |\n| New UPI user / new device | Lower limits for ~24–72 hours | First-time casino deposit may fail |\n| Merchant / P2M | Aggregator-dependent | Gambling MCC may be blocked entirely |\n\nLimits are not operator-specific — a decline may be your bank, not the casino. Keep UTR references when retrying. Full flow: [UPI casino guide](/payment/upi).",
+      },
+      {
+        heading: "Payment Restrictions and Merchant Blocks",
+        body: "Indian banks, NPCI, and wallet apps apply gambling-related merchant category filters. Restrictions players commonly encounter:\n\n- **UPI decline** with generic error — gambling MCC blocked at issuer or PSP level\n- **Paytm / PhonePe block** — wallet risk engine rejects descriptor even when bank UPI works\n- **Card decline** — domestic debit/credit frequently blocked for offshore gambling\n- **IMPS beneficiary mismatch** — wrong reference code causes failed or delayed credit\n- **Withdrawal rail mismatch** — UPI deposit accepted but only crypto withdrawal offered\n\nRestrictions can appear without warning after a previously working deposit. Test a small amount after any app or bank update. Compare alternatives on [/compare](/compare) only after verifying both deposit and withdrawal paths in the cashier.",
+      },
+      {
+        heading: "Deposit Methods Available to Indian Players",
+        body: "Editorial summary of rails Indian players attempt at offshore casinos — availability is operator-specific.\n\n| Method | How it usually works | Verify in cashier |\n|--------|---------------------|-------------------|\n| UPI | QR or VPA via payment aggregator | UPI ID matches logged-in session |\n| Paytm / PhonePe | Often UPI-backed or wallet redirect | Descriptor and amount exact |\n| IMPS / NEFT | Bank transfer to displayed beneficiary | Reference code copied correctly |\n| Debit/credit card | Direct card gateway | 3DS and issuer approval |\n| USDT / BTC | On-chain to operator wallet address | Network label (TRC-20 vs ERC-20) |\n\nGuides: [UPI](/payment/upi), [Paytm](/payment/paytm), [PhonePe](/payment/phonepe), [IMPS](/payment/imps), [USDT TRC-20](/crypto/usdt-trc20-casino), [Bitcoin](/crypto/bitcoin-casino).",
+      },
+      {
+        heading: "Withdrawal Methods and Expectations",
+        body: "Withdrawal paths frequently differ from deposit rails at offshore operators.\n\n| Method | Typical availability | Friction |\n|--------|---------------------|----------|\n| UPI / IMPS to Indian account | Uncommon at crypto-first brands | KYC + aggregator support required |\n| Crypto (USDT/BTC) | Common after crypto or fiat deposit | Network fees; wrong-chain irreversible |\n| E-wallets (Skrill, Neteller) | Some fiat-oriented mirrors | Account verification |\n| Bank wire | Larger withdrawals at select brands | Processing days; intermediary fees |\n\n**Best practice:** request a small test withdrawal before large deposits. Read operator terms for minimum withdrawal, fees, and KYC triggers. Reviews with withdrawal notes: [Bet365](/blogs/review-bet365), [LeoVegas](/blogs/review-leovegas), [Stake](/blogs/review-stake).",
+      },
+      {
         heading: "UPI Overview for Casino Players",
         body: "Unified Payments Interface (UPI) is India's default rail for peer-to-peer and merchant transfers. For casino deposits, UPI may appear inside an operator cashier via a payment aggregator — not every brand supports it, and NPCI or bank policies can block gambling merchants without warning. Before sending funds: confirm the UPI ID or QR is displayed inside the logged-in cashier; save the UTR (Unique Transaction Reference) for every transfer; never pay QR codes shared on Telegram or WhatsApp claiming to be casino agents. Deep dive: [UPI casino guide](/payment/upi).",
       },
@@ -77,6 +93,21 @@ export const hubPages: ProgrammaticPage[] = [
       },
     ],
     faqs: [
+      {
+        question: "What are typical UPI limits for casino deposits?",
+        answer:
+          "UPI per-transaction and daily limits depend on your bank and NPCI rules — commonly up to ₹1 lakh per transaction for many users, but new devices and new UPI registrations may have lower caps for 24–72 hours. Gambling merchants may be blocked regardless of limit. Check your banking app and keep UTR references if a payment fails.",
+      },
+      {
+        question: "Why might Paytm work but PhonePe fail for the same casino?",
+        answer:
+          "Both use UPI technology but apply independent risk filters and merchant blocklists. A decline on one wallet does not predict the outcome on another or on direct bank UPI.",
+      },
+      {
+        question: "Can I withdraw to UPI after depositing with crypto?",
+        answer:
+          "Usually no — operators typically require withdrawals via the same category of method used for deposit, or default to crypto/e-wallet. Confirm withdrawal options in the cashier before your first deposit.",
+      },
       {
         question: "What is the best payment method for Indian casino players?",
         answer:

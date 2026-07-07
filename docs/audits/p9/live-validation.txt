@@ -1,0 +1,72 @@
+=== P9 Live Validation 2026-07-07T09:39:00Z ===
+--- https://casinopuls.site/
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:00 GMT
+content-type: text/html; charset=utf-8
+content-length: 85826
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+--- https://www.casinopuls.site/
+HTTP/2 301 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:00 GMT
+content-type: text/html
+content-length: 178
+location: https://casinopuls.site/
+
+--- https://casinopuls.site/compare
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:00 GMT
+content-type: text/html; charset=utf-8
+content-length: 91621
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+--- https://casinopuls.site/blacklist
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:01 GMT
+content-type: text/html; charset=utf-8
+content-length: 52940
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+--- https://casinopuls.site/india-casino-payments
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:01 GMT
+content-type: text/html; charset=utf-8
+content-length: 89691
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+x-nextjs-prerender: 1
+x-nextjs-prerender: 1
+x-nextjs-stale-time: 300
+--- https://casinopuls.site/go/stake
+HTTP/2 307 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:01 GMT
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+location: https://casinopuls.site/contact
+x-robots-tag: noindex, nofollow
+
+--- https://casinopuls.site/llms.txt
+HTTP/2 200 
+server: nginx/1.24.0 (Ubuntu)
+date: Tue, 07 Jul 2026 09:39:01 GMT
+content-type: text/plain; charset=UTF-8
+content-length: 4462
+accept-ranges: bytes
+cache-control: public, max-age=0
+last-modified: Tue, 07 Jul 2026 09:38:52 GMT
+etag: W/"116e-19f3bf1d4ae"
+vary: Accept-Encoding

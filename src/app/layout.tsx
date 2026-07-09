@@ -3,9 +3,7 @@ import Script from "next/script";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import CookieConsent from "@/components/CookieConsent";
+import LayoutShell from "@/components/LayoutShell";
 import { siteConfig } from "@/config/site";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { organizationSchema, websiteSchema } from "@/lib/seo/schema";
@@ -57,10 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
         <Providers>
           <div className="flex min-h-screen flex-col">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-            <CookieConsent />
+            <LayoutShell>{children}</LayoutShell>
           </div>
         </Providers>
       </body>

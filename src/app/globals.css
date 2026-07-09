@@ -191,6 +191,109 @@
     border-style: solid;
     background: transparent;
   }
+
+  /* Hero spotlight animations */
+  @keyframes heroReveal {
+    0% {
+      opacity: 0;
+      filter: blur(12px);
+      transform: translateY(16px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes heroFadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes heroZoom {
+    0% {
+      transform: scale(1.08);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes floatSlow {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes glowPulse {
+    0%,
+    100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes shineButton {
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: -200% center;
+    }
+  }
+
+  .animate-heroReveal {
+    animation: heroReveal 1s ease-out both;
+  }
+
+  .animate-heroFadeUp {
+    animation: heroFadeUp 0.9s ease-out both;
+  }
+
+  .animate-heroZoom {
+    animation: heroZoom 2.5s ease-out both;
+  }
+
+  .animate-floatSlow {
+    animation: floatSlow 6s ease-in-out infinite;
+  }
+
+  .animate-glowPulse {
+    animation: glowPulse 3s ease-in-out infinite;
+  }
+
+  .shine-button {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shine-button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      105deg,
+      transparent 35%,
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 65%
+    );
+    background-size: 200% 100%;
+    animation: shineButton 3s ease-in-out infinite;
+    pointer-events: none;
+  }
 }
 
 @layer utilities {

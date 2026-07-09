@@ -69,6 +69,11 @@ const config: Config = {
         "spin-slow": "spin 24s linear infinite",
         "pulse-glow": "pulseGlow 3s ease-in-out infinite",
         shine: "shine 3s ease-in-out infinite",
+        heroReveal: "heroReveal 1s ease-out both",
+        heroFadeUp: "heroFadeUp 0.9s ease-out both",
+        heroZoom: "heroZoom 2.5s ease-out both",
+        floatSlow: "floatSlow 6s ease-in-out infinite",
+        glowPulse: "glowPulse 3s ease-in-out infinite",
       },
       keyframes: {
         fadeIn: {

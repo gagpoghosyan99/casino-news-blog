@@ -1,4 +1,4 @@
-import Hero from "@/components/hero/Hero";
+import ZeoneBetHero from "@/components/hero/ZeoneBetHero";
 import InternalSeoGuidesSection from "@/components/home/InternalSeoGuidesSection";
 import TrustIndicators from "@/components/landing/TrustIndicators";
 import CasinoRankingTable from "@/components/landing/CasinoRankingTable";
@@ -12,7 +12,7 @@ import LandingResponsibleGambling from "@/components/landing/LandingResponsibleG
 export default function HomePage() {
   return (
     <div className="zb-page-bg">
-      <Hero />
+      <ZeoneBetHero />
       <TrustIndicators />
       <CasinoRankingTable />
       <JackpotWinners />

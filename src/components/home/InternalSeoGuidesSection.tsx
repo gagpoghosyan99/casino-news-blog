@@ -17,7 +17,7 @@ export default function InternalSeoGuidesSection() {
         <SectionHeader
           eyebrow="Player Resources"
           title="Crypto & Payment Casino Guides"
-          subtitle="Explore CasinoPulse guides for crypto casinos, payment methods, and safe casino comparisons."
+          subtitle="Explore ZEONEBET guides for crypto casinos, payment methods, and safe casino comparisons."
           href="/india-casino-payments"
           linkLabel="View all payment guides"
         />

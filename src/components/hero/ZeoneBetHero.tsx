@@ -133,14 +133,16 @@ export default function ZeoneBetHero() {
 
           <h1 className="leading-[0.95] text-white">
             <span
-              className="hero-anim hero-reveal font-playfair block text-5xl font-normal italic sm:text-7xl md:text-8xl"
-              style={{ letterSpacing: "-0.05em", animationDelay: "0.25s" }}
+              className="hero-anim hero-reveal font-display block text-5xl font-bold tracking-tight sm:text-7xl md:text-8xl"
+              style={{ letterSpacing: "-0.04em", animationDelay: "0.25s" }}
             >
-              Casino Intelligence
+              <span className="bg-gradient-to-r from-[#f4c542] via-[#d4af37] to-cyan-400 bg-clip-text text-transparent">
+                Casino Intelligence
+              </span>
             </span>
             <span
-              className="hero-anim hero-reveal -mt-1 block text-5xl font-normal sm:text-7xl md:text-8xl"
-              style={{ letterSpacing: "-0.08em", animationDelay: "0.42s" }}
+              className="hero-anim hero-reveal font-display -mt-1 block text-5xl font-bold tracking-tight sm:text-7xl md:text-8xl"
+              style={{ letterSpacing: "-0.06em", animationDelay: "0.42s" }}
             >
               Built For Winners
             </span>
@@ -155,24 +157,24 @@ export default function ZeoneBetHero() {
           </p>
 
           <div
-            className="hero-anim hero-fade pointer-events-auto relative z-50 mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row"
+            className="hero-anim hero-fade pointer-events-auto relative z-50 mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center"
             style={{ animationDelay: "0.72s" }}
           >
             <Link
               href="/casinos"
-              className="w-full rounded-full bg-[#d4af37] px-7 py-3 text-sm font-semibold text-black transition-all hover:scale-[1.03] hover:bg-[#f4c542] hover:shadow-lg hover:shadow-[#d4af37]/30 active:scale-95 sm:w-auto"
+              className="hero-cta-gold w-full rounded-full px-8 py-3.5 text-center text-sm font-bold text-black sm:w-auto sm:min-w-[200px]"
             >
               Explore Trusted Casinos
             </Link>
             <Link
               href="/#bonuses"
-              className="w-full rounded-full border border-cyan-400/40 bg-cyan-500/10 px-7 py-3 text-sm font-semibold text-cyan-300 backdrop-blur-md transition-all hover:bg-cyan-500/20 sm:w-auto"
+              className="hero-cta-cyan w-full rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[180px]"
             >
               Claim Bonuses
             </Link>
             <Link
               href="/#jackpots"
-              className="w-full rounded-full border border-white/15 bg-white/5 px-7 py-3 text-sm font-semibold text-white/80 backdrop-blur-md transition-all hover:bg-white/10 hover:text-white sm:w-auto"
+              className="hero-cta-outline w-full rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[200px]"
             >
               View Jackpot Winners
             </Link>

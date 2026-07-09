@@ -177,6 +177,20 @@
     animation: shine 3s ease-in-out infinite;
     pointer-events: none;
   }
+
+  .globe-stage {
+    transform-style: preserve-3d;
+  }
+
+  .globe-orbit-container {
+    transform-style: preserve-3d;
+  }
+
+  .globe-orbit-ring {
+    transform-style: preserve-3d;
+    border-style: solid;
+    background: transparent;
+  }
 }
 
 @layer utilities {

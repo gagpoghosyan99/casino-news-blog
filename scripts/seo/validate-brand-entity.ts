@@ -68,17 +68,17 @@ function validateForbiddenBrandStrings(): ValidationIssue[] {
 function validateCanonicalBrandConfig(): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
 
-  if (siteConfig.name !== "CasinoPulse") {
+  if (siteConfig.name !== "ZeoneBet") {
     issues.push({
       code: "SITE_CONFIG_NAME",
-      message: `siteConfig.name must be "CasinoPulse" (found "${siteConfig.name}")`,
+      message: `siteConfig.name must be "ZeoneBet" (found "${siteConfig.name}")`,
     });
   }
 
-  if (siteConfig.codename !== "CasinoPulse") {
+  if (siteConfig.codename !== "ZeoneBet") {
     issues.push({
       code: "SITE_CONFIG_CODENAME",
-      message: `siteConfig.codename must be "CasinoPulse" (found "${siteConfig.codename}")`,
+      message: `siteConfig.codename must be "ZeoneBet" (found "${siteConfig.codename}")`,
     });
   }
 
@@ -130,7 +130,7 @@ function main(): void {
     process.exit(1);
   }
 
-  console.log('Brand entity validation passed (canonical brand: "CasinoPulse").');
+  console.log('Brand entity validation passed (canonical brand: "ZeoneBet").');
 }
 
 main();

@@ -4,7 +4,7 @@ set -e
 
 APP_DIR="/var/www/casino-news-blog"
 APP_PORT=3002
-SITE_URL="https://casinopuls.site"
+SITE_URL="https://zeonebet.com"
 
 cd "$APP_DIR"
 git fetch origin

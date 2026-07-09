@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
+const BASE = (process.argv[2] || "https://zeonebet.com").replace(/\/$/, "");
 const IDEAL_MIN = 120;
 const IDEAL_MAX = 160;
 const HARD_MAX = 160;

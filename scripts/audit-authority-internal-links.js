@@ -9,7 +9,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
+const BASE = (process.argv[2] || "https://zeonebet.com").replace(/\/$/, "");
 const OUT_DIR = path.join(ROOT, "docs/audits/p4-authority-expansion");
 
 const PILLAR_PRIORITY = [

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const SITE_URL = process.env.SITE_URL || "https://casinopuls.site";
+const SITE_URL = process.env.SITE_URL || "https://zeonebet.com";
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "a7f3c9e2b1d84f6indexnow";
-const HOST = process.env.HOST || "casinopuls.site";
+const HOST = process.env.HOST || "zeonebet.com";
 
 async function main() {
   const sitemapRes = await fetch(`${SITE_URL}/sitemap.xml`);

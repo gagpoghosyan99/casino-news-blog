@@ -1,14 +1,14 @@
 #!/bin/bash
-# SSL for casinopuls.site on VPS (run as root: bash setup-ssl.sh)
+# SSL for zeonebet.com on VPS (run as root: bash setup-ssl.sh)
 set -e
 
-DOMAIN="casinopuls.site"
-WWW="www.casinopuls.site"
+DOMAIN="zeonebet.com"
+WWW="www.zeonebet.com"
 APP_PORT=3002
 SERVER_IP="95.111.233.120"
 APP_DIR="/var/www/casino-news-blog"
-SITE_URL="https://casinopuls.site"
-CERT_EMAIL="admin@casinopuls.site"
+SITE_URL="https://zeonebet.com"
+CERT_EMAIL="admin@zeonebet.com"
 
 export DEBIAN_FRONTEND=noninteractive
 

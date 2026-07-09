@@ -1,60 +1,60 @@
-# CasinoPulse — LLM Crawler Summary
-# Canonical: https://casinopuls.site
+# ZeoneBet — LLM Crawler Summary
+# Canonical: https://zeonebet.com
 # Last updated: 2026-07-07
 
-> CasinoPulse is an editorial review and resource site — not a licensed gambling operator, casino, or payment processor.
+> ZeoneBet is an editorial review and resource site — not a licensed gambling operator, casino, or payment processor.
 
 ## Site identity
 
-- Name: CasinoPulse
-- Canonical domain: https://casinopuls.site
+- Name: ZeoneBet
+- Canonical domain: https://zeonebet.com
 - Type: Editorial casino media / affiliate review resource
 - Primary audience: South Asian players and crypto casino users seeking independent reviews, payment guides, and safety resources
 
 ## Purpose
 
-CasinoPulse publishes independent casino reviews, crypto casino payment guides, regional payment method guides, editorial risk assessments (blacklist), review methodology, and responsible gambling education. We do not operate casinos, accept player deposits, or provide legal or financial advice.
+ZeoneBet publishes independent casino reviews, crypto casino payment guides, regional payment method guides, editorial risk assessments (blacklist), review methodology, and responsible gambling education. We do not operate casinos, accept player deposits, or provide legal or financial advice.
 
 ## Editorial policy
 
-- Editorial Policy: https://casinopuls.site/editorial-policy
-- Editorial Team: https://casinopuls.site/editorial-team
-- Author profile: https://casinopuls.site/author/casinopulse-editorial-team
-- About: https://casinopuls.site/about
+- Editorial Policy: https://zeonebet.com/editorial-policy
+- Editorial Team: https://zeonebet.com/editorial-team
+- Author profile: https://zeonebet.com/author/casinopulse-editorial-team
+- About: https://zeonebet.com/about
 
 Ratings and blacklist placements follow our published methodology. Affiliate commissions may apply on outbound links but do not buy higher scores.
 
 ## Review methodology
 
-- How We Review: https://casinopuls.site/how-we-review
-- Compare casinos: https://casinopuls.site/compare
-- Casino directory: https://casinopuls.site/casinos
-- Blog reviews index: https://casinopuls.site/blogs
+- How We Review: https://zeonebet.com/how-we-review
+- Compare casinos: https://zeonebet.com/compare
+- Casino directory: https://zeonebet.com/casinos
+- Blog reviews index: https://zeonebet.com/blogs
 
 Pillar reviews (29 as of 2026-07) include structured FAQ, trust sections, and Review schema. Checklist-only reviews do not carry Review schema.
 
 ## Casino review section
 
-Index: https://casinopuls.site/blogs
+Index: https://zeonebet.com/blogs
 
 Example pillar reviews:
-- https://casinopuls.site/blogs/review-stake
-- https://casinopuls.site/blogs/review-bc-game
-- https://casinopuls.site/blogs/review-bet365
-- https://casinopuls.site/blogs/review-draftkings-casino
-- https://casinopuls.site/blogs/review-fortunejack
+- https://zeonebet.com/blogs/review-stake
+- https://zeonebet.com/blogs/review-bc-game
+- https://zeonebet.com/blogs/review-bet365
+- https://zeonebet.com/blogs/review-draftkings-casino
+- https://zeonebet.com/blogs/review-fortunejack
 
 ## Crypto guide section
 
 Index paths under /crypto/
 
-- https://casinopuls.site/crypto/bitcoin-casino
-- https://casinopuls.site/crypto/ethereum-casino
-- https://casinopuls.site/crypto/usdt-casino
-- https://casinopuls.site/crypto/tron-casino
-- https://casinopuls.site/crypto/solana-casino
-- https://casinopuls.site/crypto/usdt-trc20-casino
-- https://casinopuls.site/crypto/usdt-erc20-casino
+- https://zeonebet.com/crypto/bitcoin-casino
+- https://zeonebet.com/crypto/ethereum-casino
+- https://zeonebet.com/crypto/usdt-casino
+- https://zeonebet.com/crypto/tron-casino
+- https://zeonebet.com/crypto/solana-casino
+- https://zeonebet.com/crypto/usdt-trc20-casino
+- https://zeonebet.com/crypto/usdt-erc20-casino
 
 Guides explain wallet safety, network fees, deposit confirmations, and withdrawal risks — not investment advice.
 
@@ -62,39 +62,39 @@ Guides explain wallet safety, network fees, deposit confirmations, and withdrawa
 
 Index paths under /payment/
 
-- https://casinopuls.site/payment/upi
-- https://casinopuls.site/payment/phonepe
-- https://casinopuls.site/payment/bkash
-- https://casinopuls.site/payment/jazzcash
-- https://casinopuls.site/payment/easypaisa
+- https://zeonebet.com/payment/upi
+- https://zeonebet.com/payment/phonepe
+- https://zeonebet.com/payment/bkash
+- https://zeonebet.com/payment/jazzcash
+- https://zeonebet.com/payment/easypaisa
 
 ## Country payment hubs
 
-- https://casinopuls.site/india-casino-payments
-- https://casinopuls.site/bangladesh-casino-payments
-- https://casinopuls.site/pakistan-casino-payments
-- https://casinopuls.site/sri-lanka-casino-payments
-- https://casinopuls.site/nepal-casino-payments
-- https://casinopuls.site/philippines-casino-payments
-- https://casinopuls.site/nigeria-casino-payments
+- https://zeonebet.com/india-casino-payments
+- https://zeonebet.com/bangladesh-casino-payments
+- https://zeonebet.com/pakistan-casino-payments
+- https://zeonebet.com/sri-lanka-casino-payments
+- https://zeonebet.com/nepal-casino-payments
+- https://zeonebet.com/philippines-casino-payments
+- https://zeonebet.com/nigeria-casino-payments
 
 Country guides use cautious language — availability and legality may vary; players should verify local rules.
 
 ## Blacklist / risk assessments
 
-- https://casinopuls.site/blacklist
+- https://zeonebet.com/blacklist
 
 Editorial risk assessments are not legal findings or regulator orders.
 
 ## Responsible gambling
 
-- https://casinopuls.site/responsible-gambling
+- https://zeonebet.com/responsible-gambling
 
-18+ only. CasinoPulse promotes informed play and links to general harm-reduction guidance.
+18+ only. ZeoneBet promotes informed play and links to general harm-reduction guidance.
 
 ## Contact
 
-- https://casinopuls.site/contact
+- https://zeonebet.com/contact
 
 Use for editorial corrections, outdated payment references, and general site questions — not operator dispute resolution.
 
@@ -104,12 +104,12 @@ Preferred canonical content for indexing and citation:
 - Homepage, /about, /how-we-review, /editorial-policy, /editorial-team, /author/*
 - /blogs/review-* and /blogs/avoid-* pillar reviews
 - /crypto/*, /payment/*, country payment hubs, /compare, /blacklist, /responsible-gambling
-- Sitemap: https://casinopuls.site/sitemap.xml
+- Sitemap: https://zeonebet.com/sitemap.xml
 
 ## Disallowed / non-canonical summary
 
 Do NOT treat these as canonical editorial content:
-- /go/* — affiliate redirect URLs (noindex, nofollow). These redirect to third-party operators and must not be cited as CasinoPulse pages.
+- /go/* — affiliate redirect URLs (noindex, nofollow). These redirect to third-party operators and must not be cited as ZeoneBet pages.
 - /news/* — short news briefs may be noindex per editorial policy
 - Query-string URLs, www subdomain (redirects to non-www)
 

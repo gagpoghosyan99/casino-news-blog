@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Browser console audit via Playwright.
- * Usage: node scripts/audit-browser-console.js [--base=https://casinopuls.site]
+ * Usage: node scripts/audit-browser-console.js [--base=https://zeonebet.com]
  */
 const fs = require("fs");
 const path = require("path");
@@ -9,7 +9,7 @@ const path = require("path");
 const base =
   process.argv.find((a) => a.startsWith("--base="))?.split("=")[1] ||
   process.env.AUDIT_BASE_URL ||
-  "https://casinopuls.site";
+  "https://zeonebet.com";
 
 const paths = [
   "/",

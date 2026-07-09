@@ -55,7 +55,7 @@ export const southAsiaCasinoPaymentsReport2026: ProgrammaticPage = {
     },
     {
       heading: "Update Policy",
-      body: "CasinoPulse reviews this report **quarterly** or when major payment policy shifts occur (NPCI circulars, wallet app updates, notable operator cashier changes). Last reviewed date appears in page metadata.\n\nCorrections: contact via [Contact](/contact) with verifiable sources. Commercial relationships do not buy removal of risk notes.\n\nCite as: *CasinoPulse South Asia Casino Payment Methods Report 2026* — https://casinopuls.site/reports/south-asia-casino-payments-2026\n\nWhen citing, link to this page or the relevant country hub. Prefer branded anchor (CasinoPulse) or naked URL per our [outreach anchor policy](/how-we-review).",
+      body: "CasinoPulse reviews this report **quarterly** or when major payment policy shifts occur (NPCI circulars, wallet app updates, notable operator cashier changes). Last reviewed date appears in page metadata.\n\nCorrections: contact via [Contact](/contact) with verifiable sources. Commercial relationships do not buy removal of risk notes.\n\nCite as: *ZeoneBet South Asia Casino Payment Methods Report 2026* — https://zeonebet.com/reports/south-asia-casino-payments-2026\n\nWhen citing, link to this page or the relevant country hub. Prefer branded anchor (CasinoPulse) or naked URL per our [outreach anchor policy](/how-we-review).",
     },
   ],
   faqs: [

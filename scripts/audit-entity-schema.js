@@ -8,8 +8,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
-const CANONICAL = "https://casinopuls.site";
+const BASE = (process.argv[2] || "https://zeonebet.com").replace(/\/$/, "");
+const CANONICAL = "https://zeonebet.com";
 const OUT_DIR = path.join(ROOT, "docs/audits/p5-authority-entity-geo-performance");
 
 function readJsonLdBlocks(html) {

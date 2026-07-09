@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    siteName: "CasinoPulse",
+    siteName: "ZeoneBet",
     tagline: "Casino Reviews, Crypto Guides & Safety Resources for South Asia",
     navCasinos: "Casinos",
     navNews: "News",
@@ -165,7 +165,7 @@ export const translations = {
       "CasinoPulse promotes informed play. Never gamble more than you can afford to lose.",
   },
   hi: {
-    siteName: "CasinoPulse",
+    siteName: "ZeoneBet",
     tagline: "दक्षिण एशिया के लिए कैसीनो समीक्षाएं, क्रिप्टो गाइड और सुरक्षा संसाधन",
     navCasinos: "कैसीनो",
     navNews: "समाचार",

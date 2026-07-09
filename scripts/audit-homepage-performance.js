@@ -9,7 +9,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const ROOT = path.join(__dirname, "..");
-const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
+const BASE = (process.argv[2] || "https://zeonebet.com").replace(/\/$/, "");
 const OUT_DIR = path.join(ROOT, "docs/audits/p5-authority-entity-geo-performance");
 const OUT_FILE = path.join(OUT_DIR, "performance-audit.md");
 

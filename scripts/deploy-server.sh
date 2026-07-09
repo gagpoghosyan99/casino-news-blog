@@ -5,9 +5,9 @@ set -e
 
 APP_DIR="/var/www/casino-news-blog"
 REPO="https://github.com/gagpoghosyan99/casino-news-blog.git"
-DOMAIN="casinopuls.site"
-WWW="www.casinopuls.site"
-SITE_URL="https://casinopuls.site"
+DOMAIN="zeonebet.com"
+WWW="www.zeonebet.com"
+SITE_URL="https://zeonebet.com"
 APP_PORT=3002
 
 export DEBIAN_FRONTEND=noninteractive

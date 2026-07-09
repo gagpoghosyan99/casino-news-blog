@@ -2,7 +2,7 @@
 # Validates all sitemap URLs return HTTP 200 on live production.
 set -euo pipefail
 
-SITE_URL="${SITE_URL:-https://casinopuls.site}"
+SITE_URL="${SITE_URL:-https://zeonebet.com}"
 SITEMAP_URL="${SITEMAP_URL:-${SITE_URL}/sitemap.xml}"
 TMP_DIR="${TMP_DIR:-/tmp}"
 URLS_FILE="${TMP_DIR}/live-urls.txt"

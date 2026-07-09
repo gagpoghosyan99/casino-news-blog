@@ -1,12 +1,12 @@
 #!/bin/bash
-# Connect casinopuls.site to the CasinoPulse site on this VPS
+# Connect zeonebet.com to the CasinoPulse site on this VPS
 set -e
 
-DOMAIN="casinopuls.site"
-WWW="www.casinopuls.site"
+DOMAIN="zeonebet.com"
+WWW="www.zeonebet.com"
 APP_DIR="/var/www/casino-news-blog"
 APP_PORT=3002
-SITE_URL="https://casinopuls.site"
+SITE_URL="https://zeonebet.com"
 SERVER_IP="95.111.233.120"
 
 export DEBIAN_FRONTEND=noninteractive

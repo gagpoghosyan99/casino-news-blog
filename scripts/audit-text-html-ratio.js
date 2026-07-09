@@ -4,7 +4,7 @@
  * Usage: node scripts/audit-text-html-ratio.js [baseUrl]
  */
 
-const BASE = (process.argv[2] || "https://casinopuls.site").replace(/\/$/, "");
+const BASE = (process.argv[2] || "https://zeonebet.com").replace(/\/$/, "");
 
 const PRIORITY_PATHS = [
   "/",

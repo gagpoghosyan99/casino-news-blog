@@ -1,4 +1,5 @@
 import { top40Casinos } from "./casinos";
+import { getCasinoRankingMeta } from "./casino-ranking-meta";
 
 export const GLOBAL_JACKPOT_TOTAL = 15_493_821;
 
@@ -11,18 +12,21 @@ export const trustIndicators = [
   { icon: "heart", title: "Responsible Gambling", desc: "18+ resources, limits, and self-exclusion links." },
 ] as const;
 
-export const rankedCasinos = top40Casinos.slice(0, 10).map((casino, i) => ({
-  rank: casino.rank,
-  name: casino.name,
-  slug: casino.slug,
-  blogSlug: casino.blogSlug,
-  trustScore: Math.min(9.9, Number((casino.rating + 0.5 - i * 0.05).toFixed(1))),
-  userScore: Math.min(9.8, Number((casino.rating + 0.3 - i * 0.04).toFixed(1))),
-  bonusScore: Math.min(9.7, Number((4.5 - i * 0.08 + (casino.rank % 3) * 0.1).toFixed(1))),
-  payments: i % 3 === 0 ? ["BTC", "ETH", "UPI"] : i % 3 === 1 ? ["USDT", "Visa", "Skrill"] : ["BTC", "USDT", "NetBanking"],
-  mobile: true,
-  premium: i < 3,
-}));
+export const rankedCasinos = top40Casinos.slice(0, 10).map((casino, i) => {
+  const meta = getCasinoRankingMeta(casino.slug, casino.rating, i);
+  return {
+    rank: casino.rank,
+    name: casino.name,
+    slug: casino.slug,
+    blogSlug: casino.blogSlug,
+    trustScore: meta.trustScore,
+    userScore: meta.userScore,
+    bonusScore: meta.bonusScore,
+    payments: meta.payments,
+    mobile: meta.mobile,
+    premium: meta.premium ?? i < 3,
+  };
+});
 
 export const cryptoGuideCards = [
   { title: "Best Crypto Casinos", desc: "Bitcoin, Ethereum, and USDT deposit guides for fast play.", href: "/crypto/bitcoin-casino" },

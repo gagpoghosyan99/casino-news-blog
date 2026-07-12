@@ -1,4 +1,5 @@
 import { Casino, CasinoType } from "@/types";
+import { casinoRankingMetaBySlug } from "./casino-ranking-meta";
 import { buildCasinoSummary } from "./casino-seo";
 
 export const top40CasinoNames = [
@@ -107,6 +108,16 @@ function envKeyFromName(name: string): string {
   return name.toUpperCase().replace(/[^A-Z0-9]/g, "_");
 }
 
+function resolveRating(slug: string, rank: number, type: CasinoType): number {
+  const meta = casinoRankingMetaBySlug[slug];
+  if (meta) {
+    return Number(((meta.trustScore + meta.userScore + meta.bonusScore) / 3).toFixed(1));
+  }
+  if (type === "good") return Math.round((4.3 + (rank % 5) * 0.1) * 10) / 10;
+  if (type === "bad") return Math.round((2.5 + (rank % 4) * 0.2) * 10) / 10;
+  return Math.round((3.8 + (rank % 6) * 0.05) * 10) / 10;
+}
+
 function createCasino(name: string, rank: number, type: CasinoType): Casino {
   const slug = slugify(name);
   const isGood = type === "good";
@@ -153,11 +164,7 @@ function createCasino(name: string, rank: number, type: CasinoType): Casino {
             en: "Processing times depend on payment method and verification",
             hi: "प्रसंस्करण समय भुगतान विधि और सत्यापन पर निर्भर",
           },
-    rating: isGood
-      ? Math.round((4.3 + ((rank % 5) * 0.1)) * 10) / 10
-      : isBad
-        ? Math.round((2.5 + ((rank % 4) * 0.2)) * 10) / 10
-        : Math.round((3.8 + ((rank % 6) * 0.05)) * 10) / 10,
+    rating: resolveRating(slug, rank, type),
     type,
     blogSlug: isBad ? `avoid-${slug}` : `review-${slug}`,
     envKey: envKeyFromName(name),

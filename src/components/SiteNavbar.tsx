@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import BrandLogo from "@/components/BrandLogo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export const SITE_NAV_ITEMS = [
@@ -48,15 +49,7 @@ export default function SiteNavbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-2.5">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-500 to-[#d4af37] text-[10px] font-bold text-black shadow-glow-gold">
-            ZB
-          </div>
-          <span className="text-lg font-bold tracking-wide">
-            <span className="text-cyan-400">ZEONE</span>
-            <span className="text-[#d4af37]">BET</span>
-          </span>
-        </Link>
+        <BrandLogo size="md" />
 
         <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-white/15 bg-white/10 px-2 py-1.5 backdrop-blur-md md:flex">
           {SITE_NAV_ITEMS.map((item) => (
@@ -79,19 +72,19 @@ export default function SiteNavbar() {
           <Link href="/contact" className="text-sm font-medium text-white/75 transition-colors hover:text-white">
             Login
           </Link>
-          <Link href="/casinos" className="hero-cta-gold rounded-full px-5 py-2 text-sm font-bold text-black">
+          <Link href="/casinos" className="zb-btn-gold !px-4 !py-2 text-xs">
             Register Now
           </Link>
         </div>
 
         <button
           type="button"
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/15 bg-white/10 backdrop-blur-md md:hidden"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 text-white md:hidden"
+          onClick={() => setMobileOpen((v) => !v)}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
         >
-          {mobileOpen ? <X className="h-5 w-5 text-white" /> : <Menu className="h-5 w-5 text-white" />}
+          {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
@@ -117,7 +110,7 @@ export default function SiteNavbar() {
             <Link href="/contact" className="text-center text-sm text-white/75">
               Login
             </Link>
-            <Link href="/casinos" className="hero-cta-gold rounded-full py-2 text-center text-sm font-bold text-black">
+            <Link href="/casinos" className="zb-btn-gold text-center text-sm">
               Register Now
             </Link>
           </div>

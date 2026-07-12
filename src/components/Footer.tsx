@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import BrandLogo from "@/components/BrandLogo";
 import { internalSeoLinks } from "@/data/programmatic/internal-seo-links";
 import { footerSocial } from "@/data/landing-home";
 import { useLocale } from "@/context/LocaleContext";
@@ -40,12 +41,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-7">
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-500 to-gold-500 text-xs font-bold text-navy-950">
-                ZB
-              </div>
-              <span className="font-display text-xl font-bold text-white">ZEONEBET</span>
-            </div>
+            <BrandLogo size="lg" />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-500">
               {t("footerDesc")}
             </p>

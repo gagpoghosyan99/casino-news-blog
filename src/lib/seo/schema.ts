@@ -9,9 +9,9 @@ export function organizationSchema() {
     description: siteConfig.description,
     logo: {
       "@type": "ImageObject",
-      url: `${siteConfig.url}/icon.png`,
-      width: 32,
-      height: 32,
+      url: `${siteConfig.url}/brand/zeonebet-z-512.png`,
+      width: 512,
+      height: 512,
     },
     contactPoint: {
       "@type": "ContactPoint",

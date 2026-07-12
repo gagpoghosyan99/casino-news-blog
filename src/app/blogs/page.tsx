@@ -95,7 +95,7 @@ export default function BlogsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-navy-950">
+    <div className="zb-page-bg min-h-screen">
       {jsonLd.map((schema) => (
         <script
           key={schema["@type"] as string}
@@ -104,30 +104,31 @@ export default function BlogsPage() {
         />
       ))}
 
-      <section className="relative overflow-hidden border-b border-white/10 bg-hero-premium py-12 sm:py-16">
-        <div className="hero-orb hero-orb-gold" />
+      <section className="relative overflow-hidden border-b border-white/10 pb-14 pt-28 sm:pt-32">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(212,175,55,0.14),transparent_45%),radial-gradient(ellipse_at_90%_40%,rgba(34,211,238,0.1),transparent_40%)]" />
+        <div className="hero-orb hero-orb-gold opacity-40" />
         <div className="absolute inset-0 bg-grid-premium opacity-25" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold-400">
-            CasinoPulse Reviews Hub
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">
+            ZEONEBET Reviews Hub
           </p>
-          <h1 className="mt-3 font-display text-4xl font-bold text-white sm:text-5xl">
-            Casino Reviews &{" "}
-            <span className="gradient-text-premium">Expert Guides</span>
+          <h1 className="mt-3 zb-headline text-4xl sm:text-5xl">
+            Casino Reviews &amp;{" "}
+            <span className="zb-gradient-text">Expert Guides</span>
           </h1>
           <p className="mt-4 max-w-3xl text-lg text-slate-400">
             Independent casino reviews, South Asia payment guides, and crypto gambling
             resources — fully server-rendered for search engines and readers.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="/how-we-review" className="btn-premium-primary">
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/how-we-review" className="zb-btn-gold zb-shine">
               Review methodology
             </Link>
-            <Link href="/compare" className="btn-premium-secondary">
+            <Link href="/compare" className="zb-btn-cyan">
               Compare casinos
             </Link>
-            <Link href="/author/casinopulse-editorial-team" className="btn-premium-secondary">
-              Editorial team
+            <Link href="/casinos" className="zb-btn-ghost">
+              Casino directory
             </Link>
           </div>
         </div>
@@ -239,7 +240,7 @@ export default function BlogsPage() {
               <li key={guide.href}>
                 <Link
                   href={guide.href}
-                  className="block rounded-xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-gold-500/30"
+                  className="block rounded-3xl border border-gold-400/20 bg-gradient-to-br from-white/[0.05] via-black/40 to-gold-500/5 p-5 transition-all hover:border-gold-400/40 hover:shadow-[0_0_28px_rgba(212,175,55,0.12)]"
                 >
                   <h3 className="font-semibold text-white">{guide.label}</h3>
                   <p className="mt-2 text-sm text-slate-400">{guide.description}</p>
@@ -259,7 +260,7 @@ export default function BlogsPage() {
               <li key={guide.href}>
                 <Link
                   href={guide.href}
-                  className="block rounded-xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-gold-500/30"
+                  className="block rounded-3xl border border-gold-400/20 bg-gradient-to-br from-white/[0.05] via-black/40 to-gold-500/5 p-5 transition-all hover:border-gold-400/40 hover:shadow-[0_0_28px_rgba(212,175,55,0.12)]"
                 >
                   <h3 className="font-semibold text-white">{guide.label}</h3>
                   <p className="mt-2 text-sm text-slate-400">{guide.description}</p>

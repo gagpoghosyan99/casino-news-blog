@@ -83,7 +83,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
   const jsonLd = [reviewJsonLd, faqJsonLd, breadcrumbJsonLd].filter(Boolean);
 
   return (
-    <div className="bg-gray-50 dark:bg-surface-dark">
+    <div className="zb-page-bg min-h-screen">
       {jsonLd.map((schema) => (
         <script
           key={schema!["@type"]}
@@ -91,15 +91,23 @@ export default async function BlogDetailPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
-      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <Link
-          href="/blogs"
-          className="text-sm font-medium text-brand-600 hover:text-brand-700 dark:text-brand-400"
-        >
-          ← Back to Blogs
+      <div className="mx-auto max-w-3xl px-4 pb-16 pt-28 sm:px-6 lg:px-8">
+        <Link href="/blogs" className="text-sm font-medium text-gold-400 hover:text-gold-300">
+          ← Back to Reviews
         </Link>
         {isPillar && <EditorialTrustBlock slug={slug} />}
         <BlogContent post={post} casino={casino} showMethodologyLink={isCasinoReview} />
+        <div className="mt-10 flex flex-wrap gap-3">
+          <Link href="/casinos" className="zb-btn-gold text-sm">
+            Casino directory
+          </Link>
+          <Link href="/compare" className="zb-btn-cyan text-sm">
+            Compare casinos
+          </Link>
+          <Link href="/bonuses" className="zb-btn-ghost text-sm">
+            Bonuses
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,8 +1,11 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 import { useLocale } from "@/context/LocaleContext";
 import { useTranslation } from "@/lib/useTranslation";
+import PageShell from "@/components/ui/PageShell";
+import PageHero from "@/components/ui/PageHero";
 
 export default function ContactPage() {
   const { locale } = useLocale();
@@ -37,31 +40,38 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="bg-gray-50 dark:bg-surface-dark">
-      <div className="mx-auto max-w-xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h1 className="section-title">{t("contactTitle")}</h1>
-          <p className="section-subtitle mx-auto">{t("contactSubtitle")}</p>
-        </div>
+    <PageShell>
+      <PageHero
+        kicker="Support"
+        title={t("contactTitle")}
+        description={t("contactSubtitle")}
+        badges={["Editorial desk", "Corrections welcome"]}
+        tone="gold"
+        actions={
+          <Link href="/about" className="zb-btn-cyan">
+            About ZEONEBET
+          </Link>
+        }
+      />
 
+      <div className="mx-auto max-w-xl px-4 py-12 sm:px-6 lg:px-8">
         {submitted ? (
-          <div className="card mt-10 text-center">
-            <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900/30">
+          <div className="rounded-3xl border border-emerald-400/30 bg-gradient-to-br from-emerald-500/10 via-black/50 to-gold-500/5 p-8 text-center shadow-[0_0_40px_rgba(52,211,153,0.12)]">
+            <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-300 ring-1 ring-emerald-400/40">
               ✓
             </div>
-            <p className="mt-4 font-medium text-gray-900 dark:text-white">{t("contactSuccess")}</p>
-            <button
-              type="button"
-              onClick={() => setSubmitted(false)}
-              className="btn-outline mt-4"
-            >
+            <p className="mt-4 font-medium text-white">{t("contactSuccess")}</p>
+            <button type="button" onClick={() => setSubmitted(false)} className="zb-btn-ghost mt-6">
               Send another message
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="card mt-10 space-y-6">
+          <form
+            onSubmit={handleSubmit}
+            className="space-y-6 rounded-3xl border border-gold-400/25 bg-gradient-to-br from-gold-500/10 via-black/50 to-cyan-500/5 p-6 shadow-[0_0_40px_rgba(212,175,55,0.1)] backdrop-blur-xl sm:p-8"
+          >
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label htmlFor="name" className="block text-sm font-medium text-slate-300">
                 {t("contactName")}
               </label>
               <input
@@ -69,11 +79,11 @@ export default function ContactPage() {
                 name="name"
                 type="text"
                 required
-                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-gray-900 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                className="mt-1 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-2.5 text-white placeholder:text-slate-600 focus:border-gold-400/50 focus:outline-none focus:ring-2 focus:ring-gold-500/20"
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label htmlFor="email" className="block text-sm font-medium text-slate-300">
                 {t("contactEmail")}
               </label>
               <input
@@ -81,11 +91,11 @@ export default function ContactPage() {
                 name="email"
                 type="email"
                 required
-                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-gray-900 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                className="mt-1 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-2.5 text-white placeholder:text-slate-600 focus:border-gold-400/50 focus:outline-none focus:ring-2 focus:ring-gold-500/20"
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label htmlFor="message" className="block text-sm font-medium text-slate-300">
                 {t("contactMessage")}
               </label>
               <textarea
@@ -93,15 +103,15 @@ export default function ContactPage() {
                 name="message"
                 rows={5}
                 required
-                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-gray-900 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                className="mt-1 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-2.5 text-white placeholder:text-slate-600 focus:border-gold-400/50 focus:outline-none focus:ring-2 focus:ring-gold-500/20"
               />
             </div>
-            <button type="submit" disabled={loading} className="btn-primary w-full">
+            <button type="submit" disabled={loading} className="zb-btn-gold zb-shine w-full">
               {loading ? "Sending..." : t("contactSend")}
             </button>
           </form>
         )}
       </div>
-    </div>
+    </PageShell>
   );
 }

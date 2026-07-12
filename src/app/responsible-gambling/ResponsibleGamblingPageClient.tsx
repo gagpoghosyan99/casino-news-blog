@@ -12,6 +12,7 @@ export default function ResponsibleGamblingPageClient() {
   return (
     <LegalPage
       document={responsibleGamblingPage[locale]}
+      kicker="Player Safety"
       relatedLinks={[
         { href: ABOUT_PATH, label: "About CasinoPulse" },
         { href: HOW_WE_REVIEW_PATH, label: "How We Review Online Casinos" },

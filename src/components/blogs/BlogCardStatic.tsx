@@ -16,12 +16,12 @@ export default function BlogCardStatic({
   const styles = blogCategoryStyle(post.category);
 
   const glowClass = featured
-    ? "border-gold-500/50 shadow-glow-gold ring-2 ring-gold-500/30"
-    : "border-white/10 hover:border-gold-500/30 hover:shadow-glow-gold";
+    ? "border-gold-400/50 bg-gradient-to-br from-gold-500/12 via-black/50 to-cyan-500/8 shadow-[0_20px_50px_rgba(212,175,55,0.18)]"
+    : "border-white/10 bg-gradient-to-br from-white/[0.06] via-black/45 to-gold-500/5 hover:border-gold-400/35";
 
   return (
     <article
-      className={`flex h-full flex-col overflow-hidden rounded-2xl border bg-white/[0.03] p-6 backdrop-blur-sm transition-all ${glowClass}`}
+      className={`flex h-full flex-col overflow-hidden rounded-3xl border p-6 backdrop-blur-xl transition-all ${glowClass}`}
     >
       <span
         className={`inline-flex w-fit rounded-md px-2.5 py-1 text-xs font-semibold ${styles.pill}`}
@@ -49,7 +49,7 @@ export default function BlogCardStatic({
         {post.readTime} min read · {post.author}
       </p>
 
-      <Link href={`/blogs/${post.slug}`} className="btn-premium-primary mt-6 block w-full text-center">
+      <Link href={`/blogs/${post.slug}`} className="zb-btn-gold zb-shine mt-6 inline-flex w-full justify-center text-sm">
         Read full review
       </Link>
     </article>

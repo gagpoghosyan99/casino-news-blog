@@ -71,15 +71,14 @@ export default async function NewsDetailPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
-      <div className="bg-gray-50 dark:bg-surface-dark">
-        <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-          <Link
-            href="/news"
-            className="text-sm font-medium text-brand-600 hover:text-brand-700 dark:text-brand-400"
-          >
+      <div className="zb-page-bg min-h-screen">
+        <div className="mx-auto max-w-3xl px-4 pb-16 pt-28 sm:px-6 lg:px-8">
+          <Link href="/news" className="text-sm font-medium text-gold-400 hover:text-gold-300">
             ← Back to News
           </Link>
-          <NewsDetail article={article} />
+          <div className="mt-6">
+            <NewsDetail article={article} />
+          </div>
         </div>
       </div>
     </>

@@ -11,6 +11,7 @@ export default function AboutPageClient() {
   return (
     <LegalPage
       document={aboutPage[locale]}
+      kicker="About ZEONEBET"
       relatedLinks={fullEntityTrustLinks.map((link) => ({ href: link.href, label: link.label }))}
     />
   );

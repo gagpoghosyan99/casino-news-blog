@@ -24,7 +24,7 @@ export default function JackpotsPage() {
         tone="gold"
         actions={
           <>
-            <Link href="/casinos" className="zb-btn-gold">
+            <Link href="/casinos" className="zb-btn-gold zb-shine">
               Play at Trusted Casinos
             </Link>
             <Link href="/bonuses" className="zb-btn-cyan">

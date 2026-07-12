@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Clock3, Gift } from "lucide-react";
 import PremiumIcon from "@/components/ui/PremiumIcon";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import { bonusOffers } from "@/data/bonuses";
 import SectionReveal from "./SectionReveal";
 
@@ -59,7 +60,12 @@ export default function BonusPromotions() {
                 <p className="mt-2 flex-1 text-sm text-slate-500">{offer.title}</p>
                 <p className="mt-2 text-xs text-slate-600">Wagering: {offer.wagering}</p>
                 <div className="mt-6 flex flex-col gap-2">
-                  <Link href={`/go/${offer.casinoSlug}`} className="zb-btn-gold zb-shine text-center text-sm">
+                  <Link
+                    href={`/go/${offer.casinoSlug}`}
+                    rel={AFFILIATE_LINK_REL}
+                    target="_blank"
+                    className="zb-btn-gold zb-shine text-center text-sm"
+                  >
                     Claim Now
                   </Link>
                   <Link href={`/blogs/review-${offer.casinoSlug}`} className="zb-btn-ghost text-center text-sm">

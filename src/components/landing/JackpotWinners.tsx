@@ -6,6 +6,7 @@ import { Trophy, Zap } from "lucide-react";
 import { jackpotWins } from "@/data/jackpots";
 import { countryFlags } from "@/data/landing-home";
 import PremiumIcon from "@/components/ui/PremiumIcon";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import SectionReveal from "./SectionReveal";
 
 function formatAmount(amount: number, currency: string) {
@@ -65,6 +66,8 @@ export default function JackpotWinners() {
                 </p>
                 <Link
                   href={`/go/${win.casinoSlug}`}
+                  rel={AFFILIATE_LINK_REL}
+                  target="_blank"
                   className="zb-btn-gold zb-shine mt-6 w-full text-center text-sm"
                 >
                   Claim Like Winners

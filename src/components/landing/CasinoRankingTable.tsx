@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Check, Smartphone, Star } from "lucide-react";
+import { Check, ExternalLink, Smartphone, Star } from "lucide-react";
 import CasinoLogo from "@/components/CasinoLogo";
+import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
 import SectionReveal from "./SectionReveal";
 import { rankedCasinos } from "@/data/landing-home";
 
@@ -40,7 +41,9 @@ export default function CasinoRankingTable() {
                 <div className="flex items-center gap-3 lg:col-span-1">
                   <span
                     className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm font-bold ${
-                      casino.premium ? "bg-gold-500 text-navy-950 shadow-[0_0_16px_rgba(212,175,55,0.45)]" : "bg-white/10 text-gold-400"
+                      casino.premium
+                        ? "bg-gold-500 text-navy-950 shadow-[0_0_16px_rgba(212,175,55,0.45)]"
+                        : "bg-white/10 text-gold-400"
                     }`}
                   >
                     {String(casino.rank).padStart(2, "0")}
@@ -91,8 +94,14 @@ export default function CasinoRankingTable() {
                 </div>
 
                 <div className="flex gap-2 lg:col-span-2 lg:justify-end">
-                  <Link href={`/go/${casino.slug}`} className="zb-btn-gold zb-shine flex-1 text-center text-xs lg:flex-none lg:px-4">
+                  <Link
+                    href={`/go/${casino.slug}`}
+                    rel={AFFILIATE_LINK_REL}
+                    target="_blank"
+                    className="zb-btn-gold zb-shine inline-flex flex-1 items-center justify-center gap-1.5 text-center text-xs lg:flex-none lg:px-4"
+                  >
                     Quick Registration
+                    <ExternalLink className="h-3 w-3 opacity-80" />
                   </Link>
                   <Link
                     href={`/blogs/${casino.blogSlug}`}

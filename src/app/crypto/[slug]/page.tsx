@@ -61,7 +61,7 @@ export default async function CryptoProgrammaticPage({ params }: PageProps) {
         kicker="Crypto Guide"
         breadcrumbs={[
           { name: "Home", href: "/" },
-          { name: "Crypto", href: "/crypto/usdt-casino" },
+          { name: "Crypto", href: "/crypto" },
           { name: page.h1, href: `/crypto/${page.slug}` },
         ]}
       />

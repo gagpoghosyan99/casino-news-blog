@@ -6,7 +6,6 @@ import { ArrowRight, Bitcoin, ShieldCheck, Trophy, Zap } from "lucide-react";
 import { BG_IMAGE_1, BG_IMAGE_2 } from "./constants";
 import FloatingCasinoCard from "./FloatingCasinoCard";
 import RevealLayer from "./RevealLayer";
-import ZeoneBetNavbar from "./ZeoneBetNavbar";
 
 export default function ZeoneBetHero() {
   const mouse = useRef({ x: -999, y: -999 });
@@ -67,8 +66,6 @@ export default function ZeoneBetHero() {
         style={{ height: "100dvh" }}
         aria-label="ZEONEBET casino intelligence hero"
       >
-        <ZeoneBetNavbar />
-
         {/* Layer 1: Base image z-10 */}
         <div
           className="hero-zoom absolute inset-0 z-10 bg-cover bg-center bg-no-repeat"
@@ -168,14 +165,14 @@ export default function ZeoneBetHero() {
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
-              href="/#bonuses"
+              href="/bonuses"
               className="hero-cta-cyan inline-flex w-full items-center justify-center gap-2 rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[180px]"
             >
               <Zap className="h-4 w-4" />
               Claim Bonuses
             </Link>
             <Link
-              href="/#jackpots"
+              href="/jackpots"
               className="hero-cta-outline inline-flex w-full items-center justify-center gap-2 rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[200px]"
             >
               <Trophy className="h-4 w-4" />

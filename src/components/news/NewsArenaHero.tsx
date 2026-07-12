@@ -49,36 +49,36 @@ export function NewsArenaHero() {
   const { t } = useTranslation(locale);
 
   return (
-    <section className="relative overflow-hidden border-b border-white/10 bg-hero-premium py-12 sm:py-16">
-      <div className="hero-orb hero-orb-emerald opacity-70" />
+    <section className="relative overflow-hidden border-b border-white/10 pb-12 pt-28 sm:pb-16 sm:pt-32">
+      <div className="hero-orb hero-orb-emerald opacity-50" />
       <div className="absolute inset-0 bg-grid-premium opacity-25" />
 
       <motion.div
-        className="border-y border-emerald-500/20 bg-navy-950/60 py-2"
+        className="border-y border-cyan-400/20 bg-navy-950/60 py-2"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
         <motion.p
-          className="mx-auto max-w-7xl truncate px-4 text-center text-sm text-emerald-300"
+          className="mx-auto max-w-7xl truncate px-4 text-center text-sm text-cyan-300"
           animate={{ opacity: [0.6, 1, 0.6] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          🔴 BREAKING — Live casino news desk · South Asia · Updated hourly
+          LIVE — Casino intelligence desk · South Asia · Updated hourly
         </motion.p>
       </motion.div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-400">
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">
               {t("newsHeroInsight")}
             </p>
             <h1 className="mt-3 font-display text-4xl font-bold text-white sm:text-5xl">
               {t("newsHeroTitle1")}{" "}
-              <span className="gradient-text-premium">{t("newsHeroTitle2")}</span>
+              <span className="zb-gradient-text">{t("newsHeroTitle2")}</span>
             </h1>
             <p className="mt-4 max-w-xl text-lg text-slate-400">{t("newsHeroSubtitle")}</p>
-            <Link href="/#jackpot-winners" className="btn-premium-primary mt-8 inline-flex">
+            <Link href="/jackpots" className="zb-btn-gold mt-8 inline-flex">
               {t("trendingNews")} →
             </Link>
           </motion.div>

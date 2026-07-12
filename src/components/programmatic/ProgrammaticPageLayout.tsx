@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ProgrammaticPage } from "@/types/programmatic";
+import PageShell from "@/components/ui/PageShell";
 
 interface ProgrammaticPageLayoutProps {
   page: ProgrammaticPage;
@@ -17,7 +18,7 @@ function renderInlineContent(text: string) {
         <Link
           key={index}
           href={linkMatch[2]}
-          className="font-medium text-gold-400 hover:text-gold-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
+          className="font-medium text-gold-400 hover:text-gold-300"
         >
           {linkMatch[1]}
         </Link>
@@ -34,26 +35,29 @@ export default function ProgrammaticPageLayout({
   kicker = "Editorial Guide",
 }: ProgrammaticPageLayoutProps) {
   const links = relatedLinks ?? page.relatedLinks ?? [];
+  const isCrypto = kicker.toLowerCase().includes("crypto");
 
   return (
-    <div className="min-h-screen bg-navy-950">
-      <section className="relative overflow-hidden border-b border-white/10 bg-hero-premium">
+    <PageShell>
+      <section className="relative overflow-hidden border-b border-white/10">
+        <div className="bg-grid-premium pointer-events-none absolute inset-0 opacity-30" />
         <div className="hero-orb hero-orb-gold opacity-40" />
-        <div className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-3xl px-4 pb-12 pt-28 sm:px-6 sm:pt-32 lg:px-8">
           <nav className="mb-6 flex flex-wrap gap-2 text-sm text-slate-500">
             {breadcrumbs.map((crumb, index) => (
               <span key={crumb.href} className="flex items-center gap-2">
                 {index > 0 && <span>/</span>}
-                <Link
-                  href={crumb.href}
-                  className="hover:text-gold-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
-                >
+                <Link href={crumb.href} className="hover:text-gold-400">
                   {crumb.name}
                 </Link>
               </span>
             ))}
           </nav>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-400">
+          <p
+            className={`text-xs font-bold uppercase tracking-[0.25em] ${
+              isCrypto ? "text-cyan-400" : "text-emerald-400"
+            }`}
+          >
             {kicker}
           </p>
           <h1 className="mt-3 font-display text-3xl font-bold text-white sm:text-4xl">{page.h1}</h1>
@@ -64,10 +68,7 @@ export default function ProgrammaticPageLayout({
       <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="space-y-6">
           {page.sections.map((section) => (
-            <section
-              key={section.heading}
-              className="glass-card rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl"
-            >
+            <section key={section.heading} className="zb-glass p-6">
               <h2 className="font-display text-xl font-semibold text-gold-400">{section.heading}</h2>
               <p className="mt-3 leading-relaxed text-slate-300">{renderInlineContent(section.body)}</p>
             </section>
@@ -81,10 +82,7 @@ export default function ProgrammaticPageLayout({
             </h2>
             <div className="mt-6 space-y-4">
               {page.faqs.map((faq) => (
-                <div
-                  key={faq.question}
-                  className="rounded-xl border border-white/10 bg-white/5 p-5"
-                >
+                <div key={faq.question} className="zb-glass p-5">
                   <h3 className="font-semibold text-white">{faq.question}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-slate-400">
                     {renderInlineContent(faq.answer)}
@@ -95,7 +93,7 @@ export default function ProgrammaticPageLayout({
           </section>
         )}
 
-        <div className="mt-12 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+        <div className="zb-glass mt-12 p-6">
           {links.length > 0 && (
             <div className="mb-6 border-b border-white/10 pb-6">
               <h2 className="font-display text-lg font-semibold text-white">
@@ -104,10 +102,7 @@ export default function ProgrammaticPageLayout({
               <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
                 {links.map((link) => (
                   <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="font-medium text-gold-400 hover:text-gold-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
-                    >
+                    <Link href={link.href} className="font-medium text-gold-400 hover:text-gold-300">
                       {link.label}
                     </Link>
                   </li>
@@ -118,10 +113,7 @@ export default function ProgrammaticPageLayout({
           <p className="text-sm text-slate-400">
             18+ only. Gambling involves risk. Payment availability can change — verify operator terms
             and local laws before depositing. See our{" "}
-            <Link
-              href="/responsible-gambling"
-              className="text-gold-400 hover:text-gold-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
-            >
+            <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
               responsible gambling guide
             </Link>
             ,{" "}
@@ -134,8 +126,16 @@ export default function ProgrammaticPageLayout({
             </Link>{" "}
             for more options.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link href="/crypto" className="zb-btn-cyan text-sm">
+              All Crypto Guides
+            </Link>
+            <Link href="/casinos" className="zb-btn-gold text-sm">
+              Trusted Casinos
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </PageShell>
   );
 }

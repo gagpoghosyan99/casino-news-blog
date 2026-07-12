@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Casino } from "@/types";
 import type { CasinoFilter } from "@/lib/casino-filter";
 import CasinoDirectoryCard from "@/components/casinos/CasinoDirectoryCard";
-import GlassCard from "@/components/ui/GlassCard";
+import PageHero from "@/components/ui/PageHero";
+import PageShell from "@/components/ui/PageShell";
 
 const FILTER_TABS: { key: CasinoFilter; label: string; href: string }[] = [
   { key: "all", label: "All rankings", href: "/casinos" },
@@ -39,48 +40,35 @@ export default function CasinoDirectory({
   showBadDisclaimer = false,
 }: CasinoDirectoryProps) {
   return (
-    <div className="min-h-screen bg-navy-950">
-      <section className="relative overflow-hidden border-b border-white/10 bg-hero-premium">
-        <div className="hero-orb hero-orb-gold opacity-60" />
-        <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
-            Casino Directory
-          </p>
-          <h1 className="mt-3 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Top Online Casino Reviews for South Asian Players
-          </h1>
-          <p className="mt-4 max-w-3xl text-base leading-relaxed text-slate-300 sm:text-lg">
-            Compare editor-rated casinos including Stake, BC.Game, Roobet, Bet365, and LeoVegas.
-            Each listing links to an independent CasinoPulse review covering payments, licensing
-            caveats, bonus honesty, and responsible gambling notes. Scores are editorial estimates —
-            not guarantees.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {["Independent reviews", "Payment context", "18+ only"].map((badge) => (
-              <span
-                key={badge}
-                className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-300"
-              >
-                {badge}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+    <PageShell>
+      <PageHero
+        kicker="Casino Directory"
+        title="Top Online Casino Reviews for South Asian Players"
+        description="Compare editor-rated casinos including Stake, BC.Game, Roobet, Bet365, and LeoVegas. Each listing links to an independent ZEONEBET review covering payments, licensing caveats, bonus honesty, and responsible gambling notes."
+        badges={["Independent reviews", "Payment context", "18+ only"]}
+        tone="gold"
+        actions={
+          <>
+            <Link href="/bonuses" className="zb-btn-gold">
+              Claim Bonuses
+            </Link>
+            <Link href="/compare" className="zb-btn-cyan">
+              Compare Casinos
+            </Link>
+          </>
+        }
+      />
 
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <nav
-          className="flex flex-wrap gap-2"
-          aria-label="Casino directory filters"
-        >
+        <nav className="flex flex-wrap gap-2" aria-label="Casino directory filters">
           {FILTER_TABS.map((tab) => (
             <Link
               key={tab.key}
               href={tab.href}
-              className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400 ${
+              className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
                 filter === tab.key
-                  ? "border-gold-500/50 bg-gold-500/20 text-gold-300"
-                  : "border-white/10 text-slate-400 hover:border-white/20 hover:text-slate-200"
+                  ? "border-gold-500/50 bg-gold-500/20 text-gold-300 shadow-glow-gold"
+                  : "border-white/10 text-slate-400 hover:border-cyan-400/30 hover:text-slate-200"
               }`}
               aria-current={filter === tab.key ? "page" : undefined}
             >
@@ -93,7 +81,7 @@ export default function CasinoDirectory({
           <h2 id="directory-how-to-heading" className="font-display text-2xl font-bold text-white">
             How to use this casino directory
           </h2>
-          <GlassCard className="mt-4 p-6">
+          <div className="zb-glass mt-4 p-6">
             <p className="text-sm leading-relaxed text-slate-300">
               Start with your primary question — payments, crypto, sports crossover, or complaint
               themes — then open the linked review before depositing. Use the{" "}
@@ -124,60 +112,51 @@ export default function CasinoDirectory({
               </Link>{" "}
               to shortlist two or three brands side by side.
             </p>
-          </GlassCard>
+          </div>
         </section>
 
         <section className="mt-10" aria-labelledby="directory-scoring-heading">
           <h2 id="directory-scoring-heading" className="font-display text-2xl font-bold text-white">
-            How CasinoPulse scores casinos
+            How ZEONEBET scores casinos
           </h2>
-          <GlassCard className="mt-4 p-6">
+          <div className="zb-glass mt-4 p-6">
             <p className="text-sm leading-relaxed text-slate-300">
               Ratings combine safety and licensing signals, payment and withdrawal clarity, bonus
               fairness, game variety, mobile usability, support quality, and recurring complaint
-              themes. Pillar reviews — marked in the featured section — meet depth thresholds for
-              FAQ coverage, trust metadata, and internal authority links. Checklist reviews help
-              discovery but intentionally omit Review structured data until expanded.
+              themes. Commercial affiliate relationships do not purchase higher scores.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              Commercial affiliate relationships do not purchase higher scores. Read the full{" "}
+              Read the full{" "}
               <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
                 review methodology
               </Link>
               , browse the{" "}
               <Link href="/blacklist" className="text-gold-400 hover:text-gold-300">
                 editorial blacklist
-              </Link>{" "}
-              for contrast with flagged brands, and follow{" "}
+              </Link>
+              , and follow{" "}
               <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
                 responsible gambling guidance
-              </Link>{" "}
-              before playing. 18+ only.
+              </Link>
+              . 18+ only.
             </p>
-          </GlassCard>
+          </div>
         </section>
 
         {showBadDisclaimer && (
-          <GlassCard glow="danger" className="mt-6 p-5">
+          <div className="mt-6 rounded-2xl border border-danger-500/30 bg-danger-500/5 p-5">
             <p className="font-semibold text-danger-300">Editorial caution list</p>
             <p className="mt-2 text-sm leading-relaxed text-slate-300">
-              These brands show repeated reported concerns in public player feedback. CasinoPulse
+              These brands show repeated reported concerns in public player feedback. ZEONEBET
               documents risk indicators — not legal findings. Verify operator terms and local laws
-              before depositing. See our{" "}
-              <Link href="/blacklist" className="text-gold-400 hover:text-gold-300">
-                editorial blacklist
-              </Link>{" "}
-              for deeper assessments.
+              before depositing.
             </p>
-          </GlassCard>
+          </div>
         )}
 
         {filter !== "bad" && featured.length > 0 && (
           <section className="mt-10" aria-labelledby="featured-casinos-heading">
-            <h2
-              id="featured-casinos-heading"
-              className="font-display text-2xl font-bold text-white"
-            >
+            <h2 id="featured-casinos-heading" className="font-display text-2xl font-bold text-white">
               Featured pillar reviews
             </h2>
             <p className="mt-2 max-w-2xl text-sm text-slate-400">
@@ -209,14 +188,11 @@ export default function CasinoDirectory({
           <h2 id="directory-resources-heading" className="font-display text-xl font-bold text-white">
             Related guides &amp; trust resources
           </h2>
-          <GlassCard className="mt-4 p-6">
+          <div className="zb-glass mt-4 p-6">
             <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
               {RESOURCE_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="font-medium text-gold-400 hover:text-gold-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
-                  >
+                  <Link href={link.href} className="font-medium text-gold-400 hover:text-gold-300">
                     {link.label}
                   </Link>
                 </li>
@@ -227,16 +203,16 @@ export default function CasinoDirectory({
               <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
                 review methodology
               </Link>
-              . CasinoPulse may earn affiliate commissions from outbound links; scores remain
+              . ZEONEBET may earn affiliate commissions from outbound links; scores remain
               independent. Gambling involves risk —{" "}
               <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
                 read responsible gambling guidance
               </Link>
               . 18+ only.
             </p>
-          </GlassCard>
+          </div>
         </section>
       </div>
-    </div>
+    </PageShell>
   );
 }

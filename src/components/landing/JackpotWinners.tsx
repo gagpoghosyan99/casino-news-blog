@@ -17,7 +17,7 @@ function formatAmount(amount: number, currency: string) {
   }).format(amount);
 }
 
-export default function JackpotWinners() {
+export default function JackpotWinners({ hideHeader = false }: { hideHeader?: boolean }) {
   const winners = jackpotWins.slice(0, 6);
 
   return (
@@ -34,13 +34,15 @@ export default function JackpotWinners() {
       ))}
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionReveal>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Live Winners</p>
-          <h2 className="mt-2 zb-headline">Jackpot Winners Feed</h2>
-          <p className="mt-3 text-slate-400">Verified-style winner reports from global casino play.</p>
-        </SectionReveal>
+        {!hideHeader && (
+          <SectionReveal>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Live Winners</p>
+            <h2 className="mt-2 zb-headline">Jackpot Winners Feed</h2>
+            <p className="mt-3 text-slate-400">Verified-style winner reports from global casino play.</p>
+          </SectionReveal>
+        )}
 
-        <div className="mt-10 flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:overflow-visible lg:grid-cols-3">
+        <div className={`${hideHeader ? "" : "mt-10 "}flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:overflow-visible lg:grid-cols-3`}>
           {winners.map((win, i) => (
             <SectionReveal key={win.id} delay={i * 0.08} className="min-w-[280px] snap-center md:min-w-0">
               <div className="zb-glass-gold group h-full p-6 transition-transform hover:scale-[1.02]">

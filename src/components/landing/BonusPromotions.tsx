@@ -35,19 +35,21 @@ function Countdown({ seed }: { seed: number }) {
   );
 }
 
-export default function BonusPromotions() {
+export default function BonusPromotions({ hideHeader = false }: { hideHeader?: boolean }) {
   const offers = bonusOffers.slice(0, 3);
 
   return (
     <section id="bonuses" className="zb-section">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionReveal>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Limited-Time Offers</p>
-          <h2 className="mt-2 zb-headline">Bonuses &amp; Promotions</h2>
-          <p className="mt-3 text-slate-400">Premium bonus cards with urgency timers — always verify terms on the operator site.</p>
-        </SectionReveal>
+        {!hideHeader && (
+          <SectionReveal>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Limited-Time Offers</p>
+            <h2 className="mt-2 zb-headline">Bonuses &amp; Promotions</h2>
+            <p className="mt-3 text-slate-400">Premium bonus cards with urgency timers — always verify terms on the operator site.</p>
+          </SectionReveal>
+        )}
 
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <div className={`${hideHeader ? "" : "mt-10 "}grid gap-6 md:grid-cols-3`}>
           {offers.map((offer, i) => (
             <SectionReveal key={offer.id} delay={i * 0.08}>
               <div className="zb-glass flex h-full flex-col p-6 transition-all hover:border-gold-500/30 hover:shadow-glow-gold">

@@ -54,7 +54,7 @@ export default function NewsListingClient({ initialArticles }: NewsListingClient
   );
 
   return (
-    <div className="min-h-screen bg-navy-950">
+    <div className="zb-page-bg min-h-screen">
       <NewsArenaHero />
       <NewsCategoryFilter active={category} onChange={setCategory} />
 

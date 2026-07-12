@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ChevronDown, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const navItems = [
@@ -57,10 +57,7 @@ export default function ZeoneBetNavbar() {
 
       {/* Right — desktop */}
       <div className="hidden items-center gap-3 md:flex">
-        <div className="flex items-center gap-1 rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-sm text-white/75 backdrop-blur-md">
-          <LanguageSwitcher />
-          <ChevronDown className="h-3.5 w-3.5 opacity-60" aria-hidden="true" />
-        </div>
+        <LanguageSwitcher />
         <Link href="/contact" className="text-sm font-medium text-white/75 transition-colors hover:text-white">
           Login
         </Link>
@@ -98,13 +95,16 @@ export default function ZeoneBetNavbar() {
             </Link>
           ))}
           <div className="mt-3 flex flex-col gap-2 border-t border-white/10 pt-3">
+            <div className="flex justify-center pb-1">
+              <LanguageSwitcher variant="compact" />
+            </div>
             <Link href="/contact" onClick={() => setMobileOpen(false)} className="text-center text-sm text-white/75">
               Login
             </Link>
             <Link
               href="/casinos"
               onClick={() => setMobileOpen(false)}
-              className="rounded-full bg-[#d4af37] py-2 text-center text-sm font-semibold text-black"
+              className="hero-cta-gold rounded-full py-2 text-center text-sm font-bold text-black"
             >
               Register Now
             </Link>

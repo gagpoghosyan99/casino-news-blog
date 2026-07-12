@@ -2,6 +2,11 @@ import Link from "next/link";
 import type { Casino } from "@/types";
 import type { CasinoFilter } from "@/lib/casino-filter";
 import CasinoDirectoryCard from "@/components/casinos/CasinoDirectoryCard";
+import {
+  DirectoryGuideSection,
+  DirectoryScoringSection,
+} from "@/components/casinos/DirectoryGuideSections";
+import SectionReveal from "@/components/landing/SectionReveal";
 import PageHero from "@/components/ui/PageHero";
 import PageShell from "@/components/ui/PageShell";
 
@@ -49,7 +54,7 @@ export default function CasinoDirectory({
         tone="gold"
         actions={
           <>
-            <Link href="/bonuses" className="zb-btn-gold">
+            <Link href="/bonuses" className="zb-btn-gold zb-shine">
               Claim Bonuses
             </Link>
             <Link href="/compare" className="zb-btn-cyan">
@@ -59,158 +64,122 @@ export default function CasinoDirectory({
         }
       />
 
-      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <nav className="flex flex-wrap gap-2" aria-label="Casino directory filters">
-          {FILTER_TABS.map((tab) => (
-            <Link
-              key={tab.key}
-              href={tab.href}
-              className={`rounded-full border px-4 py-2 text-sm font-semibold transition-colors ${
-                filter === tab.key
-                  ? "border-gold-500/50 bg-gold-500/20 text-gold-300 shadow-glow-gold"
-                  : "border-white/10 text-slate-400 hover:border-cyan-400/30 hover:text-slate-200"
-              }`}
-              aria-current={filter === tab.key ? "page" : undefined}
-            >
-              {tab.label}
-            </Link>
-          ))}
-        </nav>
+      <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_10%,rgba(212,175,55,0.06),transparent_40%)]" />
 
-        <section className="mt-10" aria-labelledby="directory-how-to-heading">
-          <h2 id="directory-how-to-heading" className="font-display text-2xl font-bold text-white">
-            How to use this casino directory
-          </h2>
-          <div className="zb-glass mt-4 p-6">
-            <p className="text-sm leading-relaxed text-slate-300">
-              Start with your primary question — payments, crypto, sports crossover, or complaint
-              themes — then open the linked review before depositing. Use the{" "}
-              <strong className="text-white">Top rated</strong> filter for editor-favoured brands,
-              the full ranking for discovery, and the <strong className="text-white">Caution list</strong>{" "}
-              for operators with repeated reported concerns. Every score is an editorial estimate
-              from our published weights, not a guarantee of payouts or legal permission to play
-              in your jurisdiction.
-            </p>
-            <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              We recommend verifying cashier methods after login, reading bonus terms before opting
-              in, and testing a small withdrawal where policy allows. Cross-check payment context on
-              our{" "}
-              <Link href="/india-casino-payments" className="text-gold-400 hover:text-gold-300">
-                India
+        <SectionReveal>
+          <nav className="relative flex flex-wrap gap-2" aria-label="Casino directory filters">
+            {FILTER_TABS.map((tab) => (
+              <Link
+                key={tab.key}
+                href={tab.href}
+                className={`rounded-full border px-4 py-2 text-sm font-semibold transition-all ${
+                  filter === tab.key
+                    ? "border-gold-500/50 bg-gold-500/20 text-gold-300 shadow-[0_0_24px_rgba(212,175,55,0.25)]"
+                    : "border-white/10 bg-white/[0.03] text-slate-400 hover:border-cyan-400/30 hover:text-slate-200"
+                }`}
+                aria-current={filter === tab.key ? "page" : undefined}
+              >
+                {tab.label}
               </Link>
-              ,{" "}
-              <Link href="/bangladesh-casino-payments" className="text-gold-400 hover:text-gold-300">
-                Bangladesh
-              </Link>
-              , and{" "}
-              <Link href="/pakistan-casino-payments" className="text-gold-400 hover:text-gold-300">
-                Pakistan payment hubs
-              </Link>{" "}
-              before sending money. Use the{" "}
-              <Link href="/compare" className="text-gold-400 hover:text-gold-300">
-                comparison hub
-              </Link>{" "}
-              to shortlist two or three brands side by side.
-            </p>
-          </div>
-        </section>
+            ))}
+          </nav>
+        </SectionReveal>
 
-        <section className="mt-10" aria-labelledby="directory-scoring-heading">
-          <h2 id="directory-scoring-heading" className="font-display text-2xl font-bold text-white">
-            How ZEONEBET scores casinos
-          </h2>
-          <div className="zb-glass mt-4 p-6">
-            <p className="text-sm leading-relaxed text-slate-300">
-              Ratings combine safety and licensing signals, payment and withdrawal clarity, bonus
-              fairness, game variety, mobile usability, support quality, and recurring complaint
-              themes. Commercial affiliate relationships do not purchase higher scores.
-            </p>
-            <p className="mt-4 text-sm leading-relaxed text-slate-300">
-              Read the full{" "}
-              <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
-                review methodology
-              </Link>
-              , browse the{" "}
-              <Link href="/blacklist" className="text-gold-400 hover:text-gold-300">
-                editorial blacklist
-              </Link>
-              , and follow{" "}
-              <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
-                responsible gambling guidance
-              </Link>
-              . 18+ only.
-            </p>
-          </div>
-        </section>
+        <DirectoryGuideSection />
+        <DirectoryScoringSection />
 
         {showBadDisclaimer && (
-          <div className="mt-6 rounded-2xl border border-danger-500/30 bg-danger-500/5 p-5">
-            <p className="font-semibold text-danger-300">Editorial caution list</p>
-            <p className="mt-2 text-sm leading-relaxed text-slate-300">
-              These brands show repeated reported concerns in public player feedback. ZEONEBET
-              documents risk indicators — not legal findings. Verify operator terms and local laws
-              before depositing.
-            </p>
-          </div>
+          <SectionReveal>
+            <div className="relative mt-8 overflow-hidden rounded-3xl border border-danger-500/35 bg-gradient-to-br from-danger-500/15 via-black/50 to-black/40 p-6 shadow-[0_0_40px_rgba(239,68,68,0.15)]">
+              <p className="font-semibold text-danger-300">Editorial caution list</p>
+              <p className="mt-2 text-sm leading-relaxed text-slate-300">
+                These brands show repeated reported concerns in public player feedback. ZEONEBET
+                documents risk indicators — not legal findings. Verify operator terms and local laws
+                before depositing.
+              </p>
+            </div>
+          </SectionReveal>
         )}
 
         {filter !== "bad" && featured.length > 0 && (
-          <section className="mt-10" aria-labelledby="featured-casinos-heading">
-            <h2 id="featured-casinos-heading" className="font-display text-2xl font-bold text-white">
-              Featured pillar reviews
-            </h2>
-            <p className="mt-2 max-w-2xl text-sm text-slate-400">
-              In-depth editorial reviews with FAQ coverage, payment notes, and compliance language.
-            </p>
-            <div className="mt-6 grid gap-4 lg:grid-cols-2">
-              {featured.map((casino) => (
-                <CasinoDirectoryCard key={casino.id} casino={casino} featured />
+          <section className="relative mt-14" aria-labelledby="featured-casinos-heading">
+            <SectionReveal>
+              <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">
+                Spotlight picks
+              </p>
+              <h2 id="featured-casinos-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
+                Featured pillar reviews
+              </h2>
+              <p className="mt-3 max-w-2xl text-sm text-slate-400">
+                In-depth editorial reviews with real payment rails, trust splits, and register CTAs —
+                the same premium card language as the homepage rankings.
+              </p>
+            </SectionReveal>
+            <div className="mt-8 grid gap-5 lg:grid-cols-2">
+              {featured.map((casino, i) => (
+                <SectionReveal key={casino.id} delay={Math.min(i * 0.05, 0.4)}>
+                  <CasinoDirectoryCard casino={casino} featured index={i} />
+                </SectionReveal>
               ))}
             </div>
           </section>
         )}
 
-        <section className="mt-12" aria-labelledby="directory-list-heading">
-          <h2 id="directory-list-heading" className="font-display text-2xl font-bold text-white">
-            {listHeading}
-          </h2>
-          <p className="mt-2 text-sm text-slate-400">
-            {casinos.length} casinos · Updated for 2026 · Terms and availability vary by region
-          </p>
-          <div className="mt-6 space-y-4">
-            {casinos.map((casino) => (
-              <CasinoDirectoryCard key={casino.id} casino={casino} />
+        <section className="relative mt-16" aria-labelledby="directory-list-heading">
+          <SectionReveal>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">Full directory</p>
+            <h2 id="directory-list-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
+              {listHeading}
+            </h2>
+            <p className="mt-3 text-sm text-slate-400">
+              {casinos.length} casinos · Updated for 2026 · Terms and availability vary by region
+            </p>
+          </SectionReveal>
+          <div className="mt-8 space-y-4">
+            {casinos.map((casino, i) => (
+              <SectionReveal key={casino.id} delay={Math.min(i * 0.03, 0.35)}>
+                <CasinoDirectoryCard casino={casino} index={i} />
+              </SectionReveal>
             ))}
           </div>
         </section>
 
-        <section className="mt-14" aria-labelledby="directory-resources-heading">
-          <h2 id="directory-resources-heading" className="font-display text-xl font-bold text-white">
-            Related guides &amp; trust resources
-          </h2>
-          <div className="zb-glass mt-4 p-6">
-            <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
-              {RESOURCE_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="font-medium text-gold-400 hover:text-gold-300">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <p className="mt-6 text-sm leading-relaxed text-slate-400">
-              Ratings follow our published{" "}
-              <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
-                review methodology
-              </Link>
-              . ZEONEBET may earn affiliate commissions from outbound links; scores remain
-              independent. Gambling involves risk —{" "}
-              <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
-                read responsible gambling guidance
-              </Link>
-              . 18+ only.
-            </p>
-          </div>
+        <section className="relative mt-16" aria-labelledby="directory-resources-heading">
+          <SectionReveal>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Resources</p>
+            <h2 id="directory-resources-heading" className="mt-2 zb-headline text-xl md:text-2xl">
+              Related guides &amp; trust resources
+            </h2>
+          </SectionReveal>
+          <SectionReveal delay={0.08}>
+            <div className="relative mt-6 overflow-hidden rounded-3xl border border-gold-400/25 bg-gradient-to-br from-gold-500/10 via-black/50 to-cyan-500/8 p-6 shadow-[0_0_40px_rgba(212,175,55,0.1)] backdrop-blur-xl sm:p-8">
+              <ul className="flex flex-wrap gap-x-4 gap-y-3 text-sm">
+                {RESOURCE_LINKS.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="inline-flex rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-medium text-gold-300 transition-colors hover:border-gold-400/40 hover:bg-gold-500/10"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 text-sm leading-relaxed text-slate-400">
+                Ratings follow our published{" "}
+                <Link href="/how-we-review" className="text-gold-400 hover:text-gold-300">
+                  review methodology
+                </Link>
+                . ZEONEBET may earn affiliate commissions from outbound links; scores remain
+                independent. Gambling involves risk —{" "}
+                <Link href="/responsible-gambling" className="text-gold-400 hover:text-gold-300">
+                  read responsible gambling guidance
+                </Link>
+                . 18+ only.
+              </p>
+            </div>
+          </SectionReveal>
         </section>
       </div>
     </PageShell>

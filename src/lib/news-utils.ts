@@ -23,40 +23,40 @@ export function formatTimeAgo(isoDate: string, locale: string): string {
 export function categoryStyles(category: string) {
   const map: Record<string, { pill: string; image: string; icon: string }> = {
     Payments: {
-      pill: "bg-orange-100 text-orange-700",
-      image: "from-orange-400 via-amber-500 to-yellow-500",
+      pill: "border border-amber-400/35 bg-amber-500/15 text-amber-200",
+      image: "from-amber-500/40 via-gold-500/20 to-black/60",
       icon: "💳",
     },
     Industry: {
-      pill: "bg-blue-100 text-blue-700",
-      image: "from-blue-500 via-indigo-500 to-violet-600",
+      pill: "border border-cyan-400/35 bg-cyan-500/15 text-cyan-200",
+      image: "from-cyan-500/35 via-blue-500/15 to-black/60",
       icon: "📊",
     },
     Sports: {
-      pill: "bg-green-100 text-green-700",
-      image: "from-green-500 via-emerald-500 to-teal-600",
+      pill: "border border-emerald-400/35 bg-emerald-500/15 text-emerald-200",
+      image: "from-emerald-500/35 via-teal-500/15 to-black/60",
       icon: "🏏",
     },
     Crypto: {
-      pill: "bg-purple-100 text-purple-700",
-      image: "from-violet-500 via-purple-500 to-fuchsia-600",
+      pill: "border border-gold-400/35 bg-gold-500/15 text-gold-200",
+      image: "from-gold-500/35 via-amber-500/15 to-black/60",
       icon: "₿",
     },
     "Live Casino": {
-      pill: "bg-rose-100 text-rose-700",
-      image: "from-rose-500 via-red-500 to-orange-600",
+      pill: "border border-rose-400/35 bg-rose-500/15 text-rose-200",
+      image: "from-rose-500/35 via-orange-500/15 to-black/60",
       icon: "🎰",
     },
     Regulation: {
-      pill: "bg-slate-100 text-slate-700",
-      image: "from-slate-600 via-gray-600 to-zinc-700",
+      pill: "border border-slate-400/35 bg-slate-500/15 text-slate-200",
+      image: "from-slate-500/35 via-zinc-500/15 to-black/60",
       icon: "⚖️",
     },
   };
   return (
     map[category] ?? {
-      pill: "bg-brand-100 text-brand-700",
-      image: "from-brand-500 to-amber-500",
+      pill: "border border-gold-400/30 bg-gold-500/10 text-gold-200",
+      image: "from-gold-500/30 via-cyan-500/10 to-black/60",
       icon: "📰",
     }
   );

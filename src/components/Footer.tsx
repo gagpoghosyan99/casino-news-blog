@@ -131,10 +131,39 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-slate-600 sm:flex-row">
+        <div className="mt-12 overflow-hidden rounded-2xl border-2 border-amber-400/80 bg-gradient-to-r from-amber-500 to-[#f4c542] px-5 py-5 shadow-[0_0_40px_rgba(244,197,66,0.25)]">
+          <div className="flex flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
+            <div className="flex items-center gap-3">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-navy-950 font-display text-lg font-black text-amber-300">
+                18+
+              </span>
+              <p className="text-sm font-bold text-navy-950 sm:text-base">
+                18+ only. Gamble responsibly. Set limits and seek help if needed.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center justify-center gap-2">
+              <a
+                href="https://www.begambleaware.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-navy-950 px-4 py-2 text-xs font-bold text-amber-300 hover:text-amber-200"
+              >
+                BeGambleAware.org
+              </a>
+              <Link
+                href="/responsible-gambling"
+                className="rounded-full border-2 border-navy-950 bg-white/90 px-4 py-2 text-xs font-bold text-navy-950"
+              >
+                Safety Guide
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-slate-500 sm:flex-row">
           <span>© {year} ZEONEBET. {t("footerRights")}</span>
-          <p className="text-center text-xs text-slate-600">
-            18+ only · Gamble responsibly · Affiliate disclosure applies
+          <p className="text-center text-xs text-slate-500">
+            Affiliate disclosure applies · Editorial independence maintained
           </p>
         </div>
       </div>

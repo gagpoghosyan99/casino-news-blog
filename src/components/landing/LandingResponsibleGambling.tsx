@@ -193,48 +193,60 @@ export default function LandingResponsibleGambling() {
           ))}
         </div>
 
-        {/* Premium 18+ banner with layered depth */}
-        <SectionReveal delay={0.25}>
-          <div style={{ perspective: "1200px" }} className="mt-12">
+        {/* HIGH-VISIBILITY 18+ compliance banner — must stay obvious */}
+        <SectionReveal delay={0.2}>
+          <aside
+            aria-label="Age restriction and responsible gambling notice"
+            className="relative mt-14 overflow-hidden rounded-3xl border-2 border-amber-400 bg-gradient-to-r from-amber-500 via-[#f4c542] to-amber-400 shadow-[0_0_0_4px_rgba(244,197,66,0.25),0_20px_60px_rgba(244,197,66,0.35)]"
+          >
             <motion.div
-              whileHover={{ rotateX: 3, y: -4 }}
-              transition={{ type: "spring", stiffness: 200, damping: 18 }}
-              className="relative overflow-hidden rounded-3xl border border-amber-400/30 bg-gradient-to-br from-amber-500/10 via-black/40 to-emerald-500/10 px-6 py-7 text-center shadow-[0_20px_60px_rgba(0,0,0,0.4),0_0_40px_rgba(245,158,11,0.12)] backdrop-blur-xl"
-              style={{ transformStyle: "preserve-3d" }}
-            >
-              <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(120deg,transparent_40%,rgba(255,255,255,0.06)_50%,transparent_60%)]" />
+              className="pointer-events-none absolute inset-0 bg-[linear-gradient(110deg,transparent_40%,rgba(255,255,255,0.35)_50%,transparent_60%)]"
+              animate={{ x: ["-40%", "140%"] }}
+              transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", repeatDelay: 1.5 }}
+            />
+
+            <div className="relative flex flex-col items-center gap-5 px-5 py-8 text-center sm:px-8 sm:py-10 md:flex-row md:text-left">
               <motion.div
-                className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/15 ring-1 ring-amber-400/40"
-                style={{ transform: "translateZ(36px)", boxShadow: "0 0 30px rgba(245,158,11,0.25)" }}
-                animate={{ scale: [1, 1.06, 1] }}
-                transition={{ duration: 2.8, repeat: Infinity }}
+                className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-navy-950 text-amber-300 shadow-[0_0_30px_rgba(0,0,0,0.35)] ring-4 ring-navy-950/20 sm:h-24 sm:w-24"
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 2, repeat: Infinity }}
+                aria-hidden="true"
               >
-                <Ban className="h-6 w-6 text-amber-300" />
+                <span className="font-display text-3xl font-black tracking-tight sm:text-4xl">18+</span>
               </motion.div>
-              <p
-                className="text-base font-semibold text-amber-100 sm:text-lg"
-                style={{ transform: "translateZ(24px)" }}
-              >
-                18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
-              </p>
-              <div
-                className="mt-5 flex flex-wrap items-center justify-center gap-3"
-                style={{ transform: "translateZ(20px)" }}
-              >
+
+              <div className="min-w-0 flex-1">
+                <p className="text-xs font-black uppercase tracking-[0.25em] text-navy-950/70">
+                  Mandatory Player Notice
+                </p>
+                <p className="mt-2 font-display text-xl font-extrabold leading-snug text-navy-950 sm:text-2xl md:text-3xl">
+                  18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
+                </p>
+                <p className="mt-2 text-sm font-semibold text-navy-950/75 sm:text-base">
+                  Gambling should be entertainment — never a way to make money. Play safely.
+                </p>
+              </div>
+
+              <div className="flex w-full shrink-0 flex-col gap-2.5 sm:w-auto sm:min-w-[220px]">
                 <a
                   href="https://www.begambleaware.org"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="zb-btn-cyan text-sm"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-navy-950 px-6 py-3.5 text-sm font-bold text-amber-300 shadow-lg transition-transform hover:scale-[1.03] hover:text-amber-200 active:scale-95"
                 >
                   BeGambleAware.org
+                  <ArrowUpRight className="h-4 w-4" />
                 </a>
-                <Link href="/responsible-gambling" className="zb-btn-gold text-sm">
+                <Link
+                  href="/responsible-gambling"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-navy-950/80 bg-white/90 px-6 py-3.5 text-sm font-bold text-navy-950 transition-transform hover:scale-[1.03] hover:bg-white active:scale-95"
+                >
                   Full Safety Guide
+                  <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </div>
-            </motion.div>
-          </div>
+            </div>
+          </aside>
         </SectionReveal>
       </div>
     </section>

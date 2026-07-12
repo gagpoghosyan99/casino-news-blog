@@ -1,8 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { Ban, CircleHelp, HeartHandshake, ShieldCheck } from "lucide-react";
+import PremiumIcon from "@/components/ui/PremiumIcon";
 import { responsibleGamblingQuickLinks } from "@/data/legal";
 import SectionReveal from "./SectionReveal";
+
+const linkIcons = [ShieldCheck, Ban, HeartHandshake, CircleHelp] as const;
 
 export default function LandingResponsibleGambling() {
   return (
@@ -20,7 +24,8 @@ export default function LandingResponsibleGambling() {
           {responsibleGamblingQuickLinks.map((item, i) => (
             <SectionReveal key={item.title} delay={i * 0.06}>
               <div className="zb-glass h-full p-5">
-                <h3 className="font-semibold text-white">{item.title}</h3>
+                <PremiumIcon icon={linkIcons[i] ?? ShieldCheck} tone="emerald" size="sm" />
+                <h3 className="mt-3 font-semibold text-white">{item.title}</h3>
                 <p className="mt-2 text-sm text-slate-500">{item.desc}</p>
                 <Link href={item.href} className="mt-4 inline-block text-xs font-semibold text-emerald-400 hover:text-emerald-300">
                   Learn more →
@@ -31,8 +36,9 @@ export default function LandingResponsibleGambling() {
         </div>
 
         <div className="mt-10 rounded-2xl border border-amber-500/25 bg-amber-500/5 px-6 py-5 text-center">
-          <p className="text-sm font-semibold text-amber-200">
-            ⚠️ 18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
+          <p className="inline-flex items-center justify-center gap-2 text-sm font-semibold text-amber-200">
+            <Ban className="h-4 w-4" />
+            18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
           </p>
           <div className="mt-4 flex flex-wrap justify-center gap-4 text-sm">
             <a href="https://www.begambleaware.org" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">

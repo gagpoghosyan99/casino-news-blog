@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Check, Smartphone, Star } from "lucide-react";
 import CasinoLogo from "@/components/CasinoLogo";
 import SectionReveal from "./SectionReveal";
 import { rankedCasinos } from "@/data/landing-home";
@@ -39,7 +40,7 @@ export default function CasinoRankingTable() {
                 <div className="flex items-center gap-3 lg:col-span-1">
                   <span
                     className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-sm font-bold ${
-                      casino.premium ? "bg-gold-500 text-navy-950" : "bg-white/10 text-gold-400"
+                      casino.premium ? "bg-gold-500 text-navy-950 shadow-[0_0_16px_rgba(212,175,55,0.45)]" : "bg-white/10 text-gold-400"
                     }`}
                   >
                     {String(casino.rank).padStart(2, "0")}
@@ -51,7 +52,9 @@ export default function CasinoRankingTable() {
                   <div className="min-w-0">
                     <p className="font-semibold text-white">{casino.name}</p>
                     {casino.premium && (
-                      <span className="text-xs font-bold text-gold-400">★ Top Rated</span>
+                      <span className="inline-flex items-center gap-1 text-xs font-bold text-gold-400">
+                        <Star className="h-3 w-3 fill-gold-400" /> Top Rated
+                      </span>
                     )}
                   </div>
                 </div>
@@ -72,15 +75,18 @@ export default function CasinoRankingTable() {
                     {casino.payments.map((p) => (
                       <span
                         key={p}
-                        className="rounded-md bg-white/5 px-2 py-0.5 text-[10px] font-semibold text-slate-300"
+                        className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[10px] font-semibold text-slate-300"
                       >
                         {p}
                       </span>
                     ))}
                   </div>
 
-                  <div className="text-center lg:col-span-1">
-                    <span className="text-emerald-400">✓</span>
+                  <div className="flex items-center justify-center lg:col-span-1">
+                    <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-400 ring-1 ring-emerald-400/30">
+                      <Check className="h-3.5 w-3.5" strokeWidth={2.5} />
+                    </span>
+                    <Smartphone className="ml-1.5 hidden h-3.5 w-3.5 text-slate-500 lg:inline" />
                   </div>
                 </div>
 

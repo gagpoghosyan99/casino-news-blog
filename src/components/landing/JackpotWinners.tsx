@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Trophy, Zap } from "lucide-react";
 import { jackpotWins } from "@/data/jackpots";
 import { countryFlags } from "@/data/landing-home";
+import PremiumIcon from "@/components/ui/PremiumIcon";
 import SectionReveal from "./SectionReveal";
 
 function formatAmount(amount: number, currency: string) {
@@ -20,7 +22,6 @@ export default function JackpotWinners() {
   return (
     <section id="jackpots" className="relative zb-section overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.08),transparent_70%)]" />
-      {/* Gold particles */}
       {Array.from({ length: 12 }).map((_, i) => (
         <motion.span
           key={i}
@@ -43,9 +44,7 @@ export default function JackpotWinners() {
             <SectionReveal key={win.id} delay={i * 0.08} className="min-w-[280px] snap-center md:min-w-0">
               <div className="zb-glass-gold group h-full p-6 transition-transform hover:scale-[1.02]">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-gold-500 to-gold-600 text-lg font-bold text-navy-950">
-                    {win.playerNickname.slice(0, 1)}
-                  </div>
+                  <PremiumIcon icon={Trophy} tone="gold" size="md" />
                   <div>
                     <p className="font-semibold text-white">{win.playerNickname}</p>
                     <p className="text-sm text-slate-500">
@@ -53,8 +52,8 @@ export default function JackpotWinners() {
                     </p>
                   </div>
                   {win.isRecord && (
-                    <span className="ml-auto rounded-full bg-gold-500/20 px-2 py-0.5 text-[10px] font-bold text-gold-300">
-                      RECORD
+                    <span className="ml-auto inline-flex items-center gap-1 rounded-full bg-gold-500/20 px-2 py-0.5 text-[10px] font-bold text-gold-300">
+                      <Zap className="h-3 w-3" /> RECORD
                     </span>
                   )}
                 </div>
@@ -66,7 +65,7 @@ export default function JackpotWinners() {
                 </p>
                 <Link
                   href={`/go/${win.casinoSlug}`}
-                  className="zb-btn-gold zb-shine mt-6 block w-full text-center text-sm"
+                  className="zb-btn-gold zb-shine mt-6 w-full text-center text-sm"
                 >
                   Claim Like Winners
                 </Link>

@@ -66,7 +66,7 @@ export default function ZeoneBetNavbar() {
         </Link>
         <Link
           href="/casinos"
-          className="rounded-full bg-[#d4af37] px-5 py-2 text-sm font-semibold text-black transition-all hover:bg-[#f4c542] hover:shadow-lg hover:shadow-[#d4af37]/30"
+          className="hero-cta-gold rounded-full px-5 py-2 text-sm font-bold text-black"
         >
           Register Now
         </Link>

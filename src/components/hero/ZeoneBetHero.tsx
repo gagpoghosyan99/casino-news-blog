@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Bitcoin, ShieldCheck, Trophy, Zap } from "lucide-react";
+import { ArrowRight, Bitcoin, ShieldCheck, Trophy, Zap } from "lucide-react";
 import { BG_IMAGE_1, BG_IMAGE_2 } from "./constants";
 import FloatingCasinoCard from "./FloatingCasinoCard";
 import RevealLayer from "./RevealLayer";
@@ -162,20 +162,23 @@ export default function ZeoneBetHero() {
           >
             <Link
               href="/casinos"
-              className="hero-cta-gold w-full rounded-full px-8 py-3.5 text-center text-sm font-bold text-black sm:w-auto sm:min-w-[200px]"
+              className="hero-cta-gold inline-flex w-full items-center justify-center gap-2 rounded-full px-8 py-3.5 text-center text-sm font-bold text-black sm:w-auto sm:min-w-[200px]"
             >
               Explore Trusted Casinos
+              <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="/#bonuses"
-              className="hero-cta-cyan w-full rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[180px]"
+              className="hero-cta-cyan inline-flex w-full items-center justify-center gap-2 rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[180px]"
             >
+              <Zap className="h-4 w-4" />
               Claim Bonuses
             </Link>
             <Link
               href="/#jackpots"
-              className="hero-cta-outline w-full rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[200px]"
+              className="hero-cta-outline inline-flex w-full items-center justify-center gap-2 rounded-full px-8 py-3.5 text-center text-sm font-bold sm:w-auto sm:min-w-[200px]"
             >
+              <Trophy className="h-4 w-4" />
               View Jackpot Winners
             </Link>
           </div>
@@ -200,9 +203,10 @@ export default function ZeoneBetHero() {
           </p>
           <Link
             href="/casinos"
-            className="pointer-events-auto rounded-full bg-[#d4af37] px-7 py-3 text-sm font-semibold text-black transition-all hover:scale-[1.03] hover:bg-[#f4c542] hover:shadow-lg hover:shadow-[#d4af37]/30 active:scale-95"
+            className="hero-cta-gold pointer-events-auto inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-bold text-black"
           >
             Start Exploring
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
       </section>

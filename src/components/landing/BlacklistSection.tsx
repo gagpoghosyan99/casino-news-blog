@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { AlertTriangle, ShieldAlert } from "lucide-react";
+import PremiumIcon from "@/components/ui/PremiumIcon";
 import { blacklistedCasinos } from "@/data/blacklist";
 import SectionReveal from "./SectionReveal";
 
@@ -35,16 +37,15 @@ export default function BlacklistSection() {
                     <h3 className="font-display text-lg font-bold text-white">{casino.name}</h3>
                     <p className="mt-2 text-sm text-slate-400">{casino.summary}</p>
                   </div>
-                  <span className="shrink-0 rounded-full bg-danger-500/20 px-2 py-1 text-xs font-bold text-danger-300">
-                    ⚠️
-                  </span>
+                  <PremiumIcon icon={ShieldAlert} tone="danger" size="sm" />
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {casino.risks.map((r) => (
                     <span
                       key={r}
-                      className="rounded-md border border-danger-500/30 bg-danger-500/10 px-2 py-0.5 text-[10px] font-semibold text-danger-300"
+                      className="inline-flex items-center gap-1 rounded-md border border-danger-500/30 bg-danger-500/10 px-2 py-0.5 text-[10px] font-semibold text-danger-300"
                     >
+                      <AlertTriangle className="h-3 w-3" />
                       {riskLabels[r] ?? r}
                     </span>
                   ))}
@@ -56,7 +57,11 @@ export default function BlacklistSection() {
         </div>
 
         <div className="mt-8 text-center">
-          <Link href="/blacklist" className="inline-flex items-center rounded-xl border border-danger-500/40 bg-danger-500/10 px-6 py-3 text-sm font-semibold text-danger-300 transition-all hover:bg-danger-500/20">
+          <Link
+            href="/blacklist"
+            className="inline-flex items-center gap-2 rounded-full border border-danger-500/50 bg-danger-500/15 px-6 py-3 text-sm font-bold text-danger-200 shadow-[0_4px_20px_rgba(239,68,68,0.2)] transition-all hover:bg-danger-500/25 hover:shadow-[0_6px_28px_rgba(239,68,68,0.3)]"
+          >
+            <ShieldAlert className="h-4 w-4" />
             See Full Blacklist →
           </Link>
         </div>

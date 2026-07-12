@@ -2,8 +2,12 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Bitcoin, Coins, Wallet, Zap } from "lucide-react";
+import PremiumIcon from "@/components/ui/PremiumIcon";
 import { cryptoAssets, cryptoGuideCards } from "@/data/landing-home";
 import SectionReveal from "./SectionReveal";
+
+const guideIcons = [Bitcoin, Zap, Wallet, Coins] as const;
 
 export default function CryptoCasinoGuide() {
   return (
@@ -29,11 +33,12 @@ export default function CryptoCasinoGuide() {
               return (
                 <motion.div
                   key={asset.symbol}
-                  className={`absolute flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500/30 to-gold-500/20 font-bold text-white shadow-glow-cyan ring-1 ring-cyan-400/30 ${positions[i]}`}
+                  className={`absolute flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500/30 to-gold-500/20 font-bold text-white shadow-glow-cyan ring-1 ring-cyan-400/30 ${positions[i]}`}
                   animate={{ y: [0, -8, 0] }}
                   transition={{ duration: 3 + i * 0.5, repeat: Infinity }}
                 >
-                  {asset.symbol}
+                  <Bitcoin className="mb-0.5 h-4 w-4 text-gold-400" />
+                  <span className="text-[10px] tracking-wide">{asset.symbol}</span>
                 </motion.div>
               );
             })}
@@ -43,9 +48,12 @@ export default function CryptoCasinoGuide() {
             {cryptoGuideCards.map((card, i) => (
               <SectionReveal key={card.title} delay={i * 0.06}>
                 <Link href={card.href} className="group block h-full">
-                  <div className="zb-glass-cyan h-full p-5 transition-all group-hover:shadow-glow-cyan">
-                    <h3 className="font-semibold text-white group-hover:text-cyan-300">{card.title}</h3>
-                    <p className="mt-2 text-sm text-slate-500">{card.desc}</p>
+                  <div className="zb-glass-cyan flex h-full gap-3 p-5 transition-all group-hover:shadow-glow-cyan">
+                    <PremiumIcon icon={guideIcons[i] ?? Coins} tone="cyan" size="sm" />
+                    <div>
+                      <h3 className="font-semibold text-white group-hover:text-cyan-300">{card.title}</h3>
+                      <p className="mt-2 text-sm text-slate-500">{card.desc}</p>
+                    </div>
                   </div>
                 </Link>
               </SectionReveal>

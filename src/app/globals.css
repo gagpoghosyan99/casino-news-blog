@@ -146,15 +146,38 @@
   }
 
   .zb-btn-gold {
-    @apply relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-r from-gold-500 to-gold-400 px-6 py-3 text-sm font-bold text-navy-950 shadow-glow-gold transition-all hover:brightness-110 active:scale-[0.98];
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#f4c542] via-[#d4af37] to-[#f4c542] px-6 py-3 text-sm font-bold text-navy-950 transition-all hover:brightness-110 active:scale-[0.97];
+    box-shadow:
+      0 0 0 1px rgba(244, 197, 66, 0.35),
+      0 4px 20px rgba(212, 175, 55, 0.4),
+      0 0 36px rgba(212, 175, 55, 0.18);
+  }
+
+  .zb-btn-gold:hover {
+    box-shadow:
+      0 0 0 1px rgba(244, 197, 66, 0.55),
+      0 6px 28px rgba(212, 175, 55, 0.5),
+      0 0 48px rgba(212, 175, 55, 0.28);
   }
 
   .zb-btn-cyan {
-    @apply inline-flex items-center justify-center rounded-xl border border-cyan-400/40 bg-cyan-500/10 px-6 py-3 text-sm font-bold text-cyan-300 shadow-glow-cyan transition-all hover:bg-cyan-500/20 active:scale-[0.98];
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cyan-400/60 bg-cyan-500/15 px-6 py-3 text-sm font-bold text-cyan-200 transition-all hover:bg-cyan-500/25 hover:text-white active:scale-[0.97];
+    box-shadow:
+      0 0 0 1px rgba(34, 211, 238, 0.12),
+      0 4px 20px rgba(34, 211, 238, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .zb-btn-cyan:hover {
+    box-shadow:
+      0 0 0 1px rgba(34, 211, 238, 0.3),
+      0 6px 28px rgba(34, 211, 238, 0.35),
+      0 0 40px rgba(34, 211, 238, 0.15);
   }
 
   .zb-btn-ghost {
-    @apply inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-slate-200 backdrop-blur-sm transition-all hover:border-gold-500/40 hover:text-gold-300;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold-500/40 bg-black/40 px-5 py-2.5 text-sm font-semibold text-gold-300 backdrop-blur-sm transition-all hover:border-gold-400/70 hover:bg-gold-500/10 hover:text-gold-300 active:scale-[0.97];
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   }
 
   .zb-section {

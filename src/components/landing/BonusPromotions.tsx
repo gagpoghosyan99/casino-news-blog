@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Clock3, Gift } from "lucide-react";
+import PremiumIcon from "@/components/ui/PremiumIcon";
 import { bonusOffers } from "@/data/bonuses";
 import SectionReveal from "./SectionReveal";
 
@@ -25,7 +27,8 @@ function Countdown({ seed }: { seed: number }) {
 
   const pad = (n: number) => String(n).padStart(2, "0");
   return (
-    <span className="font-mono text-sm font-bold text-gold-400">
+    <span className="inline-flex items-center gap-1.5 font-mono text-sm font-bold text-gold-400">
+      <Clock3 className="h-3.5 w-3.5" />
       {pad(time.h)}:{pad(time.m)}:{pad(time.s)}
     </span>
   );
@@ -48,7 +51,7 @@ export default function BonusPromotions() {
             <SectionReveal key={offer.id} delay={i * 0.08}>
               <div className="zb-glass flex h-full flex-col p-6 transition-all hover:border-gold-500/30 hover:shadow-glow-gold">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold uppercase text-cyan-400">Ends in</span>
+                  <PremiumIcon icon={Gift} tone="gold" size="sm" />
                   <Countdown seed={i} />
                 </div>
                 <h3 className="mt-4 font-display text-xl font-bold text-white">{offer.casinoName}</h3>

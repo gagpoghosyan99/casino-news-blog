@@ -137,7 +137,7 @@ export default function Footer() {
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-navy-950 font-display text-lg font-black text-amber-300">
                 18+
               </span>
-              <p className="text-sm font-bold text-navy-950 sm:text-base">
+              <p className="font-notice text-base text-navy-950 sm:text-lg">
                 18+ only. Gamble responsibly. Set limits and seek help if needed.
               </p>
             </div>

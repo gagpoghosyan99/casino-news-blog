@@ -216,13 +216,13 @@ export default function LandingResponsibleGambling() {
               </motion.div>
 
               <div className="min-w-0 flex-1">
-                <p className="text-xs font-black uppercase tracking-[0.25em] text-navy-950/70">
+                <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-navy-950/65">
                   Mandatory Player Notice
                 </p>
-                <p className="mt-2 font-display text-xl font-extrabold leading-snug text-navy-950 sm:text-2xl md:text-3xl">
+                <p className="font-notice mt-2 text-2xl text-navy-950 sm:text-3xl md:text-[2.15rem]">
                   18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
                 </p>
-                <p className="mt-2 text-sm font-semibold text-navy-950/75 sm:text-base">
+                <p className="mt-3 font-display text-sm font-medium tracking-wide text-navy-950/70 sm:text-base">
                   Gambling should be entertainment — never a way to make money. Play safely.
                 </p>
               </div>

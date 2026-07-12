@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CryptoCasinoGuide from "@/components/landing/CryptoCasinoGuide";
+import CryptoGuideSections from "@/components/crypto/CryptoGuideSections";
 import PageHero from "@/components/ui/PageHero";
 import PageShell from "@/components/ui/PageShell";
 import { buildPageMetadata } from "@/lib/seo/metadata";
@@ -23,16 +24,27 @@ export default function CryptoHubPage() {
         tone="cyan"
         actions={
           <>
-            <Link href="/crypto/bitcoin-casino" className="zb-btn-cyan">
+            <Link href="/crypto/bitcoin-casino" className="zb-btn-cyan zb-shine">
               Bitcoin Casino Guide
             </Link>
-            <Link href="/casinos" className="zb-btn-gold">
+            <Link href="/casinos" className="zb-btn-gold zb-shine">
               Trusted Casinos
             </Link>
           </>
         }
       />
-      <CryptoCasinoGuide hideHeader />
+      <CryptoGuideSections />
+      <CryptoCasinoGuide
+        hideHeader
+        showAssetGrid
+        ctaHref="/casinos"
+        ctaLabel="Explore Trusted Crypto Casinos"
+      />
+      <div className="mx-auto max-w-7xl px-4 pb-16 text-center sm:px-6 lg:px-8">
+        <Link href="/bonuses" className="zb-btn-gold inline-flex">
+          View crypto-friendly bonuses →
+        </Link>
+      </div>
     </PageShell>
   );
 }

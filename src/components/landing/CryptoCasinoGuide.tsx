@@ -88,10 +88,10 @@ const ASSET_META = {
 } as const;
 
 const ORBIT = [
-  { top: "8%", left: "42%", delay: 0 },
-  { top: "38%", left: "78%", delay: 0.4 },
-  { top: "72%", left: "58%", delay: 0.8 },
-  { top: "42%", left: "8%", delay: 1.2 },
+  { top: "10%", left: "50%", delay: 0 },
+  { top: "50%", left: "88%", delay: 0.4 },
+  { top: "88%", left: "50%", delay: 0.8 },
+  { top: "50%", left: "12%", delay: 1.2 },
 ];
 
 const guideMeta = [
@@ -120,17 +120,17 @@ function CryptoOrbitStage() {
         transition={{ duration: 28, repeat: Infinity, ease: "linear" }}
       />
 
-      {/* Pulse core */}
-      <motion.div
-        className="absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-cyan-500/20 via-navy-900 to-gold-500/20 ring-1 ring-white/10 shadow-[0_0_50px_rgba(34,211,238,0.25)]"
-        animate={{ scale: [1, 1.06, 1], opacity: [0.85, 1, 0.85] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <div className="flex h-full flex-col items-center justify-center">
-          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-cyan-300/80">Pay</span>
+      {/* Pulse core — perfectly centered */}
+      <div className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+        <motion.div
+          className="flex h-28 w-28 flex-col items-center justify-center rounded-full bg-gradient-to-br from-cyan-500/25 via-navy-900 to-gold-500/20 ring-1 ring-white/15 shadow-[0_0_50px_rgba(34,211,238,0.3)]"
+          animate={{ scale: [1, 1.06, 1], opacity: [0.9, 1, 0.9] }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-cyan-300/90">Pay</span>
           <span className="font-display text-sm font-bold text-white">Crypto</span>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
 
       {/* Connecting beams */}
       <svg className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
@@ -146,8 +146,8 @@ function CryptoOrbitStage() {
             key={i}
             x1="50%"
             y1="50%"
-            x2={`calc(${pos.left} + 7%)`}
-            y2={`calc(${pos.top} + 7%)`}
+            x2={pos.left}
+            y2={pos.top}
             stroke="url(#beam)"
             strokeWidth="1"
             initial={{ opacity: 0.2 }}
@@ -167,7 +167,7 @@ function CryptoOrbitStage() {
         return (
           <motion.div
             key={asset.symbol}
-            className="absolute z-10"
+            className="absolute z-10 -translate-x-1/2 -translate-y-1/2"
             style={{ top: pos.top, left: pos.left }}
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}

@@ -162,8 +162,16 @@ export default function Footer() {
 
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-slate-500 sm:flex-row">
           <span>© {year} ZEONEBET. {t("footerRights")}</span>
-          <p className="text-center text-xs text-slate-500">
-            Affiliate disclosure applies · Editorial independence maintained
+          <p className="text-center text-xs text-slate-500 sm:text-sm">
+            Developed By{" "}
+            <a
+              href="https://dewebam.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-cyan-400 transition-colors hover:text-cyan-300 hover:underline"
+            >
+              DEWEBAM.COM
+            </a>
           </p>
         </div>
       </div>

@@ -3,10 +3,21 @@
 import Link from "next/link";
 import { useEffect, useRef, useState, type MouseEvent } from "react";
 import { motion } from "framer-motion";
-import { Clock3, Gift, Sparkles, Zap } from "lucide-react";
+import { Clock3, ExternalLink, Gift, Sparkles, Zap } from "lucide-react";
 import { AFFILIATE_LINK_REL } from "@/lib/seo/affiliate-link";
-import { bonusOffers } from "@/data/bonuses";
+import { homepageBonusExamples } from "@/data/bonuses";
+import { getCasinoRankingMeta } from "@/data/casino-ranking-meta";
+import type { CasinoBonusOffer } from "@/types/domain";
 import SectionReveal from "./SectionReveal";
+
+const TYPE_LABELS: Record<string, string> = {
+  welcome: "Welcome",
+  cashback: "Cashback",
+  "free-spins": "Free Spins",
+  vip: "VIP",
+  crypto: "Crypto",
+  "no-deposit": "No Deposit",
+};
 
 function Countdown({ seed }: { seed: number }) {
   const [time, setTime] = useState({ h: 0, m: 0, s: 0 });
@@ -40,12 +51,13 @@ function BonusCard({
   index,
   featured,
 }: {
-  offer: (typeof bonusOffers)[number];
+  offer: CasinoBonusOffer;
   index: number;
   featured?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const meta = getCasinoRankingMeta(offer.casinoSlug, 4.2, index);
 
   const onMove = (e: MouseEvent<HTMLDivElement>) => {
     const el = ref.current;
@@ -57,7 +69,7 @@ function BonusCard({
   };
 
   return (
-    <SectionReveal delay={index * 0.1} className="h-full">
+    <SectionReveal delay={Math.min(index * 0.08, 0.4)} className="h-full">
       <div style={{ perspective: "1200px" }} className="h-full">
         <motion.div
           ref={ref}
@@ -72,11 +84,16 @@ function BonusCard({
           }`}
           style={{ transformStyle: "preserve-3d" }}
         >
-          {/* Shine sweep */}
           <motion.div
             className="pointer-events-none absolute inset-0 bg-[linear-gradient(115deg,transparent_35%,rgba(255,255,255,0.08)_50%,transparent_65%)]"
             animate={{ x: ["-60%", "120%"] }}
-            transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", repeatDelay: 2, delay: index * 0.4 }}
+            transition={{
+              duration: 4.5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              repeatDelay: 2,
+              delay: index * 0.35,
+            }}
           />
 
           {featured && (
@@ -88,7 +105,10 @@ function BonusCard({
             </div>
           )}
 
-          <div className="relative flex items-center justify-between" style={{ transform: "translateZ(28px)" }}>
+          <div
+            className="relative flex items-center justify-between gap-3"
+            style={{ transform: "translateZ(28px)" }}
+          >
             <motion.div
               className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gold-500/15 ring-1 ring-gold-400/40"
               style={{ boxShadow: "0 0 24px rgba(212,175,55,0.3)" }}
@@ -100,8 +120,22 @@ function BonusCard({
             <Countdown seed={index} />
           </div>
 
+          <div className="relative mt-4 flex flex-wrap items-center gap-2" style={{ transform: "translateZ(24px)" }}>
+            <span className="rounded-full border border-cyan-400/30 bg-cyan-500/10 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-cyan-300">
+              {TYPE_LABELS[offer.type] ?? offer.type}
+            </span>
+            {offer.games?.slice(0, 2).map((g) => (
+              <span
+                key={g}
+                className="rounded-md border border-white/10 bg-white/5 px-2 py-0.5 text-[10px] font-semibold text-slate-400"
+              >
+                {g}
+              </span>
+            ))}
+          </div>
+
           <h3
-            className="relative mt-5 font-display text-2xl font-bold text-white"
+            className="relative mt-4 font-display text-2xl font-bold text-white"
             style={{ transform: "translateZ(24px)" }}
           >
             {offer.casinoName}
@@ -112,14 +146,35 @@ function BonusCard({
           >
             {offer.value}
           </p>
-          <p className="relative mt-2 flex-1 text-sm leading-relaxed text-slate-400" style={{ transform: "translateZ(16px)" }}>
+          <p
+            className="relative mt-2 flex-1 text-sm leading-relaxed text-slate-400"
+            style={{ transform: "translateZ(16px)" }}
+          >
             {offer.title}
           </p>
-          <p className="relative mt-3 text-[11px] uppercase tracking-wider text-slate-500" style={{ transform: "translateZ(14px)" }}>
+
+          <div className="relative mt-3 flex flex-wrap gap-1.5" style={{ transform: "translateZ(18px)" }}>
+            {meta.payments.slice(0, 3).map((p) => (
+              <span
+                key={p}
+                className="rounded-md border border-gold-400/25 bg-gold-500/10 px-2 py-0.5 text-[10px] font-semibold text-gold-300"
+              >
+                {p}
+              </span>
+            ))}
+          </div>
+
+          <p
+            className="relative mt-3 text-[11px] uppercase tracking-wider text-slate-500"
+            style={{ transform: "translateZ(14px)" }}
+          >
             Wagering: {offer.wagering}
           </p>
 
-          <div className="relative mt-6 flex flex-col gap-2.5" style={{ transform: "translateZ(30px)" }}>
+          <div
+            className="relative z-10 mt-6 flex flex-col gap-2.5"
+            style={{ transform: "translateZ(30px)" }}
+          >
             <Link
               href={`/go/${offer.casinoSlug}`}
               rel={AFFILIATE_LINK_REL}
@@ -128,6 +183,7 @@ function BonusCard({
             >
               <Zap className="h-4 w-4" />
               Claim Now
+              <ExternalLink className="h-3.5 w-3.5 opacity-80" />
             </Link>
             <Link
               href={`/blogs/review-${offer.casinoSlug}`}
@@ -145,8 +201,14 @@ function BonusCard({
   );
 }
 
-export default function BonusPromotions({ hideHeader = false }: { hideHeader?: boolean }) {
-  const offers = bonusOffers.slice(0, 3);
+export default function BonusPromotions({
+  hideHeader = false,
+  limit = 3,
+}: {
+  hideHeader?: boolean;
+  limit?: number;
+}) {
+  const offers = homepageBonusExamples.slice(0, limit);
 
   return (
     <section id="bonuses" className="relative zb-section overflow-hidden">
@@ -165,7 +227,9 @@ export default function BonusPromotions({ hideHeader = false }: { hideHeader?: b
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {!hideHeader && (
           <SectionReveal>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Limited-Time Offers</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">
+              Limited-Time Offers
+            </p>
             <h2 className="mt-2 zb-headline">Bonuses &amp; Promotions</h2>
             <p className="mt-3 max-w-2xl text-slate-400">
               Premium bonus cards with urgency timers — always verify terms on the operator site.
@@ -173,9 +237,11 @@ export default function BonusPromotions({ hideHeader = false }: { hideHeader?: b
           </SectionReveal>
         )}
 
-        <div className={`${hideHeader ? "" : "mt-12 "}grid gap-6 md:grid-cols-3 md:items-stretch`}>
+        <div
+          className={`${hideHeader ? "" : "mt-12 "}grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:items-stretch`}
+        >
           {offers.map((offer, i) => (
-            <BonusCard key={offer.id} offer={offer} index={i} featured={i === 1} />
+            <BonusCard key={offer.id} offer={offer} index={i} featured={i === 1 || i === 0} />
           ))}
         </div>
       </div>

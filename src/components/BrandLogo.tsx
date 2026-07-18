@@ -37,7 +37,7 @@ export default function BrandLogo({
         priority
       />
       {showWordmark && (
-        <span className={`font-display font-bold tracking-[0.04em] ${s.text}`}>
+        <span className={`font-display font-bold tracking-[0.02em] ${s.text}`}>
           <span className="text-white">ZEONE</span>
           <span className="text-gold-400">BET</span>
         </span>

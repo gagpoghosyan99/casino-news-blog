@@ -34,7 +34,7 @@ export default function TopCasinosWidget() {
             >
               <GlassCard glow={i < 3 ? "gold" : "none"} className="p-4">
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gold-500/20 font-display text-sm font-bold text-gold-400">
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gold-500/20 font-numeric text-sm font-bold text-gold-400">
                     {i + 1}
                   </span>
                   <Link

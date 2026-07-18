@@ -132,10 +132,10 @@ export default function Footer() {
         <div className="mt-12 overflow-hidden rounded-2xl border-2 border-amber-400/80 bg-gradient-to-r from-amber-500 to-[#f4c542] px-5 py-5 shadow-[0_0_40px_rgba(244,197,66,0.25)]">
           <div className="flex flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
             <div className="flex items-center gap-3">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-navy-950 font-display text-lg font-black text-amber-300">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-navy-950 font-numeric text-lg font-black text-amber-300">
                 18+
               </span>
-              <p className="font-notice text-base text-navy-950 sm:text-lg">
+              <p className="font-sans text-base font-medium text-navy-950 sm:text-lg">
                 18+ only. Gamble responsibly. Set limits and seek help if needed.
               </p>
             </div>

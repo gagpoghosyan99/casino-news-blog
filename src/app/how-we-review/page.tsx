@@ -84,7 +84,7 @@ export default function HowWeReviewPage() {
                 <li key={step.step}>
                   <PremiumTiltCard delay={i * 0.05}>
                     <div className="flex gap-4">
-                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold-500/20 font-display text-sm font-bold text-gold-400 ring-1 ring-gold-400/40">
+                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold-500/20 font-numeric text-sm font-bold text-gold-400 ring-1 ring-gold-400/40">
                         {step.step}
                       </span>
                       <div>

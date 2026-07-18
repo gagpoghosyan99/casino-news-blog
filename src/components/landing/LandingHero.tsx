@@ -26,7 +26,7 @@ export default function LandingHero() {
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-cyan-400/80 sm:text-xs">
             Live Global Jackpot
           </p>
-          <p className="mt-1 font-display text-3xl font-bold text-gold-400 sm:text-4xl md:text-5xl">
+          <p className="mt-1 font-numeric text-3xl font-bold text-gold-400 sm:text-4xl md:text-5xl">
             $<AnimatedCounter value={GLOBAL_JACKPOT_TOTAL} duration={2.2} />
           </p>
         </motion.div>

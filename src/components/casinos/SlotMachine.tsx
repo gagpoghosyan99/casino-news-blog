@@ -132,7 +132,7 @@ export default function SlotMachine() {
                     key="win"
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
-                    className="font-display text-lg font-black text-emerald-300"
+                    className="font-numeric text-lg font-black text-emerald-300"
                   >
                     BIG WIN!
                   </motion.span>
@@ -141,14 +141,14 @@ export default function SlotMachine() {
                     key="jackpot"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="font-display text-lg font-black text-gold-300"
+                    className="font-numeric text-lg font-black text-gold-300"
                   >
                     7 · 7 · 7
                   </motion.span>
                 ) : (
                   <motion.span
                     key="idle"
-                    className="font-display text-sm font-bold text-slate-500"
+                    className="font-numeric text-sm font-bold text-slate-500"
                     animate={{ opacity: [0.4, 1, 0.4] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   >

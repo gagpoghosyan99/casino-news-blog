@@ -54,7 +54,7 @@ export default function CasinoArenaHero() {
                 { label: t("casinosStatTrust"), value: "★ 4.8" },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <p className="font-display text-2xl font-bold text-gold-400">{stat.value}</p>
+                  <p className="font-numeric text-2xl font-bold text-gold-400">{stat.value}</p>
                   <p className="text-xs text-slate-500">{stat.label}</p>
                 </div>
               ))}

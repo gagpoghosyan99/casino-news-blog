@@ -67,7 +67,7 @@ export default function CasinoRankingTable() {
                   ].map((s) => (
                     <div key={s.label} className="text-center xl:col-span-1">
                       <p className="text-[10px] uppercase text-slate-500 xl:hidden">{s.label}</p>
-                      <p className="font-display text-lg font-bold text-gold-400">{s.value.toFixed(1)}</p>
+                      <p className="font-numeric text-lg font-bold text-gold-400">{s.value.toFixed(1)}</p>
                     </div>
                   ))}
                 </div>

@@ -39,7 +39,7 @@ export default function JackpotWinnersFeed() {
                   </div>
                   {win.isRecord && <NeonBadge variant="gold">Record</NeonBadge>}
                 </div>
-                <p className="mt-4 font-display text-2xl font-bold text-gold-400">
+                <p className="mt-4 font-numeric text-2xl font-bold text-gold-400">
                   <AnimatedCounter value={win.amount} prefix="$" />
                 </p>
                 <p className="mt-2 text-sm text-slate-400">

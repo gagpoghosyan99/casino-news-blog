@@ -53,7 +53,8 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
-        display: ["var(--font-display)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "var(--font-inter)", "Georgia", "serif"],
+        numeric: ["var(--font-numeric)", "var(--font-inter)", "system-ui", "sans-serif"],
       },
       boxShadow: {
         "glow-gold": "0 0 40px rgba(212, 175, 55, 0.15)",

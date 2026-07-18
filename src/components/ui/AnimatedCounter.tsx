@@ -40,7 +40,7 @@ export default function AnimatedCounter({
   return (
     <motion.span
       ref={ref}
-      className={className}
+      className={`font-numeric tabular-nums ${className}`}
       initial={{ opacity: 0 }}
       animate={inView ? { opacity: 1 } : {}}
     >

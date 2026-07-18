@@ -212,14 +212,14 @@ export default function LandingResponsibleGambling() {
                 transition={{ duration: 2, repeat: Infinity }}
                 aria-hidden="true"
               >
-                <span className="font-display text-3xl font-black tracking-tight sm:text-4xl">18+</span>
+                <span className="font-numeric text-3xl font-black tracking-tight sm:text-4xl">18+</span>
               </motion.div>
 
               <div className="min-w-0 flex-1">
                 <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-navy-950/65">
                   Mandatory Player Notice
                 </p>
-                <p className="font-notice mt-2 text-2xl text-navy-950 sm:text-3xl md:text-[2.15rem]">
+                <p className="mt-2 font-sans text-2xl font-semibold text-navy-950 sm:text-3xl md:text-[2.15rem]">
                   18+ only. Set deposit limits, take breaks, and seek help if gambling affects your life.
                 </p>
                 <p className="mt-3 font-display text-sm font-medium tracking-wide text-navy-950/70 sm:text-base">

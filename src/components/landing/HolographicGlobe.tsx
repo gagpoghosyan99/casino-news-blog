@@ -221,7 +221,7 @@ function GoldCoin({ className, delay = 0, size = "md" }: { className?: string; d
       animate={{ y: [0, -14, 0], rotateY: [0, 180, 360] }}
       transition={{ duration: 5 + delay, repeat: Infinity, ease: "easeInOut", delay }}
     >
-      <span className={`${text} font-display`}>$</span>
+      <span className={`${text} font-numeric`}>$</span>
       <div className="absolute inset-1 rounded-full border border-gold-300/50" />
     </motion.div>
   );

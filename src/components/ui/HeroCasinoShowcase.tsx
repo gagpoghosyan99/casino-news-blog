@@ -38,7 +38,7 @@ function Reel({
         {loop.map((sym, i) => (
           <div
             key={`${sym}-${i}`}
-            className="flex h-[56px] w-full items-center justify-center font-display text-2xl font-black tracking-tight text-gold-300 sm:text-3xl"
+            className="flex h-[56px] w-full items-center justify-center font-numeric text-2xl font-black tracking-tight text-gold-300 sm:text-3xl"
             style={{
               textShadow: "0 0 18px rgba(244,197,66,0.45)",
             }}
@@ -164,7 +164,7 @@ export default function HeroCasinoShowcase() {
         {CHIPS.map((chip) => (
           <motion.div
             key={chip.label}
-            className="absolute flex h-12 w-12 items-center justify-center rounded-full border-2 border-gold-400/70 bg-gradient-to-br from-[#3a2f14] to-[#12100a] font-display text-[10px] font-bold text-gold-300 shadow-[0_10px_30px_rgba(0,0,0,0.5),0_0_20px_rgba(212,175,55,0.25)]"
+            className="absolute flex h-12 w-12 items-center justify-center rounded-full border-2 border-gold-400/70 bg-gradient-to-br from-[#3a2f14] to-[#12100a] font-numeric text-[10px] font-bold text-gold-300 shadow-[0_10px_30px_rgba(0,0,0,0.5),0_0_20px_rgba(212,175,55,0.25)]"
             style={{ left: chip.x, top: chip.y, rotate: chip.rot }}
             animate={{ y: [0, -10, 0], rotate: [chip.rot, chip.rot + 12, chip.rot] }}
             transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: chip.delay }}

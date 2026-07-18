@@ -113,7 +113,7 @@ export default function OrbitingCasinos() {
           className="rounded-2xl border-2 border-gold-500/40 bg-navy-950/90 px-6 py-3 text-center shadow-glow-gold backdrop-blur-md"
         >
           <p className="text-[10px] uppercase tracking-[0.3em] text-gold-500">Featured</p>
-          <p className="font-display text-2xl font-bold text-white">10 of 40</p>
+          <p className="font-numeric text-2xl font-bold text-white">10 of 40</p>
           <p className="mt-1 text-[10px] text-slate-500">
             New picks in {secondsLeft}s · tap for review
           </p>

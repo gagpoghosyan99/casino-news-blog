@@ -32,20 +32,42 @@ export default function PartnersHero() {
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
             {partnersHero.description}
           </p>
-          <div className="mt-8 flex flex-wrap items-center gap-3">
-            <a href={partnersHero.primaryCta.href} className="zb-btn-gold zb-shine">
-              {partnersHero.primaryCta.label}
-            </a>
-            <a href={partnersHero.secondaryCta.href} className="zb-btn-cyan">
-              {partnersHero.secondaryCta.label}
+
+          <div className="mt-8 grid max-w-xl gap-3 sm:grid-cols-2">
+            <a
+              href={partnersHero.primaryCta.href}
+              className="group relative overflow-hidden rounded-2xl border border-gold-400/50 bg-gradient-to-br from-gold-500/25 to-gold-500/5 p-4 shadow-[0_0_32px_rgba(212,175,55,0.15)] transition hover:border-gold-300"
+            >
+              <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-300">Path 01</p>
+              <p className="mt-1.5 font-display text-lg font-bold text-white">{partnersHero.primaryCta.label}</p>
+              <p className="mt-1 text-xs leading-relaxed text-slate-400">
+                Business offers · For companies
+              </p>
+              <span className="mt-3 inline-flex text-sm font-semibold text-gold-300 group-hover:text-gold-200">
+                Choose company →
+              </span>
             </a>
             <a
-              href={partnersHero.tertiaryCta.href}
-              className="text-sm font-semibold text-gold-400 hover:text-gold-300"
+              href={partnersHero.secondaryCta.href}
+              className="group relative overflow-hidden rounded-2xl border border-white/20 bg-white/[0.04] p-4 transition hover:border-gold-400/40 hover:bg-white/[0.07]"
             >
-              {partnersHero.tertiaryCta.label} →
+              <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Path 02</p>
+              <p className="mt-1.5 font-display text-lg font-bold text-white">{partnersHero.secondaryCta.label}</p>
+              <p className="mt-1 text-xs leading-relaxed text-slate-400">
+                Player options · For customers
+              </p>
+              <span className="mt-3 inline-flex text-sm font-semibold text-gold-400 group-hover:text-gold-300">
+                Choose customer →
+              </span>
             </a>
           </div>
+
+          <a
+            href={partnersHero.tertiaryCta.href}
+            className="mt-5 inline-flex text-sm font-semibold text-gold-400 hover:text-gold-300"
+          >
+            {partnersHero.tertiaryCta.label} →
+          </a>
         </div>
 
         <div className="relative mx-auto aspect-square w-full max-w-md lg:max-w-none">

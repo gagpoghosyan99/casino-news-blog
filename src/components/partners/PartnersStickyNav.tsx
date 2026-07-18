@@ -29,6 +29,20 @@ export default function PartnersStickyNav() {
   return (
     <div className="sticky top-[64px] z-40 border-b border-gold-400/15 bg-gradient-to-b from-[#080b14]/95 to-[#05070f]/92 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-2xl">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+        <div className="mb-2.5 flex flex-wrap gap-2">
+          <a
+            href="#for-businesses"
+            className="inline-flex items-center rounded-full bg-gold-500 px-3.5 py-1.5 text-[12px] font-bold text-navy-950 shadow-[0_0_20px_rgba(212,175,55,0.25)] transition hover:bg-gold-400"
+          >
+            Company Partners
+          </a>
+          <a
+            href="#for-players"
+            className="inline-flex items-center rounded-full border border-gold-400/40 bg-white/5 px-3.5 py-1.5 text-[12px] font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
+          >
+            Customer Partners
+          </a>
+        </div>
         <div className="flex items-center gap-3">
           <p className="hidden shrink-0 text-[10px] font-semibold uppercase tracking-[0.22em] text-gold-400/80 sm:block">
             Sections

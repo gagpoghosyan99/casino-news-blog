@@ -31,6 +31,7 @@ export const PARTNERS_ROUTES = {
 
 export const partnersNav: PartnersNavItem[] = [
   { id: "overview", label: "Overview" },
+  { id: "choose-path", label: "Choose Path" },
   { id: "for-businesses", label: "For Businesses" },
   { id: "partnership-models", label: "Partnership Models" },
   { id: "advertising", label: "Advertising" },
@@ -45,9 +46,9 @@ export const partnersHero = {
   eyebrow: "ZEONEBET PARTNERS",
   title: "Where iGaming brands, publishers and players grow together.",
   description:
-    "Connect with an international casino media platform built for transparent partnerships, high-quality exposure and long-term value.",
-  primaryCta: { label: "Become a Partner", href: "#contact" },
-  secondaryCta: { label: "Explore Player Benefits", href: "#for-players" },
+    "Start by choosing your path: company partners get business offers, customer partners get player benefits and referral options.",
+  primaryCta: { label: "Company Partners", href: "#for-businesses" },
+  secondaryCta: { label: "Customer Partners", href: "#for-players" },
   tertiaryCta: { label: "Submit an Opportunity", href: "#submit-opportunity" },
 };
 
@@ -82,9 +83,12 @@ export const trustStrip: TrustStripItem[] = [
 export const audienceCards: AudienceCard[] = [
   {
     id: "business",
+    badge: "Company Partners",
+    sectionLabel: "For Businesses",
+    who: "Casinos, operators, agencies, media & brands",
     title: "Grow your brand with ZeoneBet",
     description:
-      "Reach casino players, industry professionals and new markets through editorial coverage, comparison placements, campaigns and custom partnerships.",
+      "Choose this if you represent a company. Explore affiliate deals, advertising, listings, sponsored content and custom business partnerships.",
     benefits: [
       "Brand visibility",
       "Qualified traffic",
@@ -93,14 +97,17 @@ export const audienceCards: AudienceCard[] = [
       "Market expansion",
       "Performance tracking",
     ],
-    ctaLabel: "Explore Business Partnerships",
+    ctaLabel: "See company offers",
     href: "#for-businesses",
   },
   {
     id: "players",
+    badge: "Customer Partners",
+    sectionLabel: "For Players",
+    who: "Players looking for offers, referrals & benefits",
     title: "Get more value from your casino journey",
     description:
-      "Discover reviewed operators, available promotions, referral opportunities and clearly explained offer conditions.",
+      "Choose this if you play or gamble. Explore reviewed casinos, tracked offers, referral benefits and clearer promotion details.",
     benefits: [
       "Curated casino options",
       "Exclusive or tracked offers",
@@ -109,7 +116,7 @@ export const audienceCards: AudienceCard[] = [
       "Educational guides",
       "Safer decision-making resources",
     ],
-    ctaLabel: "Explore Player Benefits",
+    ctaLabel: "See player options",
     href: "#for-players",
   },
 ];

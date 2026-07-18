@@ -137,18 +137,23 @@ function AffiliateOfferCard({ offer }: { offer: Offer }) {
 
 export function PlayerBenefits() {
   return (
-    <section id="for-players" className="border-y border-white/10 bg-gradient-to-b from-gold-500/[0.04] to-transparent">
+    <section id="for-players" className="scroll-mt-36 border-y border-white/10 bg-gradient-to-b from-gold-500/[0.04] to-transparent">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionReveal>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">For Players</p>
-          <h2 className="mt-2 zb-headline text-2xl md:text-3xl">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="rounded-full bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-gold-200 ring-1 ring-gold-400/35">
+              Customer Partners
+            </span>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">For Players</p>
+          </div>
+          <h2 className="mt-3 zb-headline text-2xl md:text-3xl">
             Use ZeoneBet to make better-informed casino choices.
           </h2>
-          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-400 sm:text-base">
-            ZeoneBet helps you compare casino options, understand promotions, read reviews, check important
-            conditions, discover available referral offers, and learn how wagering and payments work. Casino
-            accounts, deposits, withdrawals, verification, bonuses, games, and support are managed by the
-            relevant third-party operator — not by ZeoneBet.
+          <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-slate-300 sm:text-base">
+            You chose the customer path. ZeoneBet helps you compare casino options, understand promotions, read
+            reviews, check important conditions, discover available referral offers, and learn how wagering and
+            payments work. Casino accounts, deposits, withdrawals, verification, bonuses, games, and support are
+            managed by the relevant third-party operator — not by ZeoneBet.
           </p>
         </SectionReveal>
 

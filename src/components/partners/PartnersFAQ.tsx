@@ -80,11 +80,14 @@ export function PartnersFinalCTA() {
           value as a player, ZeoneBet provides a clear path to connect.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a href="#contact" className="zb-btn-gold zb-shine">
-            Become a Partner
+          <a href="#for-businesses" className="zb-btn-gold zb-shine">
+            Company Partners
           </a>
-          <a href="#for-players" className="zb-btn-cyan">
-            Explore Player Benefits
+          <a
+            href="#for-players"
+            className="inline-flex items-center justify-center rounded-full border border-gold-400/40 bg-white/5 px-6 py-3 text-sm font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
+          >
+            Customer Partners
           </a>
           <Link href="/contact" className="text-sm font-semibold text-gold-400 hover:text-gold-300">
             Contact the ZeoneBet team →

@@ -53,6 +53,11 @@ export interface TrustStripItem {
 
 export interface AudienceCard {
   id: "business" | "players";
+  /** Primary path label shown first (e.g. Company Partners). */
+  badge: string;
+  /** Existing section naming kept for continuity (e.g. For Businesses). */
+  sectionLabel: string;
+  who: string;
   title: string;
   description: string;
   benefits: string[];

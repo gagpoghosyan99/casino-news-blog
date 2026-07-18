@@ -71,11 +71,14 @@ export default function PartnersPageClient() {
       {/* Mobile sticky CTA */}
       <div className="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[#04060d]/95 p-3 backdrop-blur-xl md:hidden">
         <div className="flex gap-2">
-          <a href="#contact" className="zb-btn-gold flex-1 !py-2.5 text-center text-xs">
-            Become a Partner
+          <a href="#for-businesses" className="zb-btn-gold flex-1 !py-2.5 text-center text-xs">
+            Company Partners
           </a>
-          <a href="#for-players" className="zb-btn-cyan flex-1 !py-2.5 text-center text-xs">
-            Player Benefits
+          <a
+            href="#for-players"
+            className="flex flex-1 items-center justify-center rounded-full border border-gold-400/40 bg-white/5 !py-2.5 text-center text-xs font-semibold text-gold-200"
+          >
+            Customer Partners
           </a>
         </div>
       </div>

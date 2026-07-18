@@ -42,7 +42,7 @@ function TiltPanel({
           onMouseLeave={() => setTilt({ x: 0, y: 0 })}
           animate={{ rotateX: tilt.x, rotateY: tilt.y }}
           transition={{ type: "spring", stiffness: 260, damping: 22 }}
-          className={`relative h-full overflow-hidden rounded-3xl border border-cyan-400/25 bg-gradient-to-br from-cyan-500/10 via-black/45 to-gold-500/5 p-6 shadow-[0_16px_40px_rgba(34,211,238,0.12)] backdrop-blur-xl ${className}`}
+          className={`relative h-full overflow-hidden rounded-3xl border border-gold-400/25 bg-gradient-to-br from-gold-500/10 via-black/45 to-black/40 p-6 shadow-[0_16px_40px_rgba(212,175,55,0.12)] backdrop-blur-xl ${className}`}
           style={{ transformStyle: "preserve-3d" }}
         >
           <motion.div
@@ -64,7 +64,7 @@ export default function CryptoGuideSections() {
     <div className="relative mx-auto max-w-7xl px-4 pb-4 pt-10 sm:px-6 lg:px-8">
       <section aria-labelledby="crypto-how-heading">
         <SectionReveal>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">
             Deposit checklist
           </p>
           <h2 id="crypto-how-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
@@ -85,8 +85,8 @@ export default function CryptoGuideSections() {
           </TiltPanel>
 
           <TiltPanel delay={0.1}>
-            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-500/15 ring-1 ring-cyan-400/40">
-              <Wallet className="h-5 w-5 text-cyan-300" />
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gold-500/15 ring-1 ring-gold-400/40">
+              <Wallet className="h-5 w-5 text-gold-300" />
             </div>
             <h3 className="font-display text-lg font-bold text-white">2. Test a small deposit</h3>
             <p className="mt-3 text-sm leading-relaxed text-slate-400">
@@ -113,10 +113,10 @@ export default function CryptoGuideSections() {
 
       <section className="mt-12" aria-labelledby="crypto-disclaimer-heading">
         <SectionReveal>
-          <div className="relative overflow-hidden rounded-3xl border border-cyan-400/30 bg-gradient-to-br from-cyan-500/10 via-black/50 to-gold-500/5 p-6 shadow-[0_0_40px_rgba(34,211,238,0.1)] sm:p-8">
+          <div className="relative overflow-hidden rounded-3xl border border-gold-400/30 bg-gradient-to-br from-gold-500/10 via-black/50 to-black/40 p-6 shadow-[0_0_40px_rgba(212,175,55,0.1)] sm:p-8">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-cyan-500/15 ring-1 ring-cyan-400/40">
-                <Shield className="h-5 w-5 text-cyan-300" />
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gold-500/15 ring-1 ring-gold-400/40">
+                <Shield className="h-5 w-5 text-gold-300" />
               </div>
               <div>
                 <h2
@@ -140,7 +140,7 @@ export default function CryptoGuideSections() {
                   </span>
                   <Link
                     href="/how-we-review"
-                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-300 hover:border-cyan-400/30"
+                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-300 hover:border-gold-400/30"
                   >
                     Review methodology →
                   </Link>

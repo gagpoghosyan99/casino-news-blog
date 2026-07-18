@@ -76,7 +76,7 @@ export default function CasinoDirectory({
                 className={`rounded-full border px-4 py-2 text-sm font-semibold transition-all ${
                   filter === tab.key
                     ? "border-gold-500/50 bg-gold-500/20 text-gold-300 shadow-[0_0_24px_rgba(212,175,55,0.25)]"
-                    : "border-white/10 bg-white/[0.03] text-slate-400 hover:border-cyan-400/30 hover:text-slate-200"
+                    : "border-white/10 bg-white/[0.03] text-slate-400 hover:border-gold-400/30 hover:text-slate-200"
                 }`}
                 aria-current={filter === tab.key ? "page" : undefined}
               >
@@ -128,7 +128,7 @@ export default function CasinoDirectory({
 
         <section className="relative mt-16" aria-labelledby="directory-list-heading">
           <SectionReveal>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">Full directory</p>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">Full directory</p>
             <h2 id="directory-list-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
               {listHeading}
             </h2>

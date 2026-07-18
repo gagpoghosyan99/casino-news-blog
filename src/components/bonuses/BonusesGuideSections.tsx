@@ -58,7 +58,7 @@ export default function BonusesGuideSections() {
     <div className="relative mx-auto max-w-7xl px-4 pb-4 pt-10 sm:px-6 lg:px-8">
       <section aria-labelledby="bonus-how-heading">
         <SectionReveal>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">How to claim</p>
+          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">How to claim</p>
           <h2 id="bonus-how-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
             Claim smarter — avoid bonus traps
           </h2>
@@ -77,8 +77,8 @@ export default function BonusesGuideSections() {
           </TiltPanel>
 
           <TiltPanel delay={0.1}>
-            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-500/15 ring-1 ring-cyan-400/40">
-              <Scale className="h-5 w-5 text-cyan-300" />
+            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gold-500/15 ring-1 ring-gold-400/40">
+              <Scale className="h-5 w-5 text-gold-300" />
             </div>
             <h3 className="font-display text-lg font-bold text-white">2. Read wagering first</h3>
             <p className="mt-3 text-sm leading-relaxed text-slate-400">
@@ -130,7 +130,7 @@ export default function BonusesGuideSections() {
                   </span>
                   <Link
                     href="/how-we-review"
-                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-300 hover:border-cyan-400/30"
+                    className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-slate-300 hover:border-gold-400/30"
                   >
                     Review methodology →
                   </Link>

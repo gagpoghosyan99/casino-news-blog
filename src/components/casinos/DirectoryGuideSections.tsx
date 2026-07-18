@@ -63,7 +63,7 @@ export function DirectoryGuideSection() {
   return (
     <section className="mt-12" aria-labelledby="directory-how-to-heading">
       <SectionReveal>
-        <p className="text-xs font-bold uppercase tracking-[0.25em] text-cyan-400">How it works</p>
+        <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">How it works</p>
         <h2 id="directory-how-to-heading" className="mt-2 zb-headline text-2xl md:text-3xl">
           How to use this casino directory
         </h2>
@@ -85,8 +85,8 @@ export function DirectoryGuideSection() {
         </TiltPanel>
 
         <TiltPanel delay={0.12}>
-          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-500/15 ring-1 ring-cyan-400/40">
-            <BookOpen className="h-5 w-5 text-cyan-300" />
+          <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gold-500/15 ring-1 ring-gold-400/40">
+            <BookOpen className="h-5 w-5 text-gold-300" />
           </div>
           <h3 className="font-display text-lg font-bold text-white">Verify before you deposit</h3>
           <p className="mt-3 text-sm leading-relaxed text-slate-400">
@@ -137,7 +137,7 @@ export function DirectoryScoringSection() {
             icon: Scale,
             title: "Bonus fairness",
             desc: "Wagering honesty, max-bet rules, and usability scores.",
-            tone: "cyan",
+            tone: "gold",
           },
           {
             icon: Sparkles,

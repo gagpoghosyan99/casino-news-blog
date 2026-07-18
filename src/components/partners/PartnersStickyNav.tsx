@@ -27,7 +27,7 @@ export default function PartnersStickyNav() {
   }, []);
 
   return (
-    <div className="sticky top-[64px] z-40 border-b border-gold-400/15 bg-gradient-to-b from-[#080b14]/95 to-[#05070f]/92 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-2xl">
+    <div className="sticky top-[88px] z-40 border-b border-gold-400/15 bg-gradient-to-b from-[#080b14]/95 to-[#05070f]/92 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-2xl md:top-[132px] lg:top-[88px]">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="mb-2.5 flex flex-wrap gap-2">
           <a

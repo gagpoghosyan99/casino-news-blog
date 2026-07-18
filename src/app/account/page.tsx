@@ -31,6 +31,7 @@ export default function AccountPage() {
         description="Your email is verified. You can browse casinos, bonuses, news, and guides while signed in."
         badges={user ? ["Verified", user.email] : ["Loading"]}
         tone="gold"
+        showcase={false}
         actions={
           <>
             <Link href="/casinos" className="zb-btn-gold zb-shine">

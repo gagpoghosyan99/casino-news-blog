@@ -34,6 +34,7 @@ export default function LegalPage({
         description={document.intro}
         badges={[`Updated ${document.lastUpdated}`, "18+ only"]}
         tone="gold"
+        showcase={false}
         actions={
           <>
             <Link href="/" className="zb-btn-gold zb-shine">

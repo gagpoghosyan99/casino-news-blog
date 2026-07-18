@@ -47,6 +47,7 @@ export default function ContactPage() {
         description={t("contactSubtitle")}
         badges={["Editorial desk", "Corrections welcome"]}
         tone="gold"
+        showcase={false}
         actions={
           <Link href="/about" className="zb-btn-cyan">
             About ZEONEBET

@@ -52,7 +52,7 @@ export default function Footer() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-xs text-slate-400 transition-colors hover:border-cyan-400/40 hover:text-cyan-300"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-xs text-slate-400 transition-colors hover:border-gold-400/40 hover:text-gold-300"
                   aria-label={s.label}
                 >
                   {s.label.slice(0, 2)}
@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {casinoLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-500 hover:text-cyan-300">
+                  <Link href={l.href} className="text-sm text-slate-500 hover:text-gold-300">
                     {l.label}
                   </Link>
                 </li>
@@ -79,7 +79,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {newsLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-500 hover:text-cyan-300">
+                  <Link href={l.href} className="text-sm text-slate-500 hover:text-gold-300">
                     {l.label}
                   </Link>
                 </li>
@@ -92,7 +92,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {internalSeoLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-500 hover:text-cyan-300">
+                  <Link href={link.href} className="text-sm text-slate-500 hover:text-gold-300">
                     {link.footerLabel}
                   </Link>
                 </li>
@@ -105,7 +105,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {guideLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-500 hover:text-cyan-300">
+                  <Link href={link.href} className="text-sm text-slate-500 hover:text-gold-300">
                     {link.footerLabel}
                   </Link>
                 </li>
@@ -118,7 +118,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {legalLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-500 hover:text-cyan-300">
+                  <Link href={l.href} className="text-sm text-slate-500 hover:text-gold-300">
                     {l.label}
                   </Link>
                 </li>
@@ -164,7 +164,7 @@ export default function Footer() {
               href="https://dewebam.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-cyan-400 transition-colors hover:text-cyan-300 hover:underline"
+              className="font-semibold text-gold-400 transition-colors hover:text-gold-300 hover:underline"
             >
               DEWEBAM.COM
             </a>

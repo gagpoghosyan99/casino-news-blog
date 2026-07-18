@@ -128,9 +128,44 @@
 
   /* ZEONEBET landing design system */
   .zb-page-bg {
-    background: radial-gradient(ellipse 90% 50% at 50% -10%, rgba(34, 211, 238, 0.08), transparent),
-      radial-gradient(ellipse 60% 40% at 100% 0%, rgba(212, 175, 55, 0.06), transparent),
+    background: radial-gradient(ellipse 90% 50% at 50% -10%, rgba(212, 175, 55, 0.1), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, rgba(184, 150, 46, 0.06), transparent),
       linear-gradient(180deg, #04060d 0%, #060912 40%, #0a0e17 100%);
+  }
+
+  .auth-grid-drift {
+    background-image: linear-gradient(rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212, 175, 55, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+    animation: authGridDrift 28s linear infinite;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 20%, transparent 75%);
+  }
+
+  @keyframes authGridDrift {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 56px 56px;
+    }
+  }
+
+  .auth-panel {
+    animation: authPanelGlow 5s ease-in-out infinite;
+  }
+
+  @keyframes authPanelGlow {
+    0%,
+    100% {
+      box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.55),
+        0 0 50px rgba(212, 175, 55, 0.1);
+    }
+    50% {
+      box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.55),
+        0 0 70px rgba(244, 197, 66, 0.2);
+    }
   }
 
   .zb-glass {
@@ -160,19 +195,20 @@
       0 0 48px rgba(212, 175, 55, 0.28);
   }
 
+  /* Secondary CTA — gold outline (legacy class name kept for existing markup) */
   .zb-btn-cyan {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cyan-400/60 bg-cyan-500/15 px-6 py-3 text-sm font-bold text-cyan-200 transition-all hover:bg-cyan-500/25 hover:text-white active:scale-[0.97];
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold-400/55 bg-gold-500/10 px-6 py-3 text-sm font-bold text-gold-300 transition-all hover:border-gold-300/80 hover:bg-gold-500/18 hover:text-gold-200 active:scale-[0.97];
     box-shadow:
-      0 0 0 1px rgba(34, 211, 238, 0.12),
-      0 4px 20px rgba(34, 211, 238, 0.2),
-      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+      0 0 0 1px rgba(212, 175, 55, 0.12),
+      0 4px 20px rgba(212, 175, 55, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.06);
   }
 
   .zb-btn-cyan:hover {
     box-shadow:
-      0 0 0 1px rgba(34, 211, 238, 0.3),
-      0 6px 28px rgba(34, 211, 238, 0.35),
-      0 0 40px rgba(34, 211, 238, 0.15);
+      0 0 0 1px rgba(244, 197, 66, 0.28),
+      0 6px 28px rgba(212, 175, 55, 0.32),
+      0 0 40px rgba(212, 175, 55, 0.14);
   }
 
   .zb-btn-ghost {

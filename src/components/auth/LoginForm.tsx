@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
@@ -89,12 +88,6 @@ export default function LoginForm() {
       <button type="submit" disabled={loading} className="zb-btn-gold zb-shine w-full">
         {loading ? "Signing in..." : "Login"}
       </button>
-      <p className="text-center text-sm text-slate-500">
-        New here?{" "}
-        <Link href="/register" className="font-medium text-gold-400 hover:text-gold-300">
-          Create an account
-        </Link>
-      </p>
     </form>
   );
 }

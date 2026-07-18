@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 
@@ -110,14 +109,8 @@ export default function RegisterForm() {
         />
       </div>
       <button type="submit" disabled={loading} className="zb-btn-gold zb-shine w-full">
-        {loading ? "Creating account..." : "Register"}
+        {loading ? "Creating account..." : "Create account"}
       </button>
-      <p className="text-center text-sm text-slate-500">
-        Already have an account?{" "}
-        <Link href="/login" className="font-medium text-gold-400 hover:text-gold-300">
-          Login
-        </Link>
-      </p>
     </form>
   );
 }

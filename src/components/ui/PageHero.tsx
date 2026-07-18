@@ -14,7 +14,7 @@ interface PageHeroProps {
 
 const toneText = {
   gold: "text-gold-400",
-  cyan: "text-cyan-400",
+  cyan: "text-gold-400",
   emerald: "text-emerald-400",
 } as const;
 
@@ -29,12 +29,9 @@ export default function PageHero({
   return (
     <section className="relative overflow-hidden border-b border-white/10">
       <div className="bg-grid-premium pointer-events-none absolute inset-0 opacity-30" />
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(212,175,55,0.16),transparent_45%),radial-gradient(ellipse_at_90%_40%,rgba(34,211,238,0.1),transparent_40%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(212,175,55,0.18),transparent_45%),radial-gradient(ellipse_at_90%_40%,rgba(184,150,46,0.1),transparent_40%)]" />
       <div className="hero-orb hero-orb-gold opacity-50" />
-      <div
-        className="hero-orb hero-orb-emerald opacity-40"
-        style={{ background: "rgba(34, 211, 238, 0.06)" }}
-      />
+      <div className="hero-orb hero-orb-emerald opacity-30" />
 
       {Array.from({ length: 10 }).map((_, i) => (
         <motion.span
@@ -81,7 +78,7 @@ export default function PageHero({
             {badges.map((badge) => (
               <span
                 key={badge}
-                className="rounded-full border border-cyan-400/25 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300 shadow-[0_0_20px_rgba(34,211,238,0.12)]"
+                className="rounded-full border border-gold-400/30 bg-gold-500/10 px-3 py-1 text-xs font-semibold text-gold-300 shadow-[0_0_20px_rgba(212,175,55,0.12)]"
               >
                 {badge}
               </span>

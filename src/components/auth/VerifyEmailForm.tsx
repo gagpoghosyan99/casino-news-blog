@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { FormEvent, useMemo, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
@@ -71,7 +70,7 @@ export default function VerifyEmailForm() {
   return (
     <form onSubmit={onSubmit} className="space-y-5">
       {info && !error && (
-        <div className="rounded-xl border border-cyan-400/30 bg-cyan-500/10 px-4 py-3 text-sm text-cyan-200">
+        <div className="rounded-xl border border-gold-400/30 bg-gold-500/10 px-4 py-3 text-sm text-gold-200">
           {info}
         </div>
       )}
@@ -120,12 +119,6 @@ export default function VerifyEmailForm() {
       >
         {resending ? "Sending..." : "Resend code"}
       </button>
-      <p className="text-center text-sm text-slate-500">
-        Wrong account?{" "}
-        <Link href="/login" className="font-medium text-gold-400 hover:text-gold-300">
-          Back to login
-        </Link>
-      </p>
     </form>
   );
 }

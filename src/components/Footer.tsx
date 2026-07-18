@@ -23,6 +23,7 @@ export default function Footer() {
     { href: "/news", label: "Latest News" },
     { href: "/reports/south-asia-casino-payments-2026", label: "Payment Report" },
     { href: "/how-we-review", label: "Review Methodology" },
+    { href: "/partners", label: "Partners" },
   ];
 
   const guideLinks = internalSeoLinks.slice(0, 6);
@@ -31,6 +32,7 @@ export default function Footer() {
     { href: "/privacy", label: t("navPrivacy") },
     { href: "/terms", label: "Terms of Use" },
     { href: "/editorial-policy", label: "Editorial Policy" },
+    { href: "/affiliate-disclosure", label: "Affiliate Disclosure" },
     { href: "/cookies", label: t("navCookies") },
     { href: "/responsible-gambling", label: t("footerResponsible") },
     { href: "/about", label: t("navAbout") },

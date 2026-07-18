@@ -15,6 +15,7 @@ export const SITE_NAV_ITEMS = [
   { href: "/bonuses", label: "Bonuses" },
   { href: "/crypto", label: "Crypto" },
   { href: "/jackpots", label: "Jackpots" },
+  { href: "/partners", label: "Partners" },
 ] as const;
 
 export default function SiteNavbar() {

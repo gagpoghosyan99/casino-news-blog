@@ -39,7 +39,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-gold-500/20 bg-[#04060d]">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-7">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-8">
           <div className="lg:col-span-2">
             <BrandLogo size="lg" />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-slate-500">
@@ -87,17 +87,19 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="lg:col-span-2">
             <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400">Guides</h3>
-            <ul className="mt-4 space-y-2">
+            <div className="mt-4 grid grid-cols-2 gap-x-6 gap-y-2">
               {internalSeoLinks.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-slate-500 hover:text-gold-300">
-                    {link.footerLabel}
-                  </Link>
-                </li>
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-slate-500 hover:text-gold-300"
+                >
+                  {link.footerLabel}
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
 
           <div>

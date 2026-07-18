@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import BrandLogo from "@/components/BrandLogo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useAuth } from "@/components/auth/AuthProvider";
 
 export const SITE_NAV_ITEMS = [
   { href: "/", label: "Home", exact: true },
@@ -18,6 +19,8 @@ export const SITE_NAV_ITEMS = [
 
 export default function SiteNavbar() {
   const pathname = usePathname();
+  const router = useRouter();
+  const { user, loading, logout } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const isHome = pathname === "/";
@@ -39,6 +42,59 @@ export default function SiteNavbar() {
   };
 
   const solid = !isHome || scrolled || mobileOpen;
+
+  async function onLogout() {
+    await logout();
+    router.push("/");
+    router.refresh();
+  }
+
+  const authLinks = loading ? null : user ? (
+    <>
+      <Link
+        href="/account"
+        className="text-sm font-medium text-gold-300 transition-colors hover:text-gold-200"
+      >
+        {user.name.split(" ")[0]}
+      </Link>
+      <button
+        type="button"
+        onClick={onLogout}
+        className="text-sm font-medium text-white/75 transition-colors hover:text-white"
+      >
+        Logout
+      </button>
+    </>
+  ) : (
+    <>
+      <Link href="/login" className="text-sm font-medium text-white/75 transition-colors hover:text-white">
+        Login
+      </Link>
+      <Link href="/register" className="zb-btn-gold !px-4 !py-2 text-xs">
+        Register Now
+      </Link>
+    </>
+  );
+
+  const authLinksMobile = loading ? null : user ? (
+    <>
+      <Link href="/account" className="text-center text-sm text-gold-300">
+        Account ({user.name.split(" ")[0]})
+      </Link>
+      <button type="button" onClick={onLogout} className="text-center text-sm text-white/75">
+        Logout
+      </button>
+    </>
+  ) : (
+    <>
+      <Link href="/login" className="text-center text-sm text-white/75">
+        Login
+      </Link>
+      <Link href="/register" className="zb-btn-gold text-center text-sm">
+        Register Now
+      </Link>
+    </>
+  );
 
   return (
     <nav
@@ -69,12 +125,7 @@ export default function SiteNavbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher />
-          <Link href="/contact" className="text-sm font-medium text-white/75 transition-colors hover:text-white">
-            Login
-          </Link>
-          <Link href="/casinos" className="zb-btn-gold !px-4 !py-2 text-xs">
-            Register Now
-          </Link>
+          {authLinks}
         </div>
 
         <button
@@ -107,12 +158,7 @@ export default function SiteNavbar() {
             <div className="flex justify-center pb-1">
               <LanguageSwitcher variant="compact" />
             </div>
-            <Link href="/contact" className="text-center text-sm text-white/75">
-              Login
-            </Link>
-            <Link href="/casinos" className="zb-btn-gold text-center text-sm">
-              Register Now
-            </Link>
+            {authLinksMobile}
           </div>
         </div>
       )}

@@ -27,28 +27,39 @@ export default function PartnersStickyNav() {
   }, []);
 
   return (
-    <div className="sticky top-[64px] z-40 border-b border-white/10 bg-[#04060d]/90 backdrop-blur-xl">
-      <nav
-        aria-label="Partners sections"
-        className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-4 py-2.5 sm:px-6 lg:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-      >
-        {partnersNav.map((item) => {
-          const isActive = active === item.id;
-          return (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              className={`shrink-0 rounded-full px-3.5 py-2 text-xs font-medium transition-colors sm:text-sm ${
-                isActive
-                  ? "bg-gold-500/20 text-gold-300 ring-1 ring-gold-400/40"
-                  : "text-slate-400 hover:bg-white/5 hover:text-white"
-              }`}
-            >
-              {item.label}
-            </a>
-          );
-        })}
-      </nav>
+    <div className="sticky top-[64px] z-40 border-b border-gold-400/15 bg-gradient-to-b from-[#080b14]/95 to-[#05070f]/92 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-2xl">
+      <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-3">
+          <p className="hidden shrink-0 text-[10px] font-semibold uppercase tracking-[0.22em] text-gold-400/80 sm:block">
+            Sections
+          </p>
+          <div className="hidden h-4 w-px bg-white/10 sm:block" aria-hidden />
+          <nav
+            aria-label="Partners sections"
+            className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          >
+            {partnersNav.map((item) => {
+              const isActive = active === item.id;
+              return (
+                <a
+                  key={item.id}
+                  href={`#${item.id}`}
+                  className={`relative shrink-0 rounded-full px-3.5 py-2 text-[13px] font-medium tracking-wide transition-all ${
+                    isActive
+                      ? "bg-gradient-to-r from-gold-500/25 to-gold-400/10 text-gold-200 shadow-[inset_0_0_0_1px_rgba(212,175,55,0.45),0_0_24px_rgba(212,175,55,0.12)]"
+                      : "text-slate-400 hover:bg-white/[0.06] hover:text-slate-200"
+                  }`}
+                >
+                  {item.label}
+                  {isActive && (
+                    <span className="absolute inset-x-3 -bottom-[1px] h-px bg-gradient-to-r from-transparent via-gold-300/80 to-transparent sm:hidden" />
+                  )}
+                </a>
+              );
+            })}
+          </nav>
+        </div>
+      </div>
     </div>
   );
 }

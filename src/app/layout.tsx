@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Cinzel, Inter, Space_Grotesk } from "next/font/google";
+import { Cinzel, Source_Sans_3, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Providers from "@/components/Providers";
 import LayoutShell from "@/components/LayoutShell";
@@ -8,9 +8,10 @@ import { siteConfig } from "@/config/site";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { organizationSchema, websiteSchema } from "@/lib/seo/schema";
 
-const inter = Inter({
+/** Calm, soft UI/reading face — easier on eyes than Inter for long copy. */
+const sourceSans = Source_Sans_3({
   subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-inter",
   display: "swap",
 });
@@ -52,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body
-        className={`${inter.variable} ${cinzel.variable} ${spaceGrotesk.variable} font-sans antialiased`}
+        className={`${sourceSans.variable} ${cinzel.variable} ${spaceGrotesk.variable} font-sans antialiased`}
       >
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-D9E947T20R"

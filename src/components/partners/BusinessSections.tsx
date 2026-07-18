@@ -94,20 +94,22 @@ export function PartnershipModels({ onCustom }: { onCustom: () => void }) {
                 onClick={() => setOpen(isOpen ? "" : model.id)}
                 className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
               >
-                <span className="font-display text-lg font-semibold text-white">{model.title}</span>
+                <span className="text-base font-semibold tracking-wide text-white sm:text-lg">
+                  {model.title}
+                </span>
                 <span className="font-numeric text-gold-400">{isOpen ? "−" : "+"}</span>
               </button>
               {isOpen && (
                 <div className="border-t border-white/10 px-5 pb-5 pt-3">
-                  <p className="text-sm leading-relaxed text-slate-300">{model.summary}</p>
+                  <p className="text-[15px] leading-[1.8] text-slate-200/90">{model.summary}</p>
                   <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                     {model.details.map((d) => (
-                      <li key={d} className="text-sm text-slate-400">
+                      <li key={d} className="text-[15px] leading-relaxed text-slate-300">
                         · {d}
                       </li>
                     ))}
                   </ul>
-                  {model.note && <p className="mt-3 text-xs text-slate-500">{model.note}</p>}
+                  {model.note && <p className="mt-3 text-sm leading-relaxed text-slate-400">{model.note}</p>}
                 </div>
               )}
             </div>

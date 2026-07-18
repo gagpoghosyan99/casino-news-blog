@@ -15,7 +15,11 @@
   body {
     @apply bg-navy-950 font-sans text-slate-200 antialiased;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1,
@@ -26,7 +30,7 @@
   h6 {
     font-family: var(--font-display), var(--font-inter), Georgia, serif;
     letter-spacing: 0.02em;
-    line-height: 1.15;
+    line-height: 1.2;
   }
 
   h1 {
@@ -52,6 +56,7 @@
   td,
   th {
     font-family: var(--font-inter), system-ui, sans-serif;
+    line-height: 1.7;
   }
 
   nav,

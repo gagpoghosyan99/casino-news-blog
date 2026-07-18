@@ -51,14 +51,14 @@ export default function PartnersFAQ() {
             key={item.question}
             className="group rounded-2xl border border-white/10 bg-black/40 open:border-gold-400/25"
           >
-            <summary className="cursor-pointer list-none px-5 py-4 font-display text-base font-semibold text-white marker:content-none [&::-webkit-details-marker]:hidden">
+            <summary className="cursor-pointer list-none px-5 py-4 text-base font-semibold tracking-wide text-white marker:content-none [&::-webkit-details-marker]:hidden">
               <span className="flex items-center justify-between gap-3">
                 {item.question}
                 <span className="font-numeric text-gold-400 group-open:hidden">+</span>
                 <span className="font-numeric hidden text-gold-400 group-open:inline">−</span>
               </span>
             </summary>
-            <p className="border-t border-white/10 px-5 py-4 text-sm leading-relaxed text-slate-400">
+            <p className="border-t border-white/10 px-5 py-4 text-[15px] leading-[1.75] text-slate-300">
               {item.answer}
             </p>
           </details>

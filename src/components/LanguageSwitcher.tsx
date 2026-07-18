@@ -53,11 +53,11 @@ export default function LanguageSwitcher({
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label="Select language"
-        className={`group inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 text-sm font-medium text-white/80 backdrop-blur-md transition-all hover:border-cyan-400/40 hover:bg-white/15 hover:text-white ${
-          open ? "border-cyan-400/40 bg-white/15 text-white" : ""
+        className={`group inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 text-sm font-medium text-white/80 backdrop-blur-md transition-all hover:border-gold-400/40 hover:bg-white/15 hover:text-white ${
+          open ? "border-gold-400/40 bg-white/15 text-white" : ""
         } ${isCompact ? "px-2.5 py-1.5" : "px-3 py-2"}`}
       >
-        <Globe2 className="h-3.5 w-3.5 text-cyan-400" />
+        <Globe2 className="h-3.5 w-3.5 text-gold-400" />
         <span className="tracking-wide">{localeShort[locale]}</span>
         {!isCompact && (
           <span className="hidden text-white/40 sm:inline">·</span>
@@ -68,7 +68,7 @@ export default function LanguageSwitcher({
           </span>
         )}
         <ChevronDown
-          className={`h-3.5 w-3.5 text-white/50 transition-transform duration-200 ${open ? "rotate-180 text-cyan-300" : ""}`}
+          className={`h-3.5 w-3.5 text-white/50 transition-transform duration-200 ${open ? "rotate-180 text-gold-300" : ""}`}
         />
       </button>
 
@@ -89,7 +89,7 @@ export default function LanguageSwitcher({
                 onClick={() => selectLocale(loc)}
                 className={`flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm transition-colors ${
                   active
-                    ? "bg-gradient-to-r from-gold-500/20 to-cyan-500/10 text-white"
+                    ? "bg-gradient-to-r from-gold-500/20 to-gold-500/5 text-white"
                     : "text-white/70 hover:bg-white/10 hover:text-white"
                 }`}
               >
@@ -97,7 +97,7 @@ export default function LanguageSwitcher({
                   className={`flex h-7 w-7 items-center justify-center rounded-lg text-[10px] font-bold tracking-wider ${
                     active
                       ? "bg-gold-500 text-navy-950"
-                      : "bg-white/10 text-cyan-300"
+                      : "bg-white/10 text-gold-300/80"
                   }`}
                 >
                   {localeShort[loc]}

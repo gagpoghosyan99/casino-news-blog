@@ -12,18 +12,12 @@ import { useEffect, useRef, useState } from "react";
 
 export function BusinessPartnerTypes({ onInquire }: { onInquire: (preset: string) => void }) {
   return (
-    <section id="for-businesses" className="scroll-mt-36 mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <section id="for-businesses" className="scroll-mt-28 mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <SectionReveal>
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="rounded-full bg-gold-500 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-navy-950">
-            Company Partners
-          </span>
-          <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">For Businesses</p>
-        </div>
-        <h2 className="mt-3 zb-headline text-2xl md:text-3xl">Business partnerships</h2>
+        <h2 className="zb-headline text-2xl md:text-3xl">Business partnerships</h2>
         <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-slate-300 sm:text-base">
-          You chose the company path. We work with established iGaming companies, emerging brands and specialist
-          service providers through transparent, flexible partnership models.
+          We work with established iGaming companies, emerging brands and specialist service providers through
+          transparent, flexible partnership models.
         </p>
       </SectionReveal>
       <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">

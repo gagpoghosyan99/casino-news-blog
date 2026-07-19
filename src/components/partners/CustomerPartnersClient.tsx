@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import PartnersStickyNav from "@/components/partners/PartnersStickyNav";
+import PartnersBackLink from "@/components/partners/PartnersBackLink";
 import {
   EditorialIndependence,
   PartnerDashboardPreview,
@@ -11,7 +11,6 @@ import {
   ReferralProgram,
 } from "@/components/partners/PlayerSections";
 import PartnersFAQ, { PartnersFinalCTA } from "@/components/partners/PartnersFAQ";
-import { customerPartnersNav } from "@/data/partners/content";
 
 export default function CustomerPartnersClient() {
   useEffect(() => {
@@ -25,7 +24,7 @@ export default function CustomerPartnersClient() {
 
   return (
     <>
-      <PartnersStickyNav items={customerPartnersNav} path="customer" />
+      <PartnersBackLink label="Customer path" />
       <PlayerBenefits />
       <PlayerJourney />
       <PlayerOffersSection />
@@ -34,7 +33,6 @@ export default function CustomerPartnersClient() {
       <PartnerDashboardPreview />
       <PartnersFAQ audience="player" />
       <PartnersFinalCTA variant="customer" />
-      <div className="h-8 md:hidden" aria-hidden />
     </>
   );
 }

@@ -7,8 +7,72 @@ import {
   partnershipModels,
   partnershipProcess,
 } from "@/data/partners/content";
-import { useReducedMotion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState, type MouseEvent } from "react";
+
+function Partner3DCard({
+  children,
+  className = "",
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  const reduce = useReducedMotion();
+  const ref = useRef<HTMLDivElement>(null);
+  const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [hovered, setHovered] = useState(false);
+
+  const onMove = (e: MouseEvent<HTMLDivElement>) => {
+    if (reduce) return;
+    const el = ref.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const px = (e.clientX - rect.left) / rect.width;
+    const py = (e.clientY - rect.top) / rect.height;
+    setTilt({ x: (py - 0.5) * -12, y: (px - 0.5) * 16 });
+  };
+
+  return (
+    <div className="h-full" style={{ perspective: "1200px" }}>
+      <motion.div
+        ref={ref}
+        onMouseMove={onMove}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => {
+          setTilt({ x: 0, y: 0 });
+          setHovered(false);
+        }}
+        animate={{
+          rotateX: reduce ? 0 : tilt.x,
+          rotateY: reduce ? 0 : tilt.y,
+          y: hovered && !reduce ? -12 : 0,
+          scale: hovered && !reduce ? 1.035 : 1,
+          z: hovered && !reduce ? 40 : 0,
+        }}
+        transition={{ type: "spring", stiffness: 240, damping: 20 }}
+        className={`relative h-full overflow-hidden rounded-3xl border backdrop-blur-xl ${className}`}
+        style={{
+          transformStyle: "preserve-3d",
+          boxShadow: hovered
+            ? "0 32px 70px rgba(212,175,55,0.22), 0 14px 36px rgba(0,0,0,0.5)"
+            : "0 14px 36px rgba(0,0,0,0.35)",
+        }}
+      >
+        {!reduce && (
+          <motion.div
+            className="pointer-events-none absolute inset-0 bg-[linear-gradient(115deg,transparent_35%,rgba(255,255,255,0.1)_50%,transparent_65%)]"
+            animate={{ x: hovered ? ["-70%", "130%"] : "-70%" }}
+            transition={hovered ? { duration: 1, ease: "easeInOut" } : { duration: 0.2 }}
+            style={{ transform: "translateZ(6px)" }}
+          />
+        )}
+        <div className="relative flex h-full flex-col p-6" style={{ transform: "translateZ(28px)" }}>
+          {children}
+        </div>
+      </motion.div>
+    </div>
+  );
+}
 
 export function BusinessPartnerTypes({ onInquire }: { onInquire: (preset: string) => void }) {
   return (
@@ -23,11 +87,11 @@ export function BusinessPartnerTypes({ onInquire }: { onInquire: (preset: string
       <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {partnerTypeCards.map((card, i) => (
           <SectionReveal key={card.id} delay={Math.min(i * 0.05, 0.25)}>
-            <article className="flex h-full flex-col rounded-3xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm">
+            <Partner3DCard className="border-gold-400/25 bg-gradient-to-br from-gold-500/12 via-black/55 to-black/40">
               <h3 className="font-display text-lg font-bold text-white">{card.title}</h3>
               <ul className="mt-4 flex-1 space-y-2">
                 {card.services.map((s) => (
-                  <li key={s} className="text-sm text-slate-400 before:mr-2 before:text-gold-500 before:content-['·']">
+                  <li key={s} className="text-sm text-slate-300 before:mr-2 before:text-gold-500 before:content-['·']">
                     {s}
                   </li>
                 ))}
@@ -39,7 +103,7 @@ export function BusinessPartnerTypes({ onInquire }: { onInquire: (preset: string
               >
                 {card.ctaLabel}
               </button>
-            </article>
+            </Partner3DCard>
           </SectionReveal>
         ))}
       </div>
@@ -59,10 +123,10 @@ export function BusinessBenefits() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {businessBenefits.map((b, i) => (
           <SectionReveal key={b.id} delay={Math.min(i * 0.04, 0.24)}>
-            <div className="h-full rounded-2xl border border-gold-400/20 bg-gradient-to-b from-gold-500/8 to-transparent p-5">
+            <Partner3DCard className="border-gold-400/25 bg-gradient-to-b from-gold-500/12 to-black/40">
               <h3 className="font-display text-base font-semibold text-gold-300">{b.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-slate-400">{b.description}</p>
-            </div>
+              <p className="mt-2 text-sm leading-relaxed text-slate-300">{b.description}</p>
+            </Partner3DCard>
           </SectionReveal>
         ))}
       </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import PartnersBackLink from "@/components/partners/PartnersBackLink";
+import PartnersStickyNav from "@/components/partners/PartnersStickyNav";
 import {
   EditorialIndependence,
   PartnerDashboardPreview,
@@ -11,6 +11,7 @@ import {
   ReferralProgram,
 } from "@/components/partners/PlayerSections";
 import PartnersFAQ, { PartnersFinalCTA } from "@/components/partners/PartnersFAQ";
+import { customerPartnersNav } from "@/data/partners/content";
 
 export default function CustomerPartnersClient() {
   useEffect(() => {
@@ -23,8 +24,8 @@ export default function CustomerPartnersClient() {
   }, []);
 
   return (
-    <>
-      <PartnersBackLink label="Customer path" />
+    <div className="pt-[88px] md:pt-[132px] lg:pt-[88px]">
+      <PartnersStickyNav items={customerPartnersNav} ariaLabel="Customer partner sections" />
       <PlayerBenefits />
       <PlayerJourney />
       <PlayerOffersSection />
@@ -33,6 +34,6 @@ export default function CustomerPartnersClient() {
       <PartnerDashboardPreview />
       <PartnersFAQ audience="player" />
       <PartnersFinalCTA variant="customer" />
-    </>
+    </div>
   );
 }

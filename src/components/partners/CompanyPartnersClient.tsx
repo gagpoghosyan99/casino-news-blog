@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import PartnersBackLink from "@/components/partners/PartnersBackLink";
+import PartnersStickyNav from "@/components/partners/PartnersStickyNav";
 import {
   BusinessBenefits,
   BusinessPartnerTypes,
@@ -13,6 +13,7 @@ import BusinessInquiryForm, {
 } from "@/components/partners/BusinessInquiryForm";
 import { MediaKitSection } from "@/components/partners/PlayerSections";
 import PartnersFAQ, { PartnersFinalCTA } from "@/components/partners/PartnersFAQ";
+import { companyPartnersNav } from "@/data/partners/content";
 import type { PartnerInquiryType } from "@/types/partners";
 
 export default function CompanyPartnersClient() {
@@ -40,8 +41,8 @@ export default function CompanyPartnersClient() {
   }, []);
 
   return (
-    <>
-      <PartnersBackLink label="Company path" />
+    <div className="pt-[88px] md:pt-[132px] lg:pt-[88px]">
+      <PartnersStickyNav items={companyPartnersNav} ariaLabel="Company partner sections" />
       <BusinessPartnerTypes onInquire={inquire} />
       <BusinessBenefits />
       <PartnershipModels onCustom={() => inquire("Custom proposal")} />
@@ -51,6 +52,6 @@ export default function CompanyPartnersClient() {
       <BusinessInquiryForm presetType={presetType} />
       <PartnersFAQ audience="business" />
       <PartnersFinalCTA variant="company" />
-    </>
+    </div>
   );
 }

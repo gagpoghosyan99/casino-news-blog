@@ -12,7 +12,7 @@ import { useEffect, useRef, useState } from "react";
 
 export function BusinessPartnerTypes({ onInquire }: { onInquire: (preset: string) => void }) {
   return (
-    <section id="for-businesses" className="scroll-mt-28 mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <section id="for-businesses" className="scroll-mt-36 mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
       <SectionReveal>
         <h2 className="zb-headline text-2xl md:text-3xl">Business partnerships</h2>
         <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-slate-300 sm:text-base">

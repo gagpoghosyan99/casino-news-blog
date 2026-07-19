@@ -137,8 +137,8 @@ function AffiliateOfferCard({ offer }: { offer: Offer }) {
 
 export function PlayerBenefits() {
   return (
-    <section id="for-players" className="scroll-mt-28 border-y border-white/10 bg-gradient-to-b from-gold-500/[0.04] to-transparent">
-      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <section id="for-players" className="scroll-mt-36 border-y border-white/10 bg-gradient-to-b from-gold-500/[0.04] to-transparent">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionReveal>
           <h2 className="zb-headline text-2xl md:text-3xl">
             Use ZeoneBet to make better-informed casino choices.

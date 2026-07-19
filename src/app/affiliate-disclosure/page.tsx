@@ -75,7 +75,7 @@ export default function AffiliateDisclosurePage() {
           <h2 className="font-display text-xl font-semibold text-white">Questions</h2>
           <p className="mt-3">
             Partnership inquiries:{" "}
-            <Link href="/partners#contact" className="text-gold-400 hover:text-gold-300">
+            <Link href="/partners/company#contact" className="text-gold-400 hover:text-gold-300">
               Partners contact form
             </Link>
             . Editorial corrections:{" "}

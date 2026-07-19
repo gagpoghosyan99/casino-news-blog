@@ -1,51 +1,26 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import SectionReveal from "@/components/landing/SectionReveal";
-import { businessFaq, playerFaq } from "@/data/partners/content";
+import { businessFaq, playerFaq, PARTNERS_ROUTES } from "@/data/partners/content";
 
-export default function PartnersFAQ() {
-  const [tab, setTab] = useState<"business" | "player">("business");
-  const items = tab === "business" ? businessFaq : playerFaq;
+export default function PartnersFAQ({
+  audience = "business",
+}: {
+  audience?: "business" | "player";
+}) {
+  const items = audience === "business" ? businessFaq : playerFaq;
 
   return (
-    <section id="faq" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+    <section id="faq" className="scroll-mt-36 mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <SectionReveal>
         <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold-400">FAQ</p>
-        <h2 className="mt-2 zb-headline text-2xl md:text-3xl">Common questions</h2>
+        <h2 className="mt-2 zb-headline text-2xl md:text-3xl">
+          {audience === "business" ? "Company partner questions" : "Customer partner questions"}
+        </h2>
       </SectionReveal>
 
-      <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="FAQ audience">
-        <button
-          type="button"
-          role="tab"
-          aria-selected={tab === "business"}
-          onClick={() => setTab("business")}
-          className={`rounded-full px-4 py-2 text-sm font-semibold ${
-            tab === "business"
-              ? "bg-gold-500/20 text-gold-300 ring-1 ring-gold-400/40"
-              : "border border-white/10 text-slate-400 hover:text-white"
-          }`}
-        >
-          Business FAQ
-        </button>
-        <button
-          type="button"
-          role="tab"
-          aria-selected={tab === "player"}
-          onClick={() => setTab("player")}
-          className={`rounded-full px-4 py-2 text-sm font-semibold ${
-            tab === "player"
-              ? "bg-gold-500/20 text-gold-300 ring-1 ring-gold-400/40"
-              : "border border-white/10 text-slate-400 hover:text-white"
-          }`}
-        >
-          Player FAQ
-        </button>
-      </div>
-
-      <div className="mt-6 space-y-3" role="tabpanel">
+      <div className="mt-6 space-y-3">
         {items.map((item) => (
           <details
             key={item.question}
@@ -68,37 +43,87 @@ export default function PartnersFAQ() {
   );
 }
 
-export function PartnersFinalCTA() {
+export function PartnersFinalCTA({
+  variant = "hub",
+}: {
+  variant?: "hub" | "company" | "customer";
+}) {
+  if (variant === "company") {
+    return (
+      <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-3xl border border-gold-400/35 bg-gradient-to-br from-gold-500/15 via-black/60 to-black/50 px-6 py-12 text-center sm:px-10">
+          <h2 className="font-display text-3xl font-bold tracking-[0.02em] text-white sm:text-4xl">
+            Ready to grow with ZeoneBet?
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-[15px] leading-relaxed text-slate-300">
+            Tell us about your brand, product or campaign and we’ll map the right company partnership model.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <a href="#contact" className="zb-btn-gold zb-shine">
+              Contact partnership team
+            </a>
+            <Link
+              href={PARTNERS_ROUTES.customer}
+              className="inline-flex items-center justify-center rounded-full border border-gold-400/40 bg-white/5 px-6 py-3 text-sm font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
+            >
+              Switch to Customer Partners
+            </Link>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (variant === "customer") {
+    return (
+      <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
+        <div className="relative overflow-hidden rounded-3xl border border-gold-400/35 bg-gradient-to-br from-gold-500/15 via-black/60 to-black/50 px-6 py-12 text-center sm:px-10">
+          <h2 className="font-display text-3xl font-bold tracking-[0.02em] text-white sm:text-4xl">
+            Explore player value on ZeoneBet
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-[15px] leading-relaxed text-slate-300">
+            Compare casinos, review offer conditions and discover referral opportunities — always 18+ and with
+            clear disclosures.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            <Link href="/casinos" className="zb-btn-gold zb-shine">
+              Browse casinos
+            </Link>
+            <Link
+              href={PARTNERS_ROUTES.company}
+              className="inline-flex items-center justify-center rounded-full border border-gold-400/40 bg-white/5 px-6 py-3 text-sm font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
+            >
+              Switch to Company Partners
+            </Link>
+          </div>
+          <p className="mt-8 text-xs text-slate-500">
+            18+ only. Gamble responsibly.{" "}
+            <Link href="/responsible-gambling" className="text-gold-500 hover:text-gold-400">
+              Safety resources
+            </Link>
+          </p>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
       <div className="relative overflow-hidden rounded-3xl border border-gold-400/35 bg-gradient-to-br from-gold-500/15 via-black/60 to-black/50 px-6 py-12 text-center sm:px-10">
         <h2 className="font-display text-3xl font-bold tracking-[0.02em] text-white sm:text-4xl">
           Let’s build the next opportunity together.
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Whether you represent an iGaming company, provide industry technology, create content or want more
-          value as a player, ZeoneBet provides a clear path to connect.
-        </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a href="#for-businesses" className="zb-btn-gold zb-shine">
+          <Link href={PARTNERS_ROUTES.company} className="zb-btn-gold zb-shine">
             Company Partners
-          </a>
-          <a
-            href="#for-players"
+          </Link>
+          <Link
+            href={PARTNERS_ROUTES.customer}
             className="inline-flex items-center justify-center rounded-full border border-gold-400/40 bg-white/5 px-6 py-3 text-sm font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
           >
             Customer Partners
-          </a>
-          <Link href="/contact" className="text-sm font-semibold text-gold-400 hover:text-gold-300">
-            Contact the ZeoneBet team →
           </Link>
         </div>
-        <p className="mt-8 text-xs text-slate-500">
-          18+ only. Gamble responsibly.{" "}
-          <Link href="/responsible-gambling" className="text-gold-500 hover:text-gold-400">
-            Safety resources
-          </Link>
-        </p>
       </div>
     </section>
   );

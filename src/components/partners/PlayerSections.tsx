@@ -202,7 +202,7 @@ export function PlayerJourney() {
 
 export function PlayerOffersSection() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <section id="player-offers" className="scroll-mt-36 mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <SectionReveal>
         <h2 className="zb-headline text-2xl md:text-3xl">Example tracked offers</h2>
         <p className="mt-3 max-w-2xl text-sm text-slate-400">

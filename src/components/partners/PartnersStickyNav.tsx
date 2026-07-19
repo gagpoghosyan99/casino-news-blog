@@ -1,13 +1,20 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { partnersNav } from "@/data/partners/content";
+import Link from "next/link";
+import type { PartnersNavItem } from "@/types/partners";
+import { PARTNERS_ROUTES } from "@/data/partners/content";
 
-export default function PartnersStickyNav() {
-  const [active, setActive] = useState(partnersNav[0]?.id ?? "overview");
+type PartnersStickyNavProps = {
+  items: PartnersNavItem[];
+  path: "company" | "customer";
+};
+
+export default function PartnersStickyNav({ items, path }: PartnersStickyNavProps) {
+  const [active, setActive] = useState(items[0]?.id ?? "");
 
   useEffect(() => {
-    const ids = partnersNav.map((n) => n.id);
+    const ids = items.map((n) => n.id);
     const els = ids
       .map((id) => document.getElementById(id))
       .filter((el): el is HTMLElement => Boolean(el));
@@ -24,24 +31,41 @@ export default function PartnersStickyNav() {
 
     els.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [items]);
+
+  const isCompany = path === "company";
 
   return (
     <div className="sticky top-[88px] z-40 border-b border-gold-400/15 bg-gradient-to-b from-[#080b14]/95 to-[#05070f]/92 shadow-[0_12px_40px_rgba(0,0,0,0.35)] backdrop-blur-2xl md:top-[132px] lg:top-[88px]">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
-        <div className="mb-2.5 flex flex-wrap gap-2">
-          <a
-            href="#for-businesses"
-            className="inline-flex items-center rounded-full bg-gold-500 px-3.5 py-1.5 text-[12px] font-bold text-navy-950 shadow-[0_0_20px_rgba(212,175,55,0.25)] transition hover:bg-gold-400"
+        <div className="mb-2.5 flex flex-wrap items-center gap-2">
+          <Link
+            href={PARTNERS_ROUTES.hub}
+            className="text-[12px] font-semibold text-slate-400 transition hover:text-gold-300"
+          >
+            ← All Partners
+          </Link>
+          <span className="text-white/20">·</span>
+          <Link
+            href={PARTNERS_ROUTES.company}
+            className={`inline-flex items-center rounded-full px-3.5 py-1.5 text-[12px] font-bold transition ${
+              isCompany
+                ? "bg-gold-500 text-navy-950 shadow-[0_0_20px_rgba(212,175,55,0.25)]"
+                : "border border-gold-400/40 bg-white/5 text-gold-200 hover:bg-white/10"
+            }`}
           >
             Company Partners
-          </a>
-          <a
-            href="#for-players"
-            className="inline-flex items-center rounded-full border border-gold-400/40 bg-white/5 px-3.5 py-1.5 text-[12px] font-semibold text-gold-200 transition hover:border-gold-300/60 hover:bg-white/10"
+          </Link>
+          <Link
+            href={PARTNERS_ROUTES.customer}
+            className={`inline-flex items-center rounded-full px-3.5 py-1.5 text-[12px] font-bold transition ${
+              !isCompany
+                ? "bg-gold-500 text-navy-950 shadow-[0_0_20px_rgba(212,175,55,0.25)]"
+                : "border border-gold-400/40 bg-white/5 text-gold-200 hover:bg-white/10"
+            }`}
           >
             Customer Partners
-          </a>
+          </Link>
         </div>
         <div className="flex items-center gap-3">
           <p className="hidden shrink-0 text-[10px] font-semibold uppercase tracking-[0.22em] text-gold-400/80 sm:block">
@@ -49,10 +73,10 @@ export default function PartnersStickyNav() {
           </p>
           <div className="hidden h-4 w-px bg-white/10 sm:block" aria-hidden />
           <nav
-            aria-label="Partners sections"
+            aria-label={isCompany ? "Company partner sections" : "Customer partner sections"}
             className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
-            {partnersNav.map((item) => {
+            {items.map((item) => {
               const isActive = active === item.id;
               return (
                 <a
@@ -65,9 +89,6 @@ export default function PartnersStickyNav() {
                   }`}
                 >
                   {item.label}
-                  {isActive && (
-                    <span className="absolute inset-x-3 -bottom-[1px] h-px bg-gradient-to-r from-transparent via-gold-300/80 to-transparent sm:hidden" />
-                  )}
                 </a>
               );
             })}

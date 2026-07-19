@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
 import PageShell from "@/components/ui/PageShell";
-import PartnersPageClient from "@/components/partners/PartnersPageClient";
+import PartnersGate from "@/components/partners/PartnersGate";
 import { buildPageMetadata } from "@/lib/seo/metadata";
-import { breadcrumbSchema, faqPageSchema, webPageSchema } from "@/lib/seo/schema";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo/schema";
 import { siteConfig } from "@/config/site";
-import { businessFaq, playerFaq } from "@/data/partners/content";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Partners | Affiliate, Advertising and Player Opportunities",
+  title: "Partners | Choose Company or Customer Path",
   description:
-    "Partner with ZeoneBet through affiliate campaigns, casino listings, sponsored content, advertising, media collaborations and player referral opportunities.",
+    "Choose your ZeoneBet partnership path: Company Partners for businesses, or Customer Partners for player offers and referrals.",
   path: "/partners",
 });
 
@@ -20,11 +19,9 @@ export default function PartnersPage() {
   ]);
   const webpage = webPageSchema({
     name: "ZeoneBet Partners",
-    description:
-      "Affiliate, advertising, sponsored content, casino listing, and player referral opportunities.",
+    description: "Choose Company Partners or Customer Partners to explore the right opportunity.",
     url: `${siteConfig.url}/partners`,
   });
-  const faq = faqPageSchema([...businessFaq, ...playerFaq]);
 
   return (
     <PageShell>
@@ -36,8 +33,7 @@ export default function PartnersPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webpage) }}
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />
-      <PartnersPageClient />
+      <PartnersGate />
     </PageShell>
   );
 }

@@ -14,32 +14,46 @@ import type {
   TrustStripItem,
 } from "@/types/partners";
 
-/** Future page routes — currently map to /partners anchors. */
 export const PARTNERS_ROUTES = {
   hub: "/partners",
-  business: "/partners/business",
-  affiliate: "/partners/affiliate",
-  advertise: "/partners/advertise",
-  listCasino: "/partners/list-your-casino",
-  content: "/partners/content-partnerships",
-  playerBenefits: "/partners/player-benefits",
-  referral: "/partners/referral-program",
-  contact: "/partners/contact",
+  company: "/partners/company",
+  customer: "/partners/customer",
+  business: "/partners/company",
+  affiliate: "/partners/company",
+  advertise: "/partners/company",
+  listCasino: "/partners/company",
+  content: "/partners/company",
+  playerBenefits: "/partners/customer",
+  referral: "/partners/customer",
+  contact: "/partners/company",
   disclosure: "/affiliate-disclosure",
   responsibleGambling: "/responsible-gambling",
 } as const;
 
+/** @deprecated Use companyPartnersNav / customerPartnersNav */
 export const partnersNav: PartnersNavItem[] = [
-  { id: "overview", label: "Overview" },
-  { id: "choose-path", label: "Choose Path" },
-  { id: "for-businesses", label: "For Businesses" },
+  { id: "for-businesses", label: "Overview" },
   { id: "partnership-models", label: "Partnership Models" },
   { id: "advertising", label: "Advertising" },
   { id: "submit-opportunity", label: "Submit an Opportunity" },
-  { id: "for-players", label: "For Players" },
-  { id: "referral-benefits", label: "Referral Benefits" },
   { id: "faq", label: "FAQ" },
   { id: "contact", label: "Contact" },
+];
+
+export const companyPartnersNav: PartnersNavItem[] = [
+  { id: "for-businesses", label: "Overview" },
+  { id: "partnership-models", label: "Partnership Models" },
+  { id: "advertising", label: "Advertising" },
+  { id: "submit-opportunity", label: "Submit Opportunity" },
+  { id: "faq", label: "FAQ" },
+  { id: "contact", label: "Contact" },
+];
+
+export const customerPartnersNav: PartnersNavItem[] = [
+  { id: "for-players", label: "Overview" },
+  { id: "referral-benefits", label: "Referral Benefits" },
+  { id: "player-offers", label: "Offers" },
+  { id: "faq", label: "FAQ" },
 ];
 
 export const partnersHero = {
@@ -47,9 +61,9 @@ export const partnersHero = {
   title: "Where iGaming brands, publishers and players grow together.",
   description:
     "Start by choosing your path: company partners get business offers, customer partners get player benefits and referral options.",
-  primaryCta: { label: "Company Partners", href: "#for-businesses" },
-  secondaryCta: { label: "Customer Partners", href: "#for-players" },
-  tertiaryCta: { label: "Submit an Opportunity", href: "#submit-opportunity" },
+  primaryCta: { label: "Company Partners", href: "/partners/company" },
+  secondaryCta: { label: "Customer Partners", href: "/partners/customer" },
+  tertiaryCta: { label: "Submit an Opportunity", href: "/partners/company#submit-opportunity" },
 };
 
 export const trustStrip: TrustStripItem[] = [
@@ -98,7 +112,7 @@ export const audienceCards: AudienceCard[] = [
       "Performance tracking",
     ],
     ctaLabel: "See company offers",
-    href: "#for-businesses",
+    href: "/partners/company",
   },
   {
     id: "players",
@@ -117,7 +131,7 @@ export const audienceCards: AudienceCard[] = [
       "Safer decision-making resources",
     ],
     ctaLabel: "See player options",
-    href: "#for-players",
+    href: "/partners/customer",
   },
 ];
 
